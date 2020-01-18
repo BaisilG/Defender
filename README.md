@@ -29,3 +29,7 @@ Now don't get me wrong. I love fluent API's. Most of what I write has a fluent A
 #### Clauses should not allocate
 
 As obvious as this should seem, it's disturbingly not the case. Overwhelmingly guard-clause libraries implement fluent API's which by their very nature allocate. If these allocations are already happening anyways, that's fine. But adding allocations is unacceptable. Even as lightweight as a `ref struct` is, that's still a high performance impact for something as trivial as a guard clause.
+
+#### Clauses should not get in your way
+
+Obvious again, right? Some guard clause libraries implement their clauses through extension methods. The problem with this approach is now intellisense now reports methods you don't care about throughout your entire codebase. 

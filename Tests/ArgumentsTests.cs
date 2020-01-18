@@ -6,6 +6,16 @@ using Xunit;
 namespace Tests {
 	public class ArgumentsTests {
 		[Theory]
+		[InlineData(10, 1)]
+		[InlineData(1, 0)]
+		public void GreaterThan_Succeeding(Int32 param, Int32 lower) => GreaterThan(param, nameof(param), lower);
+
+		[Theory]
+		[InlineData(10, 10)]
+		[InlineData(1, 10)]
+		public void GreaterThan_Failing(Int32 param, Int32 lower) => Assert.Throws<ArgumentOutOfRangeException>(() => GreaterThan(param, nameof(param), lower));
+
+		[Theory]
 		[InlineData(5)]
 		public void NotNull_Struct_Succeeding(Int32? param) => NotNull(param, nameof(param));
 
@@ -36,6 +46,5 @@ namespace Tests {
 		[Theory]
 		[InlineData(42)]
 		public void Of_String_Failing(Object param) => Assert.Throws<ArgumentTypeException>(() => Of<String>(param, nameof(param)));
-
 	}
 }
