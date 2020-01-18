@@ -14,7 +14,7 @@ namespace Benchmarks {
 	[SimpleJob(RuntimeMoniker.CoreRt31)]
 	[SimpleJob(RuntimeMoniker.Mono)]
 	[MemoryDiagnoser]
-	public class ArgumentIsNotNullBenchmarks {
+	public class Argument_Class_NotNull_Benchmarks {
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		private static void noGuard(String argument) => _ = argument.Length;
 
@@ -58,7 +58,7 @@ namespace Benchmarks {
 		[Params("hello", null)]
 		public String Argument { get; set; }
 
-		[Benchmark(Baseline = true)]
+		[Benchmark]
 		public void NoGuard() {
 			try {
 				noGuard(Argument);
@@ -67,7 +67,7 @@ namespace Benchmarks {
 			}
 		}
 
-		[Benchmark]
+		[Benchmark(Baseline = true)]
 		public void ManualGuard() {
 			try {
 				manualGuard(Argument);
