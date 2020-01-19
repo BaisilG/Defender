@@ -69,5 +69,14 @@ namespace Tests {
 		[InlineData(42)]
 		[InlineData(null)]
 		public void Of_String_Failing(Object param) => Assert.Throws<ArgumentTypeException>(() => OfType<String>(param, nameof(param)));
+
+		[Theory]
+		[InlineData(ConsoleColor.Red)]
+		[InlineData(ConsoleColor.White)]
+		public void Valid_Enum_Succeeding(ConsoleColor param) => Valid(param, nameof(param));
+
+		[Theory]
+		[InlineData((ConsoleColor)20)]
+		public void Valid_Enum_Failing(ConsoleColor param) => Assert.Throws<ArgumentOutOfRangeException>(() => Valid(param, nameof(param)));
 	}
 }
