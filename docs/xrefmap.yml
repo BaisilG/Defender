@@ -1,0 +1,265 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Defender
+  name: Defender
+  href: api/Defender.html
+  commentId: N:Defender
+  fullName: Defender
+  nameWithType: Defender
+- uid: Defender.ArgumentTypeException
+  name: ArgumentTypeException
+  href: api/Defender.ArgumentTypeException.html
+  commentId: T:Defender.ArgumentTypeException
+  fullName: Defender.ArgumentTypeException
+  nameWithType: ArgumentTypeException
+- uid: Defender.ArgumentTypeException.#ctor
+  name: ArgumentTypeException()
+  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor
+  commentId: M:Defender.ArgumentTypeException.#ctor
+  fullName: Defender.ArgumentTypeException.ArgumentTypeException()
+  nameWithType: ArgumentTypeException.ArgumentTypeException()
+- uid: Defender.ArgumentTypeException.#ctor(System.String)
+  name: ArgumentTypeException(String)
+  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_
+  commentId: M:Defender.ArgumentTypeException.#ctor(System.String)
+  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String)
+  nameWithType: ArgumentTypeException.ArgumentTypeException(String)
+- uid: Defender.ArgumentTypeException.#ctor(System.String,System.Exception)
+  name: ArgumentTypeException(String, Exception)
+  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_Exception_
+  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.Exception)
+  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.Exception)
+  nameWithType: ArgumentTypeException.ArgumentTypeException(String, Exception)
+- uid: Defender.ArgumentTypeException.#ctor(System.String,System.String)
+  name: ArgumentTypeException(String, String)
+  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_String_
+  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.String)
+  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.String)
+  nameWithType: ArgumentTypeException.ArgumentTypeException(String, String)
+- uid: Defender.ArgumentTypeException.#ctor(System.String,System.String,System.Exception)
+  name: ArgumentTypeException(String, String, Exception)
+  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_String_System_Exception_
+  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.String,System.Exception)
+  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.String, System.Exception)
+  nameWithType: ArgumentTypeException.ArgumentTypeException(String, String, Exception)
+- uid: Defender.ArgumentTypeException.#ctor(System.String,System.Type)
+  name: ArgumentTypeException(String, Type)
+  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_Type_
+  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.Type)
+  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.Type)
+  nameWithType: ArgumentTypeException.ArgumentTypeException(String, Type)
+- uid: Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.Exception)
+  name: ArgumentTypeException(String, Type, Exception)
+  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_Type_System_Exception_
+  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.Exception)
+  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.Type, System.Exception)
+  nameWithType: ArgumentTypeException.ArgumentTypeException(String, Type, Exception)
+- uid: Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.String)
+  name: ArgumentTypeException(String, Type, String)
+  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_Type_System_String_
+  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.String)
+  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.Type, System.String)
+  nameWithType: ArgumentTypeException.ArgumentTypeException(String, Type, String)
+- uid: Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.String,System.Exception)
+  name: ArgumentTypeException(String, Type, String, Exception)
+  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_Type_System_String_System_Exception_
+  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.String,System.Exception)
+  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.Type, System.String, System.Exception)
+  nameWithType: ArgumentTypeException.ArgumentTypeException(String, Type, String, Exception)
+- uid: Defender.ArgumentTypeException.#ctor*
+  name: ArgumentTypeException
+  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_
+  commentId: Overload:Defender.ArgumentTypeException.#ctor
+  isSpec: "True"
+  fullName: Defender.ArgumentTypeException.ArgumentTypeException
+  nameWithType: ArgumentTypeException.ArgumentTypeException
+- uid: Defender.Guard
+  name: Guard
+  href: api/Defender.Guard.html
+  commentId: T:Defender.Guard
+  fullName: Defender.Guard
+  nameWithType: Guard
+- uid: Defender.Guard.Empty(System.String,System.String)
+  name: Empty(String, String)
+  href: api/Defender.Guard.html#Defender_Guard_Empty_System_String_System_String_
+  commentId: M:Defender.Guard.Empty(System.String,System.String)
+  fullName: Defender.Guard.Empty(System.String, System.String)
+  nameWithType: Guard.Empty(String, String)
+- uid: Defender.Guard.Empty*
+  name: Empty
+  href: api/Defender.Guard.html#Defender_Guard_Empty_
+  commentId: Overload:Defender.Guard.Empty
+  isSpec: "True"
+  fullName: Defender.Guard.Empty
+  nameWithType: Guard.Empty
+- uid: Defender.Guard.Empty``1(``0,System.String)
+  name: Empty<C>(C, String)
+  href: api/Defender.Guard.html#Defender_Guard_Empty__1___0_System_String_
+  commentId: M:Defender.Guard.Empty``1(``0,System.String)
+  name.vb: Empty(Of C)(C, String)
+  fullName: Defender.Guard.Empty<C>(C, System.String)
+  fullName.vb: Defender.Guard.Empty(Of C)(C, System.String)
+  nameWithType: Guard.Empty<C>(C, String)
+  nameWithType.vb: Guard.Empty(Of C)(C, String)
+- uid: Defender.Guard.Empty``2(``0,System.String)
+  name: Empty<C, T>(C, String)
+  href: api/Defender.Guard.html#Defender_Guard_Empty__2___0_System_String_
+  commentId: M:Defender.Guard.Empty``2(``0,System.String)
+  name.vb: Empty(Of C, T)(C, String)
+  fullName: Defender.Guard.Empty<C, T>(C, System.String)
+  fullName.vb: Defender.Guard.Empty(Of C, T)(C, System.String)
+  nameWithType: Guard.Empty<C, T>(C, String)
+  nameWithType.vb: Guard.Empty(Of C, T)(C, String)
+- uid: Defender.Guard.GreaterThan*
+  name: GreaterThan
+  href: api/Defender.Guard.html#Defender_Guard_GreaterThan_
+  commentId: Overload:Defender.Guard.GreaterThan
+  isSpec: "True"
+  fullName: Defender.Guard.GreaterThan
+  nameWithType: Guard.GreaterThan
+- uid: Defender.Guard.GreaterThan``1(``0,System.String,``0)
+  name: GreaterThan<T>(T, String, T)
+  href: api/Defender.Guard.html#Defender_Guard_GreaterThan__1___0_System_String___0_
+  commentId: M:Defender.Guard.GreaterThan``1(``0,System.String,``0)
+  name.vb: GreaterThan(Of T)(T, String, T)
+  fullName: Defender.Guard.GreaterThan<T>(T, System.String, T)
+  fullName.vb: Defender.Guard.GreaterThan(Of T)(T, System.String, T)
+  nameWithType: Guard.GreaterThan<T>(T, String, T)
+  nameWithType.vb: Guard.GreaterThan(Of T)(T, String, T)
+- uid: Defender.Guard.GreaterThanOrEqualTo*
+  name: GreaterThanOrEqualTo
+  href: api/Defender.Guard.html#Defender_Guard_GreaterThanOrEqualTo_
+  commentId: Overload:Defender.Guard.GreaterThanOrEqualTo
+  isSpec: "True"
+  fullName: Defender.Guard.GreaterThanOrEqualTo
+  nameWithType: Guard.GreaterThanOrEqualTo
+- uid: Defender.Guard.GreaterThanOrEqualTo``1(``0,System.String,``0)
+  name: GreaterThanOrEqualTo<T>(T, String, T)
+  href: api/Defender.Guard.html#Defender_Guard_GreaterThanOrEqualTo__1___0_System_String___0_
+  commentId: M:Defender.Guard.GreaterThanOrEqualTo``1(``0,System.String,``0)
+  name.vb: GreaterThanOrEqualTo(Of T)(T, String, T)
+  fullName: Defender.Guard.GreaterThanOrEqualTo<T>(T, System.String, T)
+  fullName.vb: Defender.Guard.GreaterThanOrEqualTo(Of T)(T, System.String, T)
+  nameWithType: Guard.GreaterThanOrEqualTo<T>(T, String, T)
+  nameWithType.vb: Guard.GreaterThanOrEqualTo(Of T)(T, String, T)
+- uid: Defender.Guard.LesserThan*
+  name: LesserThan
+  href: api/Defender.Guard.html#Defender_Guard_LesserThan_
+  commentId: Overload:Defender.Guard.LesserThan
+  isSpec: "True"
+  fullName: Defender.Guard.LesserThan
+  nameWithType: Guard.LesserThan
+- uid: Defender.Guard.LesserThan``1(``0,System.String,``0)
+  name: LesserThan<T>(T, String, T)
+  href: api/Defender.Guard.html#Defender_Guard_LesserThan__1___0_System_String___0_
+  commentId: M:Defender.Guard.LesserThan``1(``0,System.String,``0)
+  name.vb: LesserThan(Of T)(T, String, T)
+  fullName: Defender.Guard.LesserThan<T>(T, System.String, T)
+  fullName.vb: Defender.Guard.LesserThan(Of T)(T, System.String, T)
+  nameWithType: Guard.LesserThan<T>(T, String, T)
+  nameWithType.vb: Guard.LesserThan(Of T)(T, String, T)
+- uid: Defender.Guard.LesserThanOrEqualTo*
+  name: LesserThanOrEqualTo
+  href: api/Defender.Guard.html#Defender_Guard_LesserThanOrEqualTo_
+  commentId: Overload:Defender.Guard.LesserThanOrEqualTo
+  isSpec: "True"
+  fullName: Defender.Guard.LesserThanOrEqualTo
+  nameWithType: Guard.LesserThanOrEqualTo
+- uid: Defender.Guard.LesserThanOrEqualTo``1(``0,System.String,``0)
+  name: LesserThanOrEqualTo<T>(T, String, T)
+  href: api/Defender.Guard.html#Defender_Guard_LesserThanOrEqualTo__1___0_System_String___0_
+  commentId: M:Defender.Guard.LesserThanOrEqualTo``1(``0,System.String,``0)
+  name.vb: LesserThanOrEqualTo(Of T)(T, String, T)
+  fullName: Defender.Guard.LesserThanOrEqualTo<T>(T, System.String, T)
+  fullName.vb: Defender.Guard.LesserThanOrEqualTo(Of T)(T, System.String, T)
+  nameWithType: Guard.LesserThanOrEqualTo<T>(T, String, T)
+  nameWithType.vb: Guard.LesserThanOrEqualTo(Of T)(T, String, T)
+- uid: Defender.Guard.NotEmpty(System.String,System.String)
+  name: NotEmpty(String, String)
+  href: api/Defender.Guard.html#Defender_Guard_NotEmpty_System_String_System_String_
+  commentId: M:Defender.Guard.NotEmpty(System.String,System.String)
+  fullName: Defender.Guard.NotEmpty(System.String, System.String)
+  nameWithType: Guard.NotEmpty(String, String)
+- uid: Defender.Guard.NotEmpty*
+  name: NotEmpty
+  href: api/Defender.Guard.html#Defender_Guard_NotEmpty_
+  commentId: Overload:Defender.Guard.NotEmpty
+  isSpec: "True"
+  fullName: Defender.Guard.NotEmpty
+  nameWithType: Guard.NotEmpty
+- uid: Defender.Guard.NotEmpty``1(``0,System.String)
+  name: NotEmpty<C>(C, String)
+  href: api/Defender.Guard.html#Defender_Guard_NotEmpty__1___0_System_String_
+  commentId: M:Defender.Guard.NotEmpty``1(``0,System.String)
+  name.vb: NotEmpty(Of C)(C, String)
+  fullName: Defender.Guard.NotEmpty<C>(C, System.String)
+  fullName.vb: Defender.Guard.NotEmpty(Of C)(C, System.String)
+  nameWithType: Guard.NotEmpty<C>(C, String)
+  nameWithType.vb: Guard.NotEmpty(Of C)(C, String)
+- uid: Defender.Guard.NotEmpty``2(``0,System.String)
+  name: NotEmpty<C, T>(C, String)
+  href: api/Defender.Guard.html#Defender_Guard_NotEmpty__2___0_System_String_
+  commentId: M:Defender.Guard.NotEmpty``2(``0,System.String)
+  name.vb: NotEmpty(Of C, T)(C, String)
+  fullName: Defender.Guard.NotEmpty<C, T>(C, System.String)
+  fullName.vb: Defender.Guard.NotEmpty(Of C, T)(C, System.String)
+  nameWithType: Guard.NotEmpty<C, T>(C, String)
+  nameWithType.vb: Guard.NotEmpty(Of C, T)(C, String)
+- uid: Defender.Guard.NotNull*
+  name: NotNull
+  href: api/Defender.Guard.html#Defender_Guard_NotNull_
+  commentId: Overload:Defender.Guard.NotNull
+  isSpec: "True"
+  fullName: Defender.Guard.NotNull
+  nameWithType: Guard.NotNull
+- uid: Defender.Guard.NotNull``1(``0,System.String)
+  name: NotNull<T>(T, String)
+  href: api/Defender.Guard.html#Defender_Guard_NotNull__1___0_System_String_
+  commentId: M:Defender.Guard.NotNull``1(``0,System.String)
+  name.vb: NotNull(Of T)(T, String)
+  fullName: Defender.Guard.NotNull<T>(T, System.String)
+  fullName.vb: Defender.Guard.NotNull(Of T)(T, System.String)
+  nameWithType: Guard.NotNull<T>(T, String)
+  nameWithType.vb: Guard.NotNull(Of T)(T, String)
+- uid: Defender.Guard.NotNull``1(System.Nullable{``0},System.String)
+  name: NotNull<T>(Nullable<T>, String)
+  href: api/Defender.Guard.html#Defender_Guard_NotNull__1_System_Nullable___0__System_String_
+  commentId: M:Defender.Guard.NotNull``1(System.Nullable{``0},System.String)
+  name.vb: NotNull(Of T)(Nullable(Of T), String)
+  fullName: Defender.Guard.NotNull<T>(System.Nullable<T>, System.String)
+  fullName.vb: Defender.Guard.NotNull(Of T)(System.Nullable(Of T), System.String)
+  nameWithType: Guard.NotNull<T>(Nullable<T>, String)
+  nameWithType.vb: Guard.NotNull(Of T)(Nullable(Of T), String)
+- uid: Defender.Guard.OfType*
+  name: OfType
+  href: api/Defender.Guard.html#Defender_Guard_OfType_
+  commentId: Overload:Defender.Guard.OfType
+  isSpec: "True"
+  fullName: Defender.Guard.OfType
+  nameWithType: Guard.OfType
+- uid: Defender.Guard.OfType``1(System.Object,System.String)
+  name: OfType<T>(Object, String)
+  href: api/Defender.Guard.html#Defender_Guard_OfType__1_System_Object_System_String_
+  commentId: M:Defender.Guard.OfType``1(System.Object,System.String)
+  name.vb: OfType(Of T)(Object, String)
+  fullName: Defender.Guard.OfType<T>(System.Object, System.String)
+  fullName.vb: Defender.Guard.OfType(Of T)(System.Object, System.String)
+  nameWithType: Guard.OfType<T>(Object, String)
+  nameWithType.vb: Guard.OfType(Of T)(Object, String)
+- uid: Defender.Guard.Valid*
+  name: Valid
+  href: api/Defender.Guard.html#Defender_Guard_Valid_
+  commentId: Overload:Defender.Guard.Valid
+  isSpec: "True"
+  fullName: Defender.Guard.Valid
+  nameWithType: Guard.Valid
+- uid: Defender.Guard.Valid``1(``0,System.String)
+  name: Valid<E>(E, String)
+  href: api/Defender.Guard.html#Defender_Guard_Valid__1___0_System_String_
+  commentId: M:Defender.Guard.Valid``1(``0,System.String)
+  name.vb: Valid(Of E)(E, String)
+  fullName: Defender.Guard.Valid<E>(E, System.String)
+  fullName.vb: Defender.Guard.Valid(Of E)(E, System.String)
+  nameWithType: Guard.Valid<E>(E, String)
+  nameWithType.vb: Guard.Valid(Of E)(E, String)
