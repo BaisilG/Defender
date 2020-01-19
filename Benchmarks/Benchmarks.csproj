@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Defender\Defender.vbproj" />
+    <ProjectReference Include="..\Defender\Defender.csproj" />
   </ItemGroup>
 
 </Project>

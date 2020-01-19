@@ -58,6 +58,7 @@ namespace Tests {
 
 		[Theory]
 		[InlineData("Hello")]
+		[InlineData(null)]
 		public void Of_Int32_Failing(Object param) => Assert.Throws<ArgumentTypeException>(() => OfType<Int32>(param, nameof(param)));
 
 		[Theory]
@@ -66,6 +67,7 @@ namespace Tests {
 
 		[Theory]
 		[InlineData(42)]
+		[InlineData(null)]
 		public void Of_String_Failing(Object param) => Assert.Throws<ArgumentTypeException>(() => OfType<String>(param, nameof(param)));
 	}
 }
