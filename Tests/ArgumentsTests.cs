@@ -1,10 +1,24 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using Defender;
 using static Defender.Arguments;
 using Xunit;
 
 namespace Tests {
 	public class ArgumentsTests {
+		[Fact]
+		public void Empty_Succeeding() => Empty(new ArrayList(), "list");
+
+		[Fact]
+		public void Empty_Failing() => Assert.Throws<ArgumentException>(() => Empty(new ArrayList() { 1, 2 }, "list"));
+
+		[Fact]
+		public void Empty_Generic_Succeeding() => Empty(new List<Int32>(), "list");
+
+		[Fact]
+		public void Empty_Generic_Failing() => Assert.Throws<ArgumentException>(() => Empty(new List<Int32>() { 1, 2 }, "list"));
+
 		[Theory]
 		[InlineData(10, 1)]
 		[InlineData(1, 0)]

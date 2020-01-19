@@ -1,8 +1,37 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
 namespace Defender {
 	public static class Arguments {
+		/// <summary>
+		/// Guard against the collection having elements.
+		/// </summary>
+		/// <typeparam name="C">The type of the collection; must be <see cref="ICollection"/>.</typeparam>
+		/// <param name="collection">The collection.</param>
+		/// <param name="name">The name of the argument.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Empty<C>(C collection, String name) where C : ICollection {
+			if (collection.Count != 0) {
+				throw new ArgumentException($"Collection '{name}' must be empty.", name);
+			}
+		}
+
+		/// <summary>
+		/// Guard against the collection having elements.
+		/// </summary>
+		/// <typeparam name="C">The type of the collection; must be <see cref="ICollection{T}"/>.</typeparam>
+		/// <typeparam name="T">The type of the elements in the collection.</typeparam>
+		/// <param name="collection">The collection.</param>
+		/// <param name="name">The name of the argument.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Empty<C, T>(C collection, String name) where C : ICollection<T> {
+			if (collection.Count != 0) {
+				throw new ArgumentException($"Collection '{name}' must be empty.", name);
+			}
+		}
+
 		/// <summary>
 		/// Guard against the argument being lesser than or equal to <paramref name="lower"/> bound.
 		/// </summary>
@@ -10,6 +39,7 @@ namespace Defender {
 		/// <param name="value">The value.</param>
 		/// <param name="name">The name of the argument.</param>
 		/// <param name="lower">The lower bound.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static void GreaterThan<T>(T value, String name, T lower) where T : IComparable<T> {
 			if (value.CompareTo(lower) <= 0) {
 				throw new ArgumentOutOfRangeException(name, $"Argument must be greater than the lower bound '{lower}'.");
@@ -23,6 +53,7 @@ namespace Defender {
 		/// <param name="value">The value.</param>
 		/// <param name="name">The name of the argument.</param>
 		/// <param name="lower">The lower bound.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static void GreaterThanOrEqualTo<T>(T value, String name, T lower) where T : IComparable<T> {
 			if (value.CompareTo(lower) < 0) {
 				throw new ArgumentOutOfRangeException(name, $"Argument must be greater than or equal to the lower bound '{lower}'.");
@@ -36,6 +67,7 @@ namespace Defender {
 		/// <param name="value">The value.</param>
 		/// <param name="name">The name of the argument.</param>
 		/// <param name="upper">The lower bound.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static void LesserThan<T>(T value, String name, T upper) where T : IComparable<T> {
 			if (value.CompareTo(upper) >= 0) {
 				throw new ArgumentOutOfRangeException(name, $"Argument must be lesser than the lower bound '{upper}'.");
@@ -49,9 +81,37 @@ namespace Defender {
 		/// <param name="value">The value.</param>
 		/// <param name="name">The name of the argument.</param>
 		/// <param name="upper">The lower bound.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static void LesserThanOrEqualTo<T>(T value, String name, T upper) where T : IComparable<T> {
 			if (value.CompareTo(upper) > 0) {
 				throw new ArgumentOutOfRangeException(name, $"Argument must be lesser than or equal to the lower bound '{upper}'.");
+			}
+		}
+
+		/// <summary>
+		/// Guard against the collection being empty.
+		/// </summary>
+		/// <typeparam name="C">The type of the collection; must be <see cref="ICollection"/>.</typeparam>
+		/// <param name="collection">The collection.</param>
+		/// <param name="name">The name of the argument.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void NotEmpty<C>(C collection, String name) where C : ICollection {
+			if (collection.Count == 0) {
+				throw new ArgumentException($"Collection '{name}' must not be empty.", name);
+			}
+		}
+
+		/// <summary>
+		/// Guard against the collection being empty.
+		/// </summary>
+		/// <typeparam name="C">The type of the collection; must be <see cref="ICollection{T}"/>.</typeparam>
+		/// <typeparam name="T">The type of the elements in the collection.</typeparam>
+		/// <param name="collection">The collection.</param>
+		/// <param name="name">The name of the argument.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void NotEmpty<C, T>(C collection, String name) where C : ICollection<T> {
+			if (collection.Count == 0) {
+				throw new ArgumentException($"Collection '{name}' must not be empty.", name);
 			}
 		}
 
