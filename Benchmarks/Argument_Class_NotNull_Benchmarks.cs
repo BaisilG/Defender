@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Jobs;
 using ArdalisGuard = Ardalis.GuardClauses;
-using static Defender.Arguments;
+using static Defender.Guard;
 using Dawn;
 using Lite = LiteGuard;
 using Light.GuardClauses;
