@@ -2,6 +2,18 @@
 
 Partial Public Module Guard
     ''' <summary>
+    ''' Guard against the string having characters.
+    ''' </summary>
+    ''' <param name="[String]">The string.</param>
+    ''' <param name="Name">The name of the argument.</param>
+    <MethodImpl(MethodImplOptions.AggressiveInlining)>
+    Public Sub Empty([String] As String, Name As String)
+        If [String].Length <> 0 Then
+            Throw New ArgumentException($"String '{Name}' must be empty.", Name)
+        End If
+    End Sub
+
+    ''' <summary>
     ''' Guard against the collection having elements.
     ''' </summary>
     ''' <typeparam name="C">The type of the collection; must be <see cref="ICollection"/>.</typeparam>

@@ -19,6 +19,13 @@ namespace Tests {
 		[Fact]
 		public void Empty_Generic_Failing() => Assert.Throws<ArgumentException>(() => Empty(new List<Int32>() { 1, 2 }, "list"));
 
+		[Fact]
+		public void Empty_String_Succeeding() => Empty("", "list");
+
+		[Fact]
+		public void Empty_String_Failing() => Assert.Throws<ArgumentException>(() => Empty("hello", "list"));
+
+
 		[Theory]
 		[InlineData(10, 1)]
 		[InlineData(1, 0)]
