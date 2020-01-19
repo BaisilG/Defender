@@ -4,6 +4,17 @@
     <TargetFramework>netstandard1.0</TargetFramework>
 	  <LangVersion>8.0</LangVersion>
 		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Authors>Patrick Kelly</Authors>
+		<Version>0.1.0</Version>
+		<Description>No (added) overhead library for defensive programming practices. Just as efficient as hand written guard clauses.</Description>
+		<Copyright>2020</Copyright>
+		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/Entomy/Defender</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Entomy/Defender</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>defensive, defensive programming, guard, guards, guard clause, guard-clause</PackageTags>
   </PropertyGroup>
 
 </Project>
