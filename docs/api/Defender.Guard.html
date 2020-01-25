@@ -277,16 +277,78 @@
     <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Equal__1___0_System_String___0_.md&amp;value=---%0Auid%3A%20Defender.Guard.Equal%60%601(%60%600%2CSystem.String%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Equal.cs/#L15">View Source</a>
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Equal.cs/#L13">View Source</a>
   </span>
   <a id="Defender_Guard_Equal_" data-uid="Defender.Guard.Equal*"></a>
   <h4 id="Defender_Guard_Equal__1___0_System_String___0_" data-uid="Defender.Guard.Equal``1(``0,System.String,``0)">Equal&lt;T&gt;(T, String, T)</h4>
-  <div class="markdown level1 summary"><p>Guard against the argument being inequal to the specified value.</p>
+  <div class="markdown level1 summary"><p>Guard against the argument being unequal to the specified value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Equal&lt;T&gt;(T first, string firstName, T second)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Equal&lt;T&gt;(T value, string name, T other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The value <code data-dev-comment-type="paramref" class="paramref">value</code> must be equal to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Equal__1___0_System_String___0_System_String_.md&amp;value=---%0Auid%3A%20Defender.Guard.Equal%60%601(%60%600%2CSystem.String%2C%60%600%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Equal.cs/#L28">View Source</a>
+  </span>
+  <a id="Defender_Guard_Equal_" data-uid="Defender.Guard.Equal*"></a>
+  <h4 id="Defender_Guard_Equal__1___0_System_String___0_System_String_" data-uid="Defender.Guard.Equal``1(``0,System.String,``0,System.String)">Equal&lt;T&gt;(T, String, T, String)</h4>
+  <div class="markdown level1 summary"><p>Guard against the <code data-dev-comment-type="paramref" class="paramref">first</code> argument being unequal to the <code data-dev-comment-type="paramref" class="paramref">second</code> argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Equal&lt;T&gt;(T first, string firstName, T second, string secondName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -301,17 +363,26 @@
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">first</span></td>
-        <td></td>
+        <td><p>The first value.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">firstName</span></td>
-        <td></td>
+        <td><p>The name of the first argument.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">second</span></td>
-        <td></td>
+        <td><p>The second value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">secondName</span></td>
+        <td><p>The name of the second argument.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -908,6 +979,136 @@
       <tr>
         <td><span class="parametername">T</span></td>
         <td><p>The type the <code data-dev-comment-type="paramref" class="paramref">value</code> must be of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Unequal__1___0_System_String___0_.md&amp;value=---%0Auid%3A%20Defender.Guard.Unequal%60%601(%60%600%2CSystem.String%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Unequal.cs/#L13">View Source</a>
+  </span>
+  <a id="Defender_Guard_Unequal_" data-uid="Defender.Guard.Unequal*"></a>
+  <h4 id="Defender_Guard_Unequal__1___0_System_String___0_" data-uid="Defender.Guard.Unequal``1(``0,System.String,``0)">Unequal&lt;T&gt;(T, String, T)</h4>
+  <div class="markdown level1 summary"><p>Guard against the argument being equal to the specified value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Unequal&lt;T&gt;(T value, string name, T other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The value <code data-dev-comment-type="paramref" class="paramref">value</code> must be equal to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Unequal__1___0_System_String___0_System_String_.md&amp;value=---%0Auid%3A%20Defender.Guard.Unequal%60%601(%60%600%2CSystem.String%2C%60%600%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Unequal.cs/#L28">View Source</a>
+  </span>
+  <a id="Defender_Guard_Unequal_" data-uid="Defender.Guard.Unequal*"></a>
+  <h4 id="Defender_Guard_Unequal__1___0_System_String___0_System_String_" data-uid="Defender.Guard.Unequal``1(``0,System.String,``0,System.String)">Unequal&lt;T&gt;(T, String, T, String)</h4>
+  <div class="markdown level1 summary"><p>Guard against the <code data-dev-comment-type="paramref" class="paramref">first</code> argument being equal to the <code data-dev-comment-type="paramref" class="paramref">second</code> argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Unequal&lt;T&gt;(T first, string firstName, T second, string secondName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">first</span></td>
+        <td><p>The first value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">firstName</span></td>
+        <td><p>The name of the first argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">second</span></td>
+        <td><p>The second value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">secondName</span></td>
+        <td><p>The name of the second argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the argument.</p>
 </td>
       </tr>
     </tbody>

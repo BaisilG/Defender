@@ -7,6 +7,49 @@ references:
   commentId: N:Defender
   fullName: Defender
   nameWithType: Defender
+- uid: Defender.ArgumentEqualException
+  name: ArgumentEqualException
+  href: api/Defender.ArgumentEqualException.html
+  commentId: T:Defender.ArgumentEqualException
+  fullName: Defender.ArgumentEqualException
+  nameWithType: ArgumentEqualException
+- uid: Defender.ArgumentEqualException.#ctor
+  name: ArgumentEqualException()
+  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor
+  commentId: M:Defender.ArgumentEqualException.#ctor
+  fullName: Defender.ArgumentEqualException.ArgumentEqualException()
+  nameWithType: ArgumentEqualException.ArgumentEqualException()
+- uid: Defender.ArgumentEqualException.#ctor(System.String)
+  name: ArgumentEqualException(String)
+  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor_System_String_
+  commentId: M:Defender.ArgumentEqualException.#ctor(System.String)
+  fullName: Defender.ArgumentEqualException.ArgumentEqualException(System.String)
+  nameWithType: ArgumentEqualException.ArgumentEqualException(String)
+- uid: Defender.ArgumentEqualException.#ctor(System.String,System.Exception)
+  name: ArgumentEqualException(String, Exception)
+  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor_System_String_System_Exception_
+  commentId: M:Defender.ArgumentEqualException.#ctor(System.String,System.Exception)
+  fullName: Defender.ArgumentEqualException.ArgumentEqualException(System.String, System.Exception)
+  nameWithType: ArgumentEqualException.ArgumentEqualException(String, Exception)
+- uid: Defender.ArgumentEqualException.#ctor(System.String,System.String)
+  name: ArgumentEqualException(String, String)
+  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor_System_String_System_String_
+  commentId: M:Defender.ArgumentEqualException.#ctor(System.String,System.String)
+  fullName: Defender.ArgumentEqualException.ArgumentEqualException(System.String, System.String)
+  nameWithType: ArgumentEqualException.ArgumentEqualException(String, String)
+- uid: Defender.ArgumentEqualException.#ctor(System.String,System.String,System.Exception)
+  name: ArgumentEqualException(String, String, Exception)
+  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor_System_String_System_String_System_Exception_
+  commentId: M:Defender.ArgumentEqualException.#ctor(System.String,System.String,System.Exception)
+  fullName: Defender.ArgumentEqualException.ArgumentEqualException(System.String, System.String, System.Exception)
+  nameWithType: ArgumentEqualException.ArgumentEqualException(String, String, Exception)
+- uid: Defender.ArgumentEqualException.#ctor*
+  name: ArgumentEqualException
+  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor_
+  commentId: Overload:Defender.ArgumentEqualException.#ctor
+  isSpec: "True"
+  fullName: Defender.ArgumentEqualException.ArgumentEqualException
+  nameWithType: ArgumentEqualException.ArgumentEqualException
 - uid: Defender.ArgumentInequalException
   name: ArgumentInequalException
   href: api/Defender.ArgumentInequalException.html
@@ -170,6 +213,15 @@ references:
   fullName.vb: Defender.Guard.Equal(Of T)(T, System.String, T)
   nameWithType: Guard.Equal<T>(T, String, T)
   nameWithType.vb: Guard.Equal(Of T)(T, String, T)
+- uid: Defender.Guard.Equal``1(``0,System.String,``0,System.String)
+  name: Equal<T>(T, String, T, String)
+  href: api/Defender.Guard.html#Defender_Guard_Equal__1___0_System_String___0_System_String_
+  commentId: M:Defender.Guard.Equal``1(``0,System.String,``0,System.String)
+  name.vb: Equal(Of T)(T, String, T, String)
+  fullName: Defender.Guard.Equal<T>(T, System.String, T, System.String)
+  fullName.vb: Defender.Guard.Equal(Of T)(T, System.String, T, System.String)
+  nameWithType: Guard.Equal<T>(T, String, T, String)
+  nameWithType.vb: Guard.Equal(Of T)(T, String, T, String)
 - uid: Defender.Guard.GreaterThan*
   name: GreaterThan
   href: api/Defender.Guard.html#Defender_Guard_GreaterThan_
@@ -306,6 +358,31 @@ references:
   fullName.vb: Defender.Guard.OfType(Of T)(System.Object, System.String)
   nameWithType: Guard.OfType<T>(Object, String)
   nameWithType.vb: Guard.OfType(Of T)(Object, String)
+- uid: Defender.Guard.Unequal*
+  name: Unequal
+  href: api/Defender.Guard.html#Defender_Guard_Unequal_
+  commentId: Overload:Defender.Guard.Unequal
+  isSpec: "True"
+  fullName: Defender.Guard.Unequal
+  nameWithType: Guard.Unequal
+- uid: Defender.Guard.Unequal``1(``0,System.String,``0)
+  name: Unequal<T>(T, String, T)
+  href: api/Defender.Guard.html#Defender_Guard_Unequal__1___0_System_String___0_
+  commentId: M:Defender.Guard.Unequal``1(``0,System.String,``0)
+  name.vb: Unequal(Of T)(T, String, T)
+  fullName: Defender.Guard.Unequal<T>(T, System.String, T)
+  fullName.vb: Defender.Guard.Unequal(Of T)(T, System.String, T)
+  nameWithType: Guard.Unequal<T>(T, String, T)
+  nameWithType.vb: Guard.Unequal(Of T)(T, String, T)
+- uid: Defender.Guard.Unequal``1(``0,System.String,``0,System.String)
+  name: Unequal<T>(T, String, T, String)
+  href: api/Defender.Guard.html#Defender_Guard_Unequal__1___0_System_String___0_System_String_
+  commentId: M:Defender.Guard.Unequal``1(``0,System.String,``0,System.String)
+  name.vb: Unequal(Of T)(T, String, T, String)
+  fullName: Defender.Guard.Unequal<T>(T, System.String, T, System.String)
+  fullName.vb: Defender.Guard.Unequal(Of T)(T, System.String, T, System.String)
+  nameWithType: Guard.Unequal<T>(T, String, T, String)
+  nameWithType.vb: Guard.Unequal(Of T)(T, String, T, String)
 - uid: Defender.Guard.Valid*
   name: Valid
   href: api/Defender.Guard.html#Defender_Guard_Valid_

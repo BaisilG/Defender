@@ -5,6 +5,18 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Defender.ArgumentEqualException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Defender.ArgumentEqualException.html",
+          "hash": "io8bB7KG8phHRyhPlfiyXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Defender.ArgumentInequalException.yml",
       "output": {
         ".html": {
@@ -12,7 +24,7 @@
           "hash": "ojjUnTcoU1sqXj+LJ5HbNw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,7 +36,7 @@
           "hash": "XgYALzm1BuNQCtMBtxqfUQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Guard.html",
-          "hash": "i8tiwvT5Px5ovqDu8HU4CA=="
+          "hash": "JjFdKVKhozWwLAOJXYjsww=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.html",
-          "hash": "EgqVPpYT0btW8bn1iFyFKw=="
+          "hash": "765EJLH1pzsCVEzz1Pscpw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -60,7 +72,7 @@
           "hash": "sNDFAcxlzT0/Jn2OiDo0SA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "RrPMvlw/Ll2Lw80rGfLlnA=="
+          "hash": "jB0eHANJX8TUrLgDij4u3A=="
         }
       },
       "is_incremental": false,
@@ -149,8 +161,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 4,
-          "skipped_file_count": 4
+          "total_file_count": 5,
+          "skipped_file_count": 2
         }
       }
     },
