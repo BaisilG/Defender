@@ -168,7 +168,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Empty&lt;C&gt;(C collection, string name)
-
     where C : ICollection</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -226,7 +225,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Empty&lt;C, T&gt;(C collection, string name)
-
     where C : ICollection&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -276,6 +274,65 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Equal__1___0_System_String___0_.md&amp;value=---%0Auid%3A%20Defender.Guard.Equal%60%601(%60%600%2CSystem.String%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Equal.cs/#L15">View Source</a>
+  </span>
+  <a id="Defender_Guard_Equal_" data-uid="Defender.Guard.Equal*"></a>
+  <h4 id="Defender_Guard_Equal__1___0_System_String___0_" data-uid="Defender.Guard.Equal``1(``0,System.String,``0)">Equal&lt;T&gt;(T, String, T)</h4>
+  <div class="markdown level1 summary"><p>Guard against the argument being inequal to the specified value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Equal&lt;T&gt;(T first, string firstName, T second)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">first</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">firstName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">second</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_GreaterThan__1___0_System_String___0_.md&amp;value=---%0Auid%3A%20Defender.Guard.GreaterThan%60%601(%60%600%2CSystem.String%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -289,7 +346,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void GreaterThan&lt;T&gt;(T value, string name, T lower)
-
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -353,7 +409,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void GreaterThanOrEqualTo&lt;T&gt;(T value, string name, T lower)
-
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -417,7 +472,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void LesserThan&lt;T&gt;(T value, string name, T upper)
-
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -481,7 +535,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void LesserThanOrEqualTo&lt;T&gt;(T value, string name, T upper)
-
     where T : IComparable&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -585,7 +638,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void NotEmpty&lt;C&gt;(C collection, string name)
-
     where C : ICollection</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -643,7 +695,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void NotEmpty&lt;C, T&gt;(C collection, string name)
-
     where C : ICollection&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -706,7 +757,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void NotNull&lt;T&gt;(T value, string name)
-
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -764,7 +814,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void NotNull&lt;T&gt;(T? value, string name)
-
     where T : struct</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -878,7 +927,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Valid&lt;E&gt;(E value, string name)
-
     where E : Enum</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

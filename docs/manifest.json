@@ -5,6 +5,18 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Defender.ArgumentInequalException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Defender.ArgumentInequalException.html",
+          "hash": "ojjUnTcoU1sqXj+LJ5HbNw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Defender.ArgumentTypeException.yml",
       "output": {
         ".html": {
@@ -21,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Guard.html",
-          "hash": "P9zPiDfTLRxc4tE1zPEw+Q=="
+          "hash": "i8tiwvT5Px5ovqDu8HU4CA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.html",
-          "hash": "mGu1koRu2p84Y2Rs7O9BMg=="
+          "hash": "EgqVPpYT0btW8bn1iFyFKw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "0E3NpQO0GB7AJDEIA7RKZQ=="
+          "hash": "RrPMvlw/Ll2Lw80rGfLlnA=="
         }
       },
       "is_incremental": false,
@@ -93,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ABdZrcPW7gvFjHhhkZfewA=="
+          "hash": "gvKLEAbAQlPL00bmLljSVQ=="
         }
       },
       "is_incremental": true,
@@ -137,8 +149,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 2
+          "total_file_count": 4,
+          "skipped_file_count": 4
         }
       }
     },

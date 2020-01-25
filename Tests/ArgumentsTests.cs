@@ -25,6 +25,33 @@ namespace Tests {
 		[Fact]
 		public void Empty_String_Failing() => Assert.Throws<ArgumentException>(() => Empty("hello", "list"));
 
+		[Theory]
+		[InlineData(5, 5)]
+		public void Equal_Struct_Succeeding(Int32 param, Int32 other) => Equal(param, nameof(param), other);
+
+		[Theory]
+		[InlineData(5, 6)]
+		public void Equal_Struct_Failing(Int32 param, Int32 other) => Assert.Throws<ArgumentInequalException>(() => Equal(param, nameof(param), other));
+
+		[Theory]
+		[InlineData(5, 5)]
+		[InlineData(null, null)]
+		public void Equal_NullableStruct_Succeeding(Int32? param, Int32? other) => Equal(param, nameof(param), other);
+
+		[Theory]
+		[InlineData(5, 6)]
+		[InlineData(5, null)]
+		public void Equal_NullableStruct_Failing(Int32? param, Int32? other) => Assert.Throws<ArgumentInequalException>(() => Equal(param, nameof(param), other));
+
+		[Theory]
+		[InlineData("", "")]
+		[InlineData(null, null)]
+		public void Equal_Class_Succeeding(String param, String other) => Equal(param, nameof(param), other);
+
+		[Theory]
+		[InlineData("", "oh no")]
+		[InlineData("", null)]
+		public void Equal_Class_Failing(String param, String other) => Assert.Throws<ArgumentInequalException>(() => Equal(param, nameof(param), other));
 
 		[Theory]
 		[InlineData(10, 1)]
