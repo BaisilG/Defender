@@ -399,3 +399,85 @@ references:
   fullName.vb: Defender.Guard.Valid(Of E)(E, System.String)
   nameWithType: Guard.Valid<E>(E, String)
   nameWithType.vb: Guard.Valid(Of E)(E, String)
+- uid: Defender.Guard.Within(System.Byte,System.String,System.Byte,System.Byte,System.Boolean)
+  name: Within(Byte, String, Byte, Byte, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within_System_Byte_System_String_System_Byte_System_Byte_System_Boolean_
+  commentId: M:Defender.Guard.Within(System.Byte,System.String,System.Byte,System.Byte,System.Boolean)
+  fullName: Defender.Guard.Within(System.Byte, System.String, System.Byte, System.Byte, System.Boolean)
+  nameWithType: Guard.Within(Byte, String, Byte, Byte, Boolean)
+- uid: Defender.Guard.Within(System.Decimal,System.String,System.Decimal,System.Decimal,System.Boolean)
+  name: Within(Decimal, String, Decimal, Decimal, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within_System_Decimal_System_String_System_Decimal_System_Decimal_System_Boolean_
+  commentId: M:Defender.Guard.Within(System.Decimal,System.String,System.Decimal,System.Decimal,System.Boolean)
+  fullName: Defender.Guard.Within(System.Decimal, System.String, System.Decimal, System.Decimal, System.Boolean)
+  nameWithType: Guard.Within(Decimal, String, Decimal, Decimal, Boolean)
+- uid: Defender.Guard.Within(System.Double,System.String,System.Double,System.Double,System.Boolean)
+  name: Within(Double, String, Double, Double, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within_System_Double_System_String_System_Double_System_Double_System_Boolean_
+  commentId: M:Defender.Guard.Within(System.Double,System.String,System.Double,System.Double,System.Boolean)
+  fullName: Defender.Guard.Within(System.Double, System.String, System.Double, System.Double, System.Boolean)
+  nameWithType: Guard.Within(Double, String, Double, Double, Boolean)
+- uid: Defender.Guard.Within(System.Int16,System.String,System.Int16,System.Int16,System.Boolean)
+  name: Within(Int16, String, Int16, Int16, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within_System_Int16_System_String_System_Int16_System_Int16_System_Boolean_
+  commentId: M:Defender.Guard.Within(System.Int16,System.String,System.Int16,System.Int16,System.Boolean)
+  fullName: Defender.Guard.Within(System.Int16, System.String, System.Int16, System.Int16, System.Boolean)
+  nameWithType: Guard.Within(Int16, String, Int16, Int16, Boolean)
+- uid: Defender.Guard.Within(System.Int32,System.String,System.Int32,System.Int32,System.Boolean)
+  name: Within(Int32, String, Int32, Int32, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within_System_Int32_System_String_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Defender.Guard.Within(System.Int32,System.String,System.Int32,System.Int32,System.Boolean)
+  fullName: Defender.Guard.Within(System.Int32, System.String, System.Int32, System.Int32, System.Boolean)
+  nameWithType: Guard.Within(Int32, String, Int32, Int32, Boolean)
+- uid: Defender.Guard.Within(System.Int64,System.String,System.Int64,System.Int64,System.Boolean)
+  name: Within(Int64, String, Int64, Int64, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within_System_Int64_System_String_System_Int64_System_Int64_System_Boolean_
+  commentId: M:Defender.Guard.Within(System.Int64,System.String,System.Int64,System.Int64,System.Boolean)
+  fullName: Defender.Guard.Within(System.Int64, System.String, System.Int64, System.Int64, System.Boolean)
+  nameWithType: Guard.Within(Int64, String, Int64, Int64, Boolean)
+- uid: Defender.Guard.Within(System.SByte,System.String,System.SByte,System.SByte,System.Boolean)
+  name: Within(SByte, String, SByte, SByte, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within_System_SByte_System_String_System_SByte_System_SByte_System_Boolean_
+  commentId: M:Defender.Guard.Within(System.SByte,System.String,System.SByte,System.SByte,System.Boolean)
+  fullName: Defender.Guard.Within(System.SByte, System.String, System.SByte, System.SByte, System.Boolean)
+  nameWithType: Guard.Within(SByte, String, SByte, SByte, Boolean)
+- uid: Defender.Guard.Within(System.Single,System.String,System.Single,System.Single,System.Boolean)
+  name: Within(Single, String, Single, Single, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within_System_Single_System_String_System_Single_System_Single_System_Boolean_
+  commentId: M:Defender.Guard.Within(System.Single,System.String,System.Single,System.Single,System.Boolean)
+  fullName: Defender.Guard.Within(System.Single, System.String, System.Single, System.Single, System.Boolean)
+  nameWithType: Guard.Within(Single, String, Single, Single, Boolean)
+- uid: Defender.Guard.Within(System.UInt16,System.String,System.UInt16,System.UInt16,System.Boolean)
+  name: Within(UInt16, String, UInt16, UInt16, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within_System_UInt16_System_String_System_UInt16_System_UInt16_System_Boolean_
+  commentId: M:Defender.Guard.Within(System.UInt16,System.String,System.UInt16,System.UInt16,System.Boolean)
+  fullName: Defender.Guard.Within(System.UInt16, System.String, System.UInt16, System.UInt16, System.Boolean)
+  nameWithType: Guard.Within(UInt16, String, UInt16, UInt16, Boolean)
+- uid: Defender.Guard.Within(System.UInt32,System.String,System.UInt32,System.UInt32,System.Boolean)
+  name: Within(UInt32, String, UInt32, UInt32, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within_System_UInt32_System_String_System_UInt32_System_UInt32_System_Boolean_
+  commentId: M:Defender.Guard.Within(System.UInt32,System.String,System.UInt32,System.UInt32,System.Boolean)
+  fullName: Defender.Guard.Within(System.UInt32, System.String, System.UInt32, System.UInt32, System.Boolean)
+  nameWithType: Guard.Within(UInt32, String, UInt32, UInt32, Boolean)
+- uid: Defender.Guard.Within(System.UInt64,System.String,System.UInt64,System.UInt64,System.Boolean)
+  name: Within(UInt64, String, UInt64, UInt64, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within_System_UInt64_System_String_System_UInt64_System_UInt64_System_Boolean_
+  commentId: M:Defender.Guard.Within(System.UInt64,System.String,System.UInt64,System.UInt64,System.Boolean)
+  fullName: Defender.Guard.Within(System.UInt64, System.String, System.UInt64, System.UInt64, System.Boolean)
+  nameWithType: Guard.Within(UInt64, String, UInt64, UInt64, Boolean)
+- uid: Defender.Guard.Within*
+  name: Within
+  href: api/Defender.Guard.html#Defender_Guard_Within_
+  commentId: Overload:Defender.Guard.Within
+  isSpec: "True"
+  fullName: Defender.Guard.Within
+  nameWithType: Guard.Within
+- uid: Defender.Guard.Within``1(``0,System.String,``0,``0,System.Boolean)
+  name: Within<T>(T, String, T, T, Boolean)
+  href: api/Defender.Guard.html#Defender_Guard_Within__1___0_System_String___0___0_System_Boolean_
+  commentId: M:Defender.Guard.Within``1(``0,System.String,``0,``0,System.Boolean)
+  name.vb: Within(Of T)(T, String, T, T, Boolean)
+  fullName: Defender.Guard.Within<T>(T, System.String, T, T, System.Boolean)
+  fullName.vb: Defender.Guard.Within(Of T)(T, System.String, T, T, System.Boolean)
+  nameWithType: Guard.Within<T>(T, String, T, T, Boolean)
+  nameWithType.vb: Guard.Within(Of T)(T, String, T, T, Boolean)

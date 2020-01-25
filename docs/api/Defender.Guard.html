@@ -1173,6 +1173,719 @@
   <h5 id="Defender_Guard_Valid__1___0_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>If <span class="xref">System.FlagsAttribute</span> is present, this guard is uneccessary and will even report false negatives.</p>
 </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within_System_Byte_System_String_System_Byte_System_Byte_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within(System.Byte%2CSystem.String%2CSystem.Byte%2CSystem.Byte%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L14">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within_System_Byte_System_String_System_Byte_System_Byte_System_Boolean_" data-uid="Defender.Guard.Within(System.Byte,System.String,System.Byte,System.Byte,System.Boolean)">Within(Byte, String, Byte, Byte, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within(byte value, string name, byte lower, byte upper, bool inclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within_System_Decimal_System_String_System_Decimal_System_Decimal_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within(System.Decimal%2CSystem.String%2CSystem.Decimal%2CSystem.Decimal%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L214">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within_System_Decimal_System_String_System_Decimal_System_Decimal_System_Boolean_" data-uid="Defender.Guard.Within(System.Decimal,System.String,System.Decimal,System.Decimal,System.Boolean)">Within(Decimal, String, Decimal, Decimal, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within(decimal value, string name, decimal lower, decimal upper, bool inclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within_System_Double_System_String_System_Double_System_Double_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within(System.Double%2CSystem.String%2CSystem.Double%2CSystem.Double%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L194">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within_System_Double_System_String_System_Double_System_Double_System_Boolean_" data-uid="Defender.Guard.Within(System.Double,System.String,System.Double,System.Double,System.Boolean)">Within(Double, String, Double, Double, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within(double value, string name, double lower, double upper, bool inclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within_System_Int16_System_String_System_Int16_System_Int16_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within(System.Int16%2CSystem.String%2CSystem.Int16%2CSystem.Int16%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L54">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within_System_Int16_System_String_System_Int16_System_Int16_System_Boolean_" data-uid="Defender.Guard.Within(System.Int16,System.String,System.Int16,System.Int16,System.Boolean)">Within(Int16, String, Int16, Int16, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within(short value, string name, short lower, short upper, bool inclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within_System_Int32_System_String_System_Int32_System_Int32_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within(System.Int32%2CSystem.String%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L94">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within_System_Int32_System_String_System_Int32_System_Int32_System_Boolean_" data-uid="Defender.Guard.Within(System.Int32,System.String,System.Int32,System.Int32,System.Boolean)">Within(Int32, String, Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within(int value, string name, int lower, int upper, bool inclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within_System_Int64_System_String_System_Int64_System_Int64_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within(System.Int64%2CSystem.String%2CSystem.Int64%2CSystem.Int64%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L134">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within_System_Int64_System_String_System_Int64_System_Int64_System_Boolean_" data-uid="Defender.Guard.Within(System.Int64,System.String,System.Int64,System.Int64,System.Boolean)">Within(Int64, String, Int64, Int64, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within(long value, string name, long lower, long upper, bool inclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within_System_SByte_System_String_System_SByte_System_SByte_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within(System.SByte%2CSystem.String%2CSystem.SByte%2CSystem.SByte%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L34">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within_System_SByte_System_String_System_SByte_System_SByte_System_Boolean_" data-uid="Defender.Guard.Within(System.SByte,System.String,System.SByte,System.SByte,System.Boolean)">Within(SByte, String, SByte, SByte, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within(sbyte value, string name, sbyte lower, sbyte upper, bool inclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within_System_Single_System_String_System_Single_System_Single_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within(System.Single%2CSystem.String%2CSystem.Single%2CSystem.Single%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L174">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within_System_Single_System_String_System_Single_System_Single_System_Boolean_" data-uid="Defender.Guard.Within(System.Single,System.String,System.Single,System.Single,System.Boolean)">Within(Single, String, Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within(float value, string name, float lower, float upper, bool inclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within_System_UInt16_System_String_System_UInt16_System_UInt16_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within(System.UInt16%2CSystem.String%2CSystem.UInt16%2CSystem.UInt16%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L74">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within_System_UInt16_System_String_System_UInt16_System_UInt16_System_Boolean_" data-uid="Defender.Guard.Within(System.UInt16,System.String,System.UInt16,System.UInt16,System.Boolean)">Within(UInt16, String, UInt16, UInt16, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within(ushort value, string name, ushort lower, ushort upper, bool inclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within_System_UInt32_System_String_System_UInt32_System_UInt32_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within(System.UInt32%2CSystem.String%2CSystem.UInt32%2CSystem.UInt32%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L114">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within_System_UInt32_System_String_System_UInt32_System_UInt32_System_Boolean_" data-uid="Defender.Guard.Within(System.UInt32,System.String,System.UInt32,System.UInt32,System.Boolean)">Within(UInt32, String, UInt32, UInt32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within(uint value, string name, uint lower, uint upper, bool inclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within_System_UInt64_System_String_System_UInt64_System_UInt64_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within(System.UInt64%2CSystem.String%2CSystem.UInt64%2CSystem.UInt64%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L154">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within_System_UInt64_System_String_System_UInt64_System_UInt64_System_Boolean_" data-uid="Defender.Guard.Within(System.UInt64,System.String,System.UInt64,System.UInt64,System.Boolean)">Within(UInt64, String, UInt64, UInt64, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within(ulong value, string name, ulong lower, ulong upper, bool inclusive)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard_Within__1___0_System_String___0___0_System_Boolean_.md&amp;value=---%0Auid%3A%20Defender.Guard.Within%60%601(%60%600%2CSystem.String%2C%60%600%2C%60%600%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L235">View Source</a>
+  </span>
+  <a id="Defender_Guard_Within_" data-uid="Defender.Guard.Within*"></a>
+  <h4 id="Defender_Guard_Within__1___0_System_String___0___0_System_Boolean_" data-uid="Defender.Guard.Within``1(``0,System.String,``0,``0,System.Boolean)">Within&lt;T&gt;(T, String, T, T, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Guards against the <code data-dev-comment-type="paramref" class="paramref">value</code> being outside of the range of <code data-dev-comment-type="paramref" class="paramref">lower</code>..<code data-dev-comment-type="paramref" class="paramref">upper</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Within&lt;T&gt;(T value, string name, T lower, T upper, bool inclusive)
+    where T : IComparable&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the argument.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">lower</span></td>
+        <td><p>The lower bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">upper</span></td>
+        <td><p>The upper bound.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the bounds are inclusive or exclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the argument.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -1184,7 +1897,7 @@
                     <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_Guard.md&amp;value=---%0Auid%3A%20Defender.Guard%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Valid.cs/#L5" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Entomy/Defender/blob/master/Defender/Within.cs/#L5" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

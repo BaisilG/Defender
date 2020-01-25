@@ -105,5 +105,35 @@ namespace Tests {
 		[Theory]
 		[InlineData((ConsoleColor)20)]
 		public void Valid_Enum_Failing(ConsoleColor param) => Assert.Throws<ArgumentOutOfRangeException>(() => Valid(param, nameof(param)));
+
+		[Theory]
+		[InlineData(5, 1, 10, true)]
+		[InlineData(10, 1, 10, true)]
+		public void Within_Int32_Succeeding(Int32 param, Int32 lower, Int32 upper, Boolean inclusive) => Within(param, nameof(param), lower, upper, inclusive);
+
+		[Theory]
+		[InlineData(15, 1, 10, true)]
+		[InlineData(10, 1, 10, false)]
+		public void Within_Int32_Failing(Int32 param, Int32 lower, Int32 upper, Boolean inclusive) => Assert.Throws<ArgumentOutOfRangeException>(() => Within(param, nameof(param), lower, upper, inclusive));
+
+		[Theory]
+		[InlineData(5, 1, 10, true)]
+		[InlineData(10, 1, 10, true)]
+		public void Within_UInt32_Succeeding(UInt32 param, UInt32 lower, UInt32 upper, Boolean inclusive) => Within(param, nameof(param), lower, upper, inclusive);
+
+		[Theory]
+		[InlineData(15, 1, 10, true)]
+		[InlineData(10, 1, 10, false)]
+		public void Within_UInt32_Failing(UInt32 param, UInt32 lower, UInt32 upper, Boolean inclusive) => Assert.Throws<ArgumentOutOfRangeException>(() => Within(param, nameof(param), lower, upper, inclusive));
+
+		[Theory]
+		[InlineData("cake", "alpha", "omega", true)]
+		[InlineData("omega", "alpha", "omega", true)]
+		public void Within_IComparable_Succeeding(String param, String lower, String upper, Boolean inclusive) => Within(param, nameof(param), lower, upper, inclusive);
+
+		[Theory]
+		[InlineData("zeta", "alpha", "omega", true)]
+		[InlineData("omega", "alpha", "omega", false)]
+		public void Within_IComparable_Failing(String param, String lower, String upper, Boolean inclusive) => Assert.Throws<ArgumentOutOfRangeException>(() => Within(param, nameof(param), lower, upper, inclusive));
 	}
 }
