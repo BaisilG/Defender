@@ -63,6 +63,30 @@ namespace Tests {
 		[InlineData(1, 10)]
 		public void GreaterThan_Failing(Int32 param, Int32 lower) => Assert.Throws<ArgumentOutOfRangeException>(() => GreaterThan(param, nameof(param), lower));
 
+		[Fact]
+		public void GreaterThan_Collection_Succeeding() {
+			ICollection collection = new ArrayList(new[] { 1, 2, 3, 4, 5 });
+			GreaterThan(collection, nameof(collection), 3);
+		}
+
+		[Fact]
+		public void GreaterThan_GenericCollection_Failing() {
+			ICollection<Int32> collection = new List<Int32>(new[] { 1, 2, 3, 4, 5 });
+			_ = Assert.Throws<ArgumentSizeException>(() => GreaterThan<ICollection<Int32>, Int32>(collection, nameof(collection), 8));
+		}
+
+		[Fact]
+		public void GreaterThan_GenericCollection_Succeeding() {
+			ICollection<Int32> collection = new List<Int32>(new[] { 1, 2, 3, 4, 5 });
+			GreaterThan<ICollection<Int32>, Int32>(collection, nameof(collection), 3);
+		}
+
+		[Fact]
+		public void GreaterThan_Collection_Failing() {
+			ICollection collection = new ArrayList(new[] { 1, 2, 3, 4, 5 });
+			_ = Assert.Throws<ArgumentSizeException>(() => GreaterThan(collection, nameof(collection), 8));
+		}
+
 		[Theory]
 		[InlineData(5)]
 		public void NotNull_Struct_Succeeding(Int32? param) => NotNull(param, nameof(param));

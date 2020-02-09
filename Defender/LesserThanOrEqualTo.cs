@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
 namespace Defender {
@@ -11,9 +13,38 @@ namespace Defender {
 		/// 	<param name="name">The name of the argument.</param>
 		/// 	<param name="upper">The upper bound.</param>
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static void LesserThanOrEqualTo<T>(T value, string name, T upper) where T : IComparable<T> {
+		public static void LesserThanOrEqualTo<T>(T value, String name, T upper) where T : IComparable<T> {
 			if (value.CompareTo(upper) > 0) {
-				throw new ArgumentOutOfRangeException(name, $"Argument must be lesser than or equal to the lower bound '{upper}'.");
+				throw new ArgumentOutOfRangeException(name, $"Argument must be lesser than or equal to the upper bound '{upper}'.");
+			}
+		}
+
+		/// <summary>
+		/// Guard against the argument being larger than <paramref name="upper"/> bound.
+		/// </summary>
+		/// <typeparam name="C">The type of the argument; must be <see cref="ICollection"/>.</typeparam>
+		/// <param name="collection">The collection.</param>
+		/// <param name="name">The name of the argument.</param>
+		/// <param name="upper">The upper bound.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void LesserThanOrEqualTo<C>(C collection, String name, Int32 upper) where C : ICollection {
+			if (collection.Count > upper) {
+				throw new ArgumentSizeException(name, $"Argument must contain less or equal elements to the upper bound '{upper}'.");
+			}
+		}
+
+		/// <summary>
+		/// Guard against the argument being larger than <paramref name="upper"/> bound.
+		/// </summary>
+		/// <typeparam name="C">The type of the argument; must be <see cref="ICollection{T}"/> of <typeparamref name="T"/>.</typeparam>
+		/// <typeparam name="T">The type of the elements of <typeparamref name="C"/>.</typeparam>
+		/// <param name="collection">The collection.</param>
+		/// <param name="name">The name of the argument.</param>
+		/// <param name="upper">The upper bound.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void LesserThanOrEqualTo<C, T>(C collection, String name, Int32 upper) where C : ICollection<T> {
+			if (collection.Count > upper) {
+				throw new ArgumentSizeException(name, $"Argument must contain less or equal elements to the upper bound '{upper}'.");
 			}
 		}
 	}

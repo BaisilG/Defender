@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Patrick Kelly/source/repos/Defender/Documentation",
+  "source_base_path": "C:/Users/p-kel/source/repos/Defender/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -29,6 +29,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Defender.ArgumentSizeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Defender.ArgumentSizeException.html",
+          "hash": "UJrxdozb9GZrPUiBp2qYMA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Defender.ArgumentTypeException.yml",
       "output": {
         ".html": {
@@ -45,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Guard.html",
-          "hash": "+BVF/dUV7NMpdtCxIPXYPQ=="
+          "hash": "NFmJ39uFhxg0pLZznW1DmA=="
         }
       },
       "is_incremental": true,
@@ -57,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.html",
-          "hash": "765EJLH1pzsCVEzz1Pscpw=="
+          "hash": "yoP0c3rEFjn7zqLbcYkOoQ=="
         }
       },
       "is_incremental": true,
@@ -81,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "jB0eHANJX8TUrLgDij4u3A=="
+          "hash": "k0IJ5egSorg5yyaRxdhSdQ=="
         }
       },
       "is_incremental": false,
@@ -145,24 +157,24 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 5
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 6
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
         }
       }
     },
