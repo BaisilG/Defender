@@ -5,9 +5,10 @@
 	  <LangVersion>8.0</LangVersion>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Authors>Patrick Kelly</Authors>
-		<Version>0.3.0</Version>
+		<Version>0.3.1</Version>
 		<Description>No (added) overhead library for defensive programming practices. Just as efficient as hand written guard clauses.</Description>
 		<Copyright>2020</Copyright>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
