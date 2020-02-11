@@ -29,7 +29,7 @@ namespace Defender {
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static void GreaterThanOrEqualTo<T>(T[] array, String name, Int32 lower) {
 			if (array.Length <= lower) {
-				throw new ArgumentOutOfRangeException(name, $"Argument must contain more or equal elements than the lower bound '{lower}'.");
+				throw new ArgumentSizeException(name, $"Argument must contain more or equal elements than the lower bound '{lower}'.");
 			}
 		}
 
