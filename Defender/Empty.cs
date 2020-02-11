@@ -18,6 +18,19 @@ namespace Defender {
 		}
 
 		/// <summary>
+		/// Guard against the array having elements.
+		/// </summary>
+		/// <typeparam name="T">The type of the elements in the array.</typeparam>
+		/// <param name="array">The array.</param>
+		/// <param name="name">The name of the argument.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Empty<T>(T[] array, String name) {
+			if (array.Length != 0) {
+				throw new ArgumentException($"Array must be empty.", name);
+			}
+		}
+
+		/// <summary>
 		/// Guard against the collection having elements.
 		/// </summary>
 		/// <typeparam name="C">The type of the collection; must be <see cref="ICollection"/>.</typeparam>
