@@ -290,6 +290,15 @@ references:
   fullName.vb: Defender.Guard.GreaterThan(Of C)(C, System.String, System.Int32)
   nameWithType: Guard.GreaterThan<C>(C, String, Int32)
   nameWithType.vb: Guard.GreaterThan(Of C)(C, String, Int32)
+- uid: Defender.Guard.GreaterThan``1(``0[],System.String,System.Int32)
+  name: GreaterThan<T>(T[], String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_GreaterThan__1___0___System_String_System_Int32_
+  commentId: M:Defender.Guard.GreaterThan``1(``0[],System.String,System.Int32)
+  name.vb: GreaterThan(Of T)(T(), String, Int32)
+  fullName: Defender.Guard.GreaterThan<T>(T[], System.String, System.Int32)
+  fullName.vb: Defender.Guard.GreaterThan(Of T)(T(), System.String, System.Int32)
+  nameWithType: Guard.GreaterThan<T>(T[], String, Int32)
+  nameWithType.vb: Guard.GreaterThan(Of T)(T(), String, Int32)
 - uid: Defender.Guard.GreaterThan``2(``0,System.String,System.Int32)
   name: GreaterThan<C, T>(C, String, Int32)
   href: api/Defender.Guard.html#Defender_Guard_GreaterThan__2___0_System_String_System_Int32_
@@ -324,6 +333,15 @@ references:
   fullName.vb: Defender.Guard.GreaterThanOrEqualTo(Of C)(C, System.String, System.Int32)
   nameWithType: Guard.GreaterThanOrEqualTo<C>(C, String, Int32)
   nameWithType.vb: Guard.GreaterThanOrEqualTo(Of C)(C, String, Int32)
+- uid: Defender.Guard.GreaterThanOrEqualTo``1(``0[],System.String,System.Int32)
+  name: GreaterThanOrEqualTo<T>(T[], String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_GreaterThanOrEqualTo__1___0___System_String_System_Int32_
+  commentId: M:Defender.Guard.GreaterThanOrEqualTo``1(``0[],System.String,System.Int32)
+  name.vb: GreaterThanOrEqualTo(Of T)(T(), String, Int32)
+  fullName: Defender.Guard.GreaterThanOrEqualTo<T>(T[], System.String, System.Int32)
+  fullName.vb: Defender.Guard.GreaterThanOrEqualTo(Of T)(T(), System.String, System.Int32)
+  nameWithType: Guard.GreaterThanOrEqualTo<T>(T[], String, Int32)
+  nameWithType.vb: Guard.GreaterThanOrEqualTo(Of T)(T(), String, Int32)
 - uid: Defender.Guard.GreaterThanOrEqualTo``2(``0,System.String,System.Int32)
   name: GreaterThanOrEqualTo<C, T>(C, String, Int32)
   href: api/Defender.Guard.html#Defender_Guard_GreaterThanOrEqualTo__2___0_System_String_System_Int32_
@@ -358,6 +376,15 @@ references:
   fullName.vb: Defender.Guard.LesserThan(Of C)(C, System.String, System.Int32)
   nameWithType: Guard.LesserThan<C>(C, String, Int32)
   nameWithType.vb: Guard.LesserThan(Of C)(C, String, Int32)
+- uid: Defender.Guard.LesserThan``1(``0[],System.String,System.Int32)
+  name: LesserThan<T>(T[], String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_LesserThan__1___0___System_String_System_Int32_
+  commentId: M:Defender.Guard.LesserThan``1(``0[],System.String,System.Int32)
+  name.vb: LesserThan(Of T)(T(), String, Int32)
+  fullName: Defender.Guard.LesserThan<T>(T[], System.String, System.Int32)
+  fullName.vb: Defender.Guard.LesserThan(Of T)(T(), System.String, System.Int32)
+  nameWithType: Guard.LesserThan<T>(T[], String, Int32)
+  nameWithType.vb: Guard.LesserThan(Of T)(T(), String, Int32)
 - uid: Defender.Guard.LesserThan``2(``0,System.String,System.Int32)
   name: LesserThan<C, T>(C, String, Int32)
   href: api/Defender.Guard.html#Defender_Guard_LesserThan__2___0_System_String_System_Int32_
@@ -392,6 +419,15 @@ references:
   fullName.vb: Defender.Guard.LesserThanOrEqualTo(Of C)(C, System.String, System.Int32)
   nameWithType: Guard.LesserThanOrEqualTo<C>(C, String, Int32)
   nameWithType.vb: Guard.LesserThanOrEqualTo(Of C)(C, String, Int32)
+- uid: Defender.Guard.LesserThanOrEqualTo``1(``0[],System.String,System.Int32)
+  name: LesserThanOrEqualTo<T>(T[], String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_LesserThanOrEqualTo__1___0___System_String_System_Int32_
+  commentId: M:Defender.Guard.LesserThanOrEqualTo``1(``0[],System.String,System.Int32)
+  name.vb: LesserThanOrEqualTo(Of T)(T(), String, Int32)
+  fullName: Defender.Guard.LesserThanOrEqualTo<T>(T[], System.String, System.Int32)
+  fullName.vb: Defender.Guard.LesserThanOrEqualTo(Of T)(T(), System.String, System.Int32)
+  nameWithType: Guard.LesserThanOrEqualTo<T>(T[], String, Int32)
+  nameWithType.vb: Guard.LesserThanOrEqualTo(Of T)(T(), String, Int32)
 - uid: Defender.Guard.LesserThanOrEqualTo``2(``0,System.String,System.Int32)
   name: LesserThanOrEqualTo<C, T>(C, String, Int32)
   href: api/Defender.Guard.html#Defender_Guard_LesserThanOrEqualTo__2___0_System_String_System_Int32_

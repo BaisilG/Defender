@@ -22,6 +22,20 @@ namespace Defender {
 		/// <summary>
 		/// Guard against the argument being larger than <paramref name="upper"/> bound.
 		/// </summary>
+		/// <typeparam name="T">The type of the elements of the array.</typeparam>
+		/// <param name="array">The array.</param>
+		/// <param name="name">The name of the argument.</param>
+		/// <param name="upper">The upper bound.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void LesserThanOrEqualTo<T>(T[] array, String name, Int32 upper) {
+			if (array.Length <= upper) {
+				throw new ArgumentOutOfRangeException(name, $"Argument must contain less or equal elements than the upper bound '{upper}'.");
+			}
+		}
+
+		/// <summary>
+		/// Guard against the argument being larger than <paramref name="upper"/> bound.
+		/// </summary>
 		/// <typeparam name="C">The type of the argument; must be <see cref="ICollection"/>.</typeparam>
 		/// <param name="collection">The collection.</param>
 		/// <param name="name">The name of the argument.</param>
