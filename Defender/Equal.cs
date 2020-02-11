@@ -48,6 +48,36 @@ namespace Defender {
 			}
 		}
 
+#if !NETSTANDARD1_0
+		/// <summary>
+		/// Guard against the span being of different size from <paramref name="size"/>.
+		/// </summary>
+		/// <typeparam name="T">The type of the elements in the span.</typeparam>
+		/// <param name="span">The span.</param>
+		/// <param name="name">The name of the argument.</param>
+		/// <param name="size">The required size.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Equal<T>(ReadOnlySpan<T> span, String name, Int32 size) {
+			if (span.Length != size) {
+				throw new ArgumentSizeException(name, $"Span must contain '{size}' elements.");
+			}
+		}
+
+		/// <summary>
+		/// Guard against the memory being of different size from <paramref name="size"/>.
+		/// </summary>
+		/// <typeparam name="T">The type of the elements in the memory.</typeparam>
+		/// <param name="memory">The memory.</param>
+		/// <param name="name">The name of the argument.</param>
+		/// <param name="size">The required size.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Equal<T>(ReadOnlyMemory<T> memory, String name, Int32 size) {
+			if (memory.Length != size) {
+				throw new ArgumentSizeException(name, $"Span must contain '{size}' elements.");
+			}
+		}
+#endif
+
 		/// <summary>
 		/// Guard against the <paramref name="collection"/> being of different size from <paramref name="size"/>.
 		/// </summary>

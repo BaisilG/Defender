@@ -513,6 +513,58 @@ references:
   fullName.vb: Defender.Guard.NotEmpty(Of C, T)(C, System.String)
   nameWithType: Guard.NotEmpty<C, T>(C, String)
   nameWithType.vb: Guard.NotEmpty(Of C, T)(C, String)
+- uid: Defender.Guard.NotEqual*
+  name: NotEqual
+  href: api/Defender.Guard.html#Defender_Guard_NotEqual_
+  commentId: Overload:Defender.Guard.NotEqual
+  isSpec: "True"
+  fullName: Defender.Guard.NotEqual
+  nameWithType: Guard.NotEqual
+- uid: Defender.Guard.NotEqual``1(``0,System.String,``0)
+  name: NotEqual<T>(T, String, T)
+  href: api/Defender.Guard.html#Defender_Guard_NotEqual__1___0_System_String___0_
+  commentId: M:Defender.Guard.NotEqual``1(``0,System.String,``0)
+  name.vb: NotEqual(Of T)(T, String, T)
+  fullName: Defender.Guard.NotEqual<T>(T, System.String, T)
+  fullName.vb: Defender.Guard.NotEqual(Of T)(T, System.String, T)
+  nameWithType: Guard.NotEqual<T>(T, String, T)
+  nameWithType.vb: Guard.NotEqual(Of T)(T, String, T)
+- uid: Defender.Guard.NotEqual``1(``0,System.String,``0,System.String)
+  name: NotEqual<T>(T, String, T, String)
+  href: api/Defender.Guard.html#Defender_Guard_NotEqual__1___0_System_String___0_System_String_
+  commentId: M:Defender.Guard.NotEqual``1(``0,System.String,``0,System.String)
+  name.vb: NotEqual(Of T)(T, String, T, String)
+  fullName: Defender.Guard.NotEqual<T>(T, System.String, T, System.String)
+  fullName.vb: Defender.Guard.NotEqual(Of T)(T, System.String, T, System.String)
+  nameWithType: Guard.NotEqual<T>(T, String, T, String)
+  nameWithType.vb: Guard.NotEqual(Of T)(T, String, T, String)
+- uid: Defender.Guard.NotEqual``1(``0,System.String,System.Int32)
+  name: NotEqual<C>(C, String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_NotEqual__1___0_System_String_System_Int32_
+  commentId: M:Defender.Guard.NotEqual``1(``0,System.String,System.Int32)
+  name.vb: NotEqual(Of C)(C, String, Int32)
+  fullName: Defender.Guard.NotEqual<C>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guard.NotEqual(Of C)(C, System.String, System.Int32)
+  nameWithType: Guard.NotEqual<C>(C, String, Int32)
+  nameWithType.vb: Guard.NotEqual(Of C)(C, String, Int32)
+- uid: Defender.Guard.NotEqual``1(``0[],System.String,System.Int32)
+  name: NotEqual<T>(T[], String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_NotEqual__1___0___System_String_System_Int32_
+  commentId: M:Defender.Guard.NotEqual``1(``0[],System.String,System.Int32)
+  name.vb: NotEqual(Of T)(T(), String, Int32)
+  fullName: Defender.Guard.NotEqual<T>(T[], System.String, System.Int32)
+  fullName.vb: Defender.Guard.NotEqual(Of T)(T(), System.String, System.Int32)
+  nameWithType: Guard.NotEqual<T>(T[], String, Int32)
+  nameWithType.vb: Guard.NotEqual(Of T)(T(), String, Int32)
+- uid: Defender.Guard.NotEqual``2(``0,System.String,System.Int32)
+  name: NotEqual<C, T>(C, String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_NotEqual__2___0_System_String_System_Int32_
+  commentId: M:Defender.Guard.NotEqual``2(``0,System.String,System.Int32)
+  name.vb: NotEqual(Of C, T)(C, String, Int32)
+  fullName: Defender.Guard.NotEqual<C, T>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guard.NotEqual(Of C, T)(C, System.String, System.Int32)
+  nameWithType: Guard.NotEqual<C, T>(C, String, Int32)
+  nameWithType.vb: Guard.NotEqual(Of C, T)(C, String, Int32)
 - uid: Defender.Guard.NotNull*
   name: NotNull
   href: api/Defender.Guard.html#Defender_Guard_NotNull_
@@ -554,58 +606,6 @@ references:
   fullName.vb: Defender.Guard.OfType(Of T)(System.Object, System.String)
   nameWithType: Guard.OfType<T>(Object, String)
   nameWithType.vb: Guard.OfType(Of T)(Object, String)
-- uid: Defender.Guard.Unequal*
-  name: Unequal
-  href: api/Defender.Guard.html#Defender_Guard_Unequal_
-  commentId: Overload:Defender.Guard.Unequal
-  isSpec: "True"
-  fullName: Defender.Guard.Unequal
-  nameWithType: Guard.Unequal
-- uid: Defender.Guard.Unequal``1(``0,System.String,``0)
-  name: Unequal<T>(T, String, T)
-  href: api/Defender.Guard.html#Defender_Guard_Unequal__1___0_System_String___0_
-  commentId: M:Defender.Guard.Unequal``1(``0,System.String,``0)
-  name.vb: Unequal(Of T)(T, String, T)
-  fullName: Defender.Guard.Unequal<T>(T, System.String, T)
-  fullName.vb: Defender.Guard.Unequal(Of T)(T, System.String, T)
-  nameWithType: Guard.Unequal<T>(T, String, T)
-  nameWithType.vb: Guard.Unequal(Of T)(T, String, T)
-- uid: Defender.Guard.Unequal``1(``0,System.String,``0,System.String)
-  name: Unequal<T>(T, String, T, String)
-  href: api/Defender.Guard.html#Defender_Guard_Unequal__1___0_System_String___0_System_String_
-  commentId: M:Defender.Guard.Unequal``1(``0,System.String,``0,System.String)
-  name.vb: Unequal(Of T)(T, String, T, String)
-  fullName: Defender.Guard.Unequal<T>(T, System.String, T, System.String)
-  fullName.vb: Defender.Guard.Unequal(Of T)(T, System.String, T, System.String)
-  nameWithType: Guard.Unequal<T>(T, String, T, String)
-  nameWithType.vb: Guard.Unequal(Of T)(T, String, T, String)
-- uid: Defender.Guard.Unequal``1(``0,System.String,System.Int32)
-  name: Unequal<C>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_Unequal__1___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.Unequal``1(``0,System.String,System.Int32)
-  name.vb: Unequal(Of C)(C, String, Int32)
-  fullName: Defender.Guard.Unequal<C>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.Unequal(Of C)(C, System.String, System.Int32)
-  nameWithType: Guard.Unequal<C>(C, String, Int32)
-  nameWithType.vb: Guard.Unequal(Of C)(C, String, Int32)
-- uid: Defender.Guard.Unequal``1(``0[],System.String,System.Int32)
-  name: Unequal<T>(T[], String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_Unequal__1___0___System_String_System_Int32_
-  commentId: M:Defender.Guard.Unequal``1(``0[],System.String,System.Int32)
-  name.vb: Unequal(Of T)(T(), String, Int32)
-  fullName: Defender.Guard.Unequal<T>(T[], System.String, System.Int32)
-  fullName.vb: Defender.Guard.Unequal(Of T)(T(), System.String, System.Int32)
-  nameWithType: Guard.Unequal<T>(T[], String, Int32)
-  nameWithType.vb: Guard.Unequal(Of T)(T(), String, Int32)
-- uid: Defender.Guard.Unequal``2(``0,System.String,System.Int32)
-  name: Unequal<C, T>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_Unequal__2___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.Unequal``2(``0,System.String,System.Int32)
-  name.vb: Unequal(Of C, T)(C, String, Int32)
-  fullName: Defender.Guard.Unequal<C, T>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.Unequal(Of C, T)(C, System.String, System.Int32)
-  nameWithType: Guard.Unequal<C, T>(C, String, Int32)
-  nameWithType.vb: Guard.Unequal(Of C, T)(C, String, Int32)
 - uid: Defender.Guard.Valid*
   name: Valid
   href: api/Defender.Guard.html#Defender_Guard_Valid_

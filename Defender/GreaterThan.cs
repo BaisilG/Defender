@@ -33,6 +33,36 @@ namespace Defender {
 			}
 		}
 
+#if !NETSTANDARD1_0
+		/// <summary>
+		/// Guard against the argument being smaller than or equal to <paramref name="lower"/> bound.
+		/// </summary>
+		/// <typeparam name="T">The type of the elements of the span.</typeparam>
+		/// <param name="span">The span.</param>
+		/// <param name="name">The name of the argument.</param>
+		/// <param name="lower">The lower bound.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void GreaterThan<T>(ReadOnlySpan<T> span, String name, Int32 lower) {
+			if (span.Length <= lower) {
+				throw new ArgumentSizeException(name, $"Argument must contain more elements than the lower bound '{lower}'.");
+			}
+		}
+
+		/// <summary>
+		/// Guard against the argument being smaller than or equal to <paramref name="lower"/> bound.
+		/// </summary>
+		/// <typeparam name="T">The type of the elements of the memory.</typeparam>
+		/// <param name="memory">The memory.</param>
+		/// <param name="name">The name of the argument.</param>
+		/// <param name="lower">The lower bound.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void GreaterThan<T>(ReadOnlyMemory<T> memory, String name, Int32 lower) {
+			if (memory.Length <= lower) {
+				throw new ArgumentSizeException(name, $"Argument must contain more elements than the lower bound '{lower}'.");
+			}
+		}
+#endif
+
 		/// <summary>
 		/// Guard against the argument being smaller than or equal to <paramref name="lower"/> bound.
 		/// </summary>
