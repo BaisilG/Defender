@@ -12,7 +12,7 @@
           "hash": "iB4RBoeh/SLOjPvx0zWELw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "FFAqBQmEiL/ySYx1MrxHRA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "Wuk/n6HKfOyhPoS2uWThYw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "9auR5TXnTZEJO5ROgqqhhw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Claim-1.html",
-          "hash": "Y+A80U+ZbLLQLb9vQ005tA=="
+          "hash": "GJC/N2vwnbDmmBwa9RBGrw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ClaimExtensions.html",
-          "hash": "HQqCw9hos4FKmBdA9qIXmw=="
+          "hash": "qu9CT0M65I0NCVdi96Z4xg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "1ZLTHTVPvCBNiWlRLl6QAw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.IActionClaim.html",
-          "hash": "wPPM4J4tt0S5ZBSRJkis5w=="
+          "hash": "FuGeFW6LO/Rp5+xtvi5Wcw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,22 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Trial.html",
-          "hash": "HVAEnGMDYtH4smoUWjucTA=="
+          "hash": "7963ZF4oweemktNYVvzPQw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Defender.ValidatedNotNullAttributeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Defender.ValidatedNotNullAttributeAttribute.html",
+          "hash": "gg8d2Hl0yipxEvGB95+J9g=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.html",
-          "hash": "Nn1+que9BDDscrlwNoWNuQ=="
+          "hash": "Iv8N5FDtXhqjbDx98H/mSA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "OH1T4dDYDpx+fSy5dRPgtA=="
+          "hash": "gBneY+Y3cZgM/vfXQO0PyA=="
         }
       },
       "is_incremental": false,
@@ -205,13 +217,6 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
@@ -221,8 +226,15 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 10,
-          "skipped_file_count": 10
+          "total_file_count": 11,
+          "skipped_file_count": 2
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },

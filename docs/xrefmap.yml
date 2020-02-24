@@ -261,6 +261,81 @@ references:
   commentId: T:Defender.ClaimExtensions
   fullName: Defender.ClaimExtensions
   nameWithType: ClaimExtensions
+- uid: Defender.ClaimExtensions.Empty(Defender.Claim{System.String})
+  name: Empty(Claim<String>)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_Empty_Defender_Claim_System_String__
+  commentId: M:Defender.ClaimExtensions.Empty(Defender.Claim{System.String})
+  name.vb: Empty(Claim(Of String))
+  fullName: Defender.ClaimExtensions.Empty(Defender.Claim<System.String>)
+  fullName.vb: Defender.ClaimExtensions.Empty(Defender.Claim(Of System.String))
+  nameWithType: ClaimExtensions.Empty(Claim<String>)
+  nameWithType.vb: ClaimExtensions.Empty(Claim(Of String))
+- uid: Defender.ClaimExtensions.Empty*
+  name: Empty
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_Empty_
+  commentId: Overload:Defender.ClaimExtensions.Empty
+  isSpec: "True"
+  fullName: Defender.ClaimExtensions.Empty
+  nameWithType: ClaimExtensions.Empty
+- uid: Defender.ClaimExtensions.Empty``1(Defender.Claim{``0[]})
+  name: Empty<T>(Claim<T[]>)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_Empty__1_Defender_Claim___0____
+  commentId: M:Defender.ClaimExtensions.Empty``1(Defender.Claim{``0[]})
+  name.vb: Empty(Of T)(Claim(Of T()))
+  fullName: Defender.ClaimExtensions.Empty<T>(Defender.Claim<T[]>)
+  fullName.vb: Defender.ClaimExtensions.Empty(Of T)(Defender.Claim(Of T()))
+  nameWithType: ClaimExtensions.Empty<T>(Claim<T[]>)
+  nameWithType.vb: ClaimExtensions.Empty(Of T)(Claim(Of T()))
+- uid: Defender.ClaimExtensions.Empty``1(Defender.Claim{``0})
+  name: Empty<C>(Claim<C>)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_Empty__1_Defender_Claim___0__
+  commentId: M:Defender.ClaimExtensions.Empty``1(Defender.Claim{``0})
+  name.vb: Empty(Of C)(Claim(Of C))
+  fullName: Defender.ClaimExtensions.Empty<C>(Defender.Claim<C>)
+  fullName.vb: Defender.ClaimExtensions.Empty(Of C)(Defender.Claim(Of C))
+  nameWithType: ClaimExtensions.Empty<C>(Claim<C>)
+  nameWithType.vb: ClaimExtensions.Empty(Of C)(Claim(Of C))
+- uid: Defender.ClaimExtensions.Empty``2(Defender.Claim{``0})
+  name: Empty<C, T>(Claim<C>)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_Empty__2_Defender_Claim___0__
+  commentId: M:Defender.ClaimExtensions.Empty``2(Defender.Claim{``0})
+  name.vb: Empty(Of C, T)(Claim(Of C))
+  fullName: Defender.ClaimExtensions.Empty<C, T>(Defender.Claim<C>)
+  fullName.vb: Defender.ClaimExtensions.Empty(Of C, T)(Defender.Claim(Of C))
+  nameWithType: ClaimExtensions.Empty<C, T>(Claim<C>)
+  nameWithType.vb: ClaimExtensions.Empty(Of C, T)(Claim(Of C))
+- uid: Defender.ClaimExtensions.ReferenceEquals*
+  name: ReferenceEquals
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_ReferenceEquals_
+  commentId: Overload:Defender.ClaimExtensions.ReferenceEquals
+  isSpec: "True"
+  fullName: Defender.ClaimExtensions.ReferenceEquals
+  nameWithType: ClaimExtensions.ReferenceEquals
+- uid: Defender.ClaimExtensions.ReferenceEquals``1(Defender.Claim{``0},``0)
+  name: ReferenceEquals<T>(Claim<T>, T)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_ReferenceEquals__1_Defender_Claim___0____0_
+  commentId: M:Defender.ClaimExtensions.ReferenceEquals``1(Defender.Claim{``0},``0)
+  name.vb: ReferenceEquals(Of T)(Claim(Of T), T)
+  fullName: Defender.ClaimExtensions.ReferenceEquals<T>(Defender.Claim<T>, T)
+  fullName.vb: Defender.ClaimExtensions.ReferenceEquals(Of T)(Defender.Claim(Of T), T)
+  nameWithType: ClaimExtensions.ReferenceEquals<T>(Claim<T>, T)
+  nameWithType.vb: ClaimExtensions.ReferenceEquals(Of T)(Claim(Of T), T)
+- uid: Defender.ClaimExtensions.SequenceEquals*
+  name: SequenceEquals
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_SequenceEquals_
+  commentId: Overload:Defender.ClaimExtensions.SequenceEquals
+  isSpec: "True"
+  fullName: Defender.ClaimExtensions.SequenceEquals
+  nameWithType: ClaimExtensions.SequenceEquals
+- uid: Defender.ClaimExtensions.SequenceEquals``2(Defender.Claim{``0},``0)
+  name: SequenceEquals<E, T>(Claim<E>, E)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_SequenceEquals__2_Defender_Claim___0____0_
+  commentId: M:Defender.ClaimExtensions.SequenceEquals``2(Defender.Claim{``0},``0)
+  name.vb: SequenceEquals(Of E, T)(Claim(Of E), E)
+  fullName: Defender.ClaimExtensions.SequenceEquals<E, T>(Defender.Claim<E>, E)
+  fullName.vb: Defender.ClaimExtensions.SequenceEquals(Of E, T)(Defender.Claim(Of E), E)
+  nameWithType: ClaimExtensions.SequenceEquals<E, T>(Claim<E>, E)
+  nameWithType.vb: ClaimExtensions.SequenceEquals(Of E, T)(Claim(Of E), E)
 - uid: Defender.Guard
   name: Guard
   href: api/Defender.Guard.html
@@ -790,6 +865,19 @@ references:
   commentId: T:Defender.Trial
   fullName: Defender.Trial
   nameWithType: Trial
+- uid: Defender.Trial.#ctor
+  name: Trial()
+  href: api/Defender.Trial.html#Defender_Trial__ctor
+  commentId: M:Defender.Trial.#ctor
+  fullName: Defender.Trial.Trial()
+  nameWithType: Trial.Trial()
+- uid: Defender.Trial.#ctor*
+  name: Trial
+  href: api/Defender.Trial.html#Defender_Trial__ctor_
+  commentId: Overload:Defender.Trial.#ctor
+  isSpec: "True"
+  fullName: Defender.Trial.Trial
+  nameWithType: Trial.Trial
 - uid: Defender.Trial.Claim(System.Action)
   name: Claim(Action)
   href: api/Defender.Trial.html#Defender_Trial_Claim_System_Action_
@@ -857,3 +945,9 @@ references:
   fullName.vb: Defender.Trial.Claim(Of P1, P2, P3, P4, P5)(System.Action(Of P1, P2, P3, P4, P5), P1, P2, P3, P4, P5)
   nameWithType: Trial.Claim<P1, P2, P3, P4, P5>(Action<P1, P2, P3, P4, P5>, P1, P2, P3, P4, P5)
   nameWithType.vb: Trial.Claim(Of P1, P2, P3, P4, P5)(Action(Of P1, P2, P3, P4, P5), P1, P2, P3, P4, P5)
+- uid: Defender.ValidatedNotNullAttributeAttribute
+  name: ValidatedNotNullAttributeAttribute
+  href: api/Defender.ValidatedNotNullAttributeAttribute.html
+  commentId: T:Defender.ValidatedNotNullAttributeAttribute
+  fullName: Defender.ValidatedNotNullAttributeAttribute
+  nameWithType: ValidatedNotNullAttributeAttribute
