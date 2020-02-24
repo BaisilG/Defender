@@ -5,7 +5,7 @@ namespace Defender {
 	/// Base test class, which injects the <see cref="Defender"/> testing framework into the test class.
 	/// </summary>
 	public abstract class Trial {
-		private Trial() { }
+		protected Trial() { }
 
 		/// <summary>
 		/// Claims to be made about a value.
