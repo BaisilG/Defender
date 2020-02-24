@@ -1,8 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFrameworks>netstandard1.0;netstandard2.0</TargetFrameworks>
-	  <LangVersion>8.0</LangVersion>
+	<PropertyGroup>
+		<TargetFrameworks>netstandard1.0;netstandard2.0</TargetFrameworks>
+		<LangVersion>8.0</LangVersion>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -16,12 +16,12 @@
 		<RepositoryUrl>https://github.com/Entomy/Defender</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>defensive, defensive programming, guard, guards, guard clause, guard-clause</PackageTags>
-  </PropertyGroup>
+	</PropertyGroup>
 
-  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-    <PackageReference Include="System.Memory">
-      <Version>4.5.3</Version>
-    </PackageReference>
-  </ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+		<PackageReference Include="System.Memory">
+			<Version>4.5.3</Version>
+		</PackageReference>
+	</ItemGroup>
 
 </Project>
