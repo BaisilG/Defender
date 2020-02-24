@@ -2,7 +2,15 @@
 using Xunit.Sdk;
 
 namespace Defender {
+	/// <summary>
+	/// Claims to be made about an <see cref="Action"/>.
+	/// </summary>
 	public interface IActionClaim {
+		/// <summary>
+		/// Does the <see cref="Action"/> throw the <typeparamref name="E"/> when executed?
+		/// </summary>
+		/// <typeparam name="E">The expected exception type.</typeparam>
+		/// <returns>The calling <see cref="IActionClaim"/>.</returns>
 		public IActionClaim Throws<E>() where E : Exception;
 	}
 
