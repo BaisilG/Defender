@@ -5,6 +5,10 @@
         {
           "files": [ "*" ],
           "src": "../Claims"
+        },
+        {
+          "files": [ "*" ],
+          "src": "../Trials"
         }
       ],
       "dest": "api",
