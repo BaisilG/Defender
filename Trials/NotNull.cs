@@ -10,7 +10,7 @@ namespace Defender {
 		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
 		/// <returns>The calling <paramref name="claim"/>.</returns>
 		public static Claim<T?> NotNull<T>(this Claim<T?> claim) where T : class {
-			if (claim.Value is object) {
+			if (claim.Value is null) {
 				throw new NullException(claim.Value);
 			}
 			return claim;
@@ -23,7 +23,7 @@ namespace Defender {
 		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
 		/// <returns>The calling <paramref name="claim"/>.</returns>
 		public static Claim<T?> NotNull<T>(this Claim<T?> claim) where T : struct {
-			if (claim.Value.HasValue) {
+			if (!claim.Value.HasValue) {
 				throw new NullException(claim.Value);
 			}
 			return claim;

@@ -11,7 +11,7 @@ namespace Defender {
 		/// <returns>The calling <paramref name="claim"/>.</returns>
 		public static Claim<T?> Null<T>(this Claim<T?> claim) where T : class {
 			if (claim.Value is object) {
-				throw new NotNullException(claim.Value);
+				throw new NotNullException();
 			}
 			return claim;
 		}
@@ -24,7 +24,7 @@ namespace Defender {
 		/// <returns>The calling <paramref name="claim"/>.</returns>
 		public static Claim<T?> Null<T>(this Claim<T?> claim) where T : struct {
 			if (claim.Value.HasValue) {
-				throw new NotNullException(claim.Value);
+				throw new NotNullException();
 			}
 			return claim;
 		}
