@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using Xunit.Sdk;
 
 namespace Defender {
@@ -9,7 +8,8 @@ namespace Defender {
 		/// <summary>
 		/// Does the <see cref="Claim{T}"/>'d sequence equal the <paramref name="expected"/>?
 		/// </summary>
-		/// <typeparam name="T">The type of the sequence.</typeparam>
+		/// <typeparam name="Ea">The type of the actual sequence.</typeparam>
+		/// <typeparam name="Te">The type of the expected sequence.</typeparam>
 		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
 		/// <param name="expected">The expected sequence.</param>
 		/// <returns>The calling <paramref name="claim"/>.</returns>
