@@ -1,88 +1,60 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
+using Xunit.Sdk;
 
 namespace Defender {
-	public static partial class Guard {
+	public static partial class ClaimExtensions {
 		/// <summary>
-		/// Guard against the string having characters.
+		/// Is the <see cref="String"/> empty?
 		/// </summary>
-		/// <param name="string">The string.</param>
-		/// <param name="name">The name of the argument.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static void Empty(String @string, String name) {
-			if (@string.Length != 0) {
-				throw new ArgumentSizeException(name, $"String must be empty.");
+		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
+		/// <returns>The calling <paramref name="claim"/>.</returns>
+		public static Claim<String> Empty(this Claim<String> claim) {
+			if (claim.Value.Length != 0) {
+				throw new EmptyException(claim.Value);
 			}
+			return claim;
 		}
 
 		/// <summary>
-		/// Guard against the array having elements.
+		/// Is the <see cref="Array"/> empty?
 		/// </summary>
-		/// <typeparam name="T">The type of the elements in the array.</typeparam>
-		/// <param name="array">The array.</param>
-		/// <param name="name">The name of the argument.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static void Empty<T>(T[] array, String name) {
-			if (array.Length != 0) {
-				throw new ArgumentSizeException(name, $"Array must be empty.");
+		/// <typeparam name="T">The type of elements in the <see cref="Array"/>.</typeparam>
+		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
+		/// <returns>The calling <paramref name="claim"/>.</returns>
+		public static Claim<T[]> Empty<T>(this Claim<T[]> claim) {
+			if (claim.Value.Length != 0) {
+				throw new EmptyException(claim.Value);
 			}
-		}
-
-#if !NETSTANDARD1_0
-		/// <summary>
-		/// Guard against the span having elements.
-		/// </summary>
-		/// <typeparam name="T">The type of the elements in the span.</typeparam>
-		/// <param name="span">The span.</param>
-		/// <param name="name">The name of the argument.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static void Empty<T>(ReadOnlySpan<T> span, String name) {
-			if (span.Length != 0) {
-				throw new ArgumentSizeException(name, $"Span must be empty.");
-			}
+			return claim;
 		}
 
 		/// <summary>
-		/// Guard against the memory having elements.
+		/// Is the <see cref="ICollection"/> empty?
 		/// </summary>
-		/// <typeparam name="T">The type of the elements in the memory.</typeparam>
-		/// <param name="memory">The memory.</param>
-		/// <param name="name">The name of the argument.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static void Empty<T>(ReadOnlyMemory<T> memory, String name) {
-			if (memory.Length != 0) {
-				throw new ArgumentSizeException(name, $"Span must be empty.");
+		/// <typeparam name="C">The collection type.</typeparam>
+		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
+		/// <returns>The calling <paramref name="claim"/>.</returns>
+		public static Claim<C> Empty<C>(this Claim<C> claim) where C : ICollection {
+			if (claim.Value.Count != 0) {
+				throw new EmptyException(claim.Value);
 			}
-		}
-#endif
-
-		/// <summary>
-		/// Guard against the collection having elements.
-		/// </summary>
-		/// <typeparam name="C">The type of the collection; must be <see cref="ICollection"/>.</typeparam>
-		/// <param name="collection">The collection.</param>
-		/// <param name="name">The name of the argument.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static void Empty<C>(C collection, String name) where C : ICollection {
-			if (collection.Count != 0) {
-				throw new ArgumentSizeException(name, $"Collection must be empty.");
-			}
+			return claim;
 		}
 
 		/// <summary>
-		/// Guard against the collection having elements.
+		/// Is the <see cref="ICollection{T}"/> empty?
 		/// </summary>
-		/// <typeparam name="C">The type of the collection; must be <see cref="ICollection{T}"/>.</typeparam>
-		/// <typeparam name="T">The type of the elements in the collection.</typeparam>
-		/// <param name="collection">The collection.</param>
-		/// <param name="name">The name of the argument.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static void Empty<C, T>(C collection, String name) where C : ICollection<T> {
-			if (collection.Count != 0) {
-				throw new ArgumentSizeException(name, $"Collection must be empty.");
+		/// <typeparam name="C">The collection type.</typeparam>
+		/// <typeparam name="T">The type of elements in the collection.</typeparam>
+		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
+		/// <returns>The calling <paramref name="claim"/>.</returns>
+		public static Claim<C> Empty<C, T>(this Claim<C> claim) where C : ICollection<T> {
+			if (claim.Value.Count != 0) {
+				throw new EmptyException(claim.Value);
 			}
+			return claim;
 		}
 	}
 }

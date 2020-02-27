@@ -20,6 +20,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Claims", "Claims\Claims.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trials", "Trials\Trials.csproj", "{0E9E8FEF-5F8F-4D26-A8B3-34A08AA87A1C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Defender", "Defender\Defender.csproj", "{AA4B3462-B99F-46F3-8C1F-09A973B8DDFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guards", "Guards\Guards.csproj", "{CFB0C2AD-89D8-4D33-BCA3-44D8B92E34CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +50,14 @@ Global
 		{0E9E8FEF-5F8F-4D26-A8B3-34A08AA87A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E9E8FEF-5F8F-4D26-A8B3-34A08AA87A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E9E8FEF-5F8F-4D26-A8B3-34A08AA87A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4B3462-B99F-46F3-8C1F-09A973B8DDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4B3462-B99F-46F3-8C1F-09A973B8DDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4B3462-B99F-46F3-8C1F-09A973B8DDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4B3462-B99F-46F3-8C1F-09A973B8DDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB0C2AD-89D8-4D33-BCA3-44D8B92E34CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB0C2AD-89D8-4D33-BCA3-44D8B92E34CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB0C2AD-89D8-4D33-BCA3-44D8B92E34CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB0C2AD-89D8-4D33-BCA3-44D8B92E34CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Defender {
 	/// <summary>
@@ -11,6 +13,16 @@ namespace Defender {
 		/// Claims to be made about a value.
 		/// </summary>
 		public static Claim<T> Claim<T>(T value) => new Claim<T>(value);
+
+		/// <summary>
+		/// Claims to be made about a sequence.
+		/// </summary>
+		public static Claim<T[]> Claim<T>(T[] array) => new Claim<T[]>(array);
+
+		/// <summary>
+		/// Claims to be made about a sequence.
+		/// </summary>
+		public static Claim<E, T> Claim<E, T>(E sequence) where E : IEnumerable<T> => new Claim<E, T>(sequence);
 
 		/// <summary>
 		/// Claims to be made about an <see cref="Action"/>.

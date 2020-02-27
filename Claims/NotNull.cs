@@ -1,32 +1,32 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
+using Xunit.Sdk;
 
 namespace Defender {
-	public static partial class Guard {
+	public static partial class ClaimExtensions {
 		/// <summary>
-		/// Guard against the argument being <see langword="null"/>.
+		/// Is the <see langword="class"/> not null?
 		/// </summary>
-		/// <typeparam name="T">The type of the argument; must be a struct.</typeparam>
-		/// <param name="value">The <see cref="Nullable{T}"/> <typeparamref name="T"/> value.</param>
-		/// <param name="name">The name of the argument.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static void NotNull<T>(T? value, String name) where T : struct {
-			if (value is null) {
-				throw new ArgumentNullException(name);
+		/// <typeparam name="T">The <see langword="class"/> type.</typeparam>
+		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
+		/// <returns>The calling <paramref name="claim"/>.</returns>
+		public static Claim<T?> NotNull<T>(this Claim<T?> claim) where T : class {
+			if (claim.Value is null) {
+				throw new NullException(claim.Value);
 			}
+			return claim;
 		}
 
 		/// <summary>
-		/// Guard against the argument being <see langword="null"/>.
+		/// Is the <see cref="Nullable{T}"/> <see langword="struct"/> not null?
 		/// </summary>
-		/// <typeparam name="T">The type of the argument; must be a class.</typeparam>
-		/// <param name="value">The <typeparamref name="T"/> value.</param>
-		/// <param name="name">The name of the argument.</param>
-		[MethodImpl(MethodImplOptions.AggressiveInlining)]
-		public static void NotNull<T>(T? value, String name) where T : class {
-			if (value is null) {
-				throw new ArgumentNullException(name);
+		/// <typeparam name="T">The <see cref="Nullable{T}"/> <see langword="struct"/> type.</typeparam>
+		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
+		/// <returns>The calling <paramref name="claim"/>.</returns>
+		public static Claim<T?> NotNull<T>(this Claim<T?> claim) where T : struct {
+			if (!claim.Value.HasValue) {
+				throw new NullException(claim.Value);
 			}
+			return claim;
 		}
 	}
 }

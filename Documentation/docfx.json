@@ -8,6 +8,10 @@
         },
         {
           "files": [ "*" ],
+          "src": "../Guards"
+        },
+        {
+          "files": [ "*" ],
           "src": "../Trials"
         }
       ],

@@ -8,7 +8,7 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Authors>Patrick Kelly</Authors>
-		<Version>0.6.1</Version>
+		<Version>0.6.2</Version>
 		<Description>Meta package for the Defender project</Description>
 		<Copyright>2020</Copyright>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
@@ -21,8 +21,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Claims\Claims.csproj" />
-	  <ProjectReference Include="..\Trials\Trials.csproj" />
+	  <ProjectReference Include="..\Guards\Guards.csproj" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+		<ProjectReference Include="..\Claims\Claims.csproj" />
+		<ProjectReference Include="..\Trials\Trials.csproj" />
 	</ItemGroup>
 
 </Project>

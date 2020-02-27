@@ -14,8 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Claims\Claims.csproj" />
-    <ProjectReference Include="..\Trials\Trials.csproj" />
+    <ProjectReference Include="..\Defender\Defender.csproj" />
   </ItemGroup>
 
 </Project>
