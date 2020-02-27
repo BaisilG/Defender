@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ArgumentEqualException.html",
-          "hash": "l0puNZeyk6OTeTwBhqVBAQ=="
+          "hash": "IEqwtBwreJRI4SDq2ZNdtA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ArgumentInequalException.html",
-          "hash": "UZSPLAcb/ghOIIEE7UftOA=="
+          "hash": "Cx2dTRlQh0i9YgDviM4RKQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ArgumentSizeException.html",
-          "hash": "Aj/srMLkH0bQ2jdzaYsjjQ=="
+          "hash": "frI5Ou+W0vRv0yiM5REnZQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ArgumentTypeException.html",
-          "hash": "eXAdl/nvI2Z1kwa4FZo3KA=="
+          "hash": "gjJGGuLcGMj9/j3lRf/CcA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,22 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Claim-1.html",
-          "hash": "dTxGIG8FwqVIiYNH9pwL6g=="
+          "hash": "jDf50CfL2z/i5Lrg0rTXwQ=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Defender.Claim-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Defender.Claim-2.html",
-          "hash": "GAAqGW/i4klECrsCk+hapw=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ClaimExtensions.html",
-          "hash": "U1b/eVdnZc9+ZUUJYVqz2Q=="
+          "hash": "wpTANbTG1Of543+iaokM7g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Guard.html",
-          "hash": "YL6zgUUXC3Pi44tgLa5BDA=="
+          "hash": "r5EAGxaQc00gJeFjTzSsWQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.IActionClaim.html",
-          "hash": "GJ2Hxdt73c3qDvL/IPTZ1g=="
+          "hash": "9M9LbtJ6t4NIfIRhlvnBGw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Trial.html",
-          "hash": "P8/RTCee7ICzagmRIknCMw=="
+          "hash": "RCjFDpZuMCQV9MmZNN3CuA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ValidatedNotNullAttributeAttribute.html",
-          "hash": "Cewkb/etRbE191I0nV4zmw=="
+          "hash": "DRemeAuUhJPU1r/vYh5V1Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.html",
-          "hash": "FAz2xur2dkP1tmSAKiVqzw=="
+          "hash": "Iv8N5FDtXhqjbDx98H/mSA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -153,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "KCK40KlD7/QCvt8BcmnjjQ=="
+          "hash": "Vks8i1pBA2mHp3P4Bc8O1Q=="
         }
       },
       "is_incremental": true,
@@ -165,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "KQzfmPu7xt6yhiwePTfWaw=="
+          "hash": "gBneY+Y3cZgM/vfXQO0PyA=="
         }
       },
       "is_incremental": false,
@@ -177,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "01qw7FFEwAqTqReX7ju6ww=="
+          "hash": "bJsJHbMxn8ghK+1+BZaD3w=="
         }
       },
       "is_incremental": true,
@@ -201,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "8ms6U0FlXXx8TkHuNN3kqw=="
+          "hash": "VQHmeZZ836ILlgoaAeZo6A=="
         }
       },
       "is_incremental": true,
@@ -229,13 +217,6 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
@@ -245,8 +226,15 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 12,
-          "skipped_file_count": 2
+          "total_file_count": 11,
+          "skipped_file_count": 11
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },
