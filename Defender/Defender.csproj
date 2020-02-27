@@ -1,27 +1,32 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFrameworks>netstandard1.0;netstandard2.0</TargetFrameworks>
-	  <LangVersion>8.0</LangVersion>
+	<PropertyGroup>
+		<TargetFrameworks>netstandard1.0;netstandard2.0</TargetFrameworks>
+		<LangVersion>8.0</LangVersion>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Authors>Patrick Kelly</Authors>
-		<Version>0.5.0</Version>
-		<Description>No (added) overhead library for defensive programming practices. Just as efficient as hand written guard clauses.</Description>
+		<Version>0.6.2</Version>
+		<Description>Meta package for the Defender project</Description>
 		<Copyright>2020</Copyright>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/Entomy/Defender</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Entomy/Defender</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageTags>defensive, defensive programming, guard, guards, guard clause, guard-clause</PackageTags>
-  </PropertyGroup>
+		<PackageTags>defensive, defensive programming</PackageTags>
+		<AssemblyName>Defender</AssemblyName>
+		<RootNamespace>Defender</RootNamespace>
+	</PropertyGroup>
 
-  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-    <PackageReference Include="System.Memory">
-      <Version>4.5.3</Version>
-    </PackageReference>
-  </ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Guards\Guards.csproj" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+		<ProjectReference Include="..\Claims\Claims.csproj" />
+		<ProjectReference Include="..\Trials\Trials.csproj" />
+	</ItemGroup>
 
 </Project>

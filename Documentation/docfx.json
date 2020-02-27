@@ -4,7 +4,15 @@
       "src": [
         {
           "files": [ "*" ],
-          "src": "../Defender"
+          "src": "../Claims"
+        },
+        {
+          "files": [ "*" ],
+          "src": "../Guards"
+        },
+        {
+          "files": [ "*" ],
+          "src": "../Trials"
         }
       ],
       "dest": "api",

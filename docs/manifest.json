@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ArgumentEqualException.html",
-          "hash": "io8bB7KG8phHRyhPlfiyXg=="
+          "hash": "l0puNZeyk6OTeTwBhqVBAQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ArgumentInequalException.html",
-          "hash": "ojjUnTcoU1sqXj+LJ5HbNw=="
+          "hash": "UZSPLAcb/ghOIIEE7UftOA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ArgumentSizeException.html",
-          "hash": "UJrxdozb9GZrPUiBp2qYMA=="
+          "hash": "Aj/srMLkH0bQ2jdzaYsjjQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,46 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ArgumentTypeException.html",
-          "hash": "XgYALzm1BuNQCtMBtxqfUQ=="
+          "hash": "eXAdl/nvI2Z1kwa4FZo3KA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Defender.Claim-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Defender.Claim-1.html",
+          "hash": "dTxGIG8FwqVIiYNH9pwL6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Defender.Claim-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Defender.Claim-2.html",
+          "hash": "GAAqGW/i4klECrsCk+hapw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Defender.ClaimExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Defender.ClaimExtensions.html",
+          "hash": "U1b/eVdnZc9+ZUUJYVqz2Q=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,7 +93,43 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Guard.html",
-          "hash": "Val1beEe2F7/bLtNF7DaGA=="
+          "hash": "YL6zgUUXC3Pi44tgLa5BDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Defender.IActionClaim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Defender.IActionClaim.html",
+          "hash": "GJ2Hxdt73c3qDvL/IPTZ1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Defender.Trial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Defender.Trial.html",
+          "hash": "P8/RTCee7ICzagmRIknCMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Defender.ValidatedNotNullAttributeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Defender.ValidatedNotNullAttributeAttribute.html",
+          "hash": "Cewkb/etRbE191I0nV4zmw=="
         }
       },
       "is_incremental": false,
@@ -69,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.html",
-          "hash": "yoP0c3rEFjn7zqLbcYkOoQ=="
+          "hash": "FAz2xur2dkP1tmSAKiVqzw=="
         }
       },
       "is_incremental": false,
@@ -81,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "sNDFAcxlzT0/Jn2OiDo0SA=="
+          "hash": "KCK40KlD7/QCvt8BcmnjjQ=="
         }
       },
       "is_incremental": true,
@@ -93,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "k0IJ5egSorg5yyaRxdhSdQ=="
+          "hash": "KQzfmPu7xt6yhiwePTfWaw=="
         }
       },
       "is_incremental": false,
@@ -105,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "6XRDM0kwixx7AXxW9izk5Q=="
+          "hash": "01qw7FFEwAqTqReX7ju6ww=="
         }
       },
       "is_incremental": true,
@@ -129,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "gvKLEAbAQlPL00bmLljSVQ=="
+          "hash": "8ms6U0FlXXx8TkHuNN3kqw=="
         }
       },
       "is_incremental": true,
@@ -157,6 +229,13 @@
         "skipped_file_count": 0
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
@@ -166,15 +245,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 6,
-          "skipped_file_count": 5
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "total_file_count": 12,
+          "skipped_file_count": 2
         }
       }
     },

@@ -203,6 +203,116 @@ references:
   isSpec: "True"
   fullName: Defender.ArgumentTypeException.ArgumentTypeException
   nameWithType: ArgumentTypeException.ArgumentTypeException
+- uid: Defender.Claim`1
+  name: Claim<T>
+  href: api/Defender.Claim-1.html
+  commentId: T:Defender.Claim`1
+  name.vb: Claim(Of T)
+  fullName: Defender.Claim<T>
+  fullName.vb: Defender.Claim(Of T)
+  nameWithType: Claim<T>
+  nameWithType.vb: Claim(Of T)
+- uid: Defender.Claim`1.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Defender.Claim-1.html#Defender_Claim_1_Equals_System_Object_
+  commentId: M:Defender.Claim`1.Equals(System.Object)
+  fullName: Defender.Claim<T>.Equals(System.Object)
+  fullName.vb: Defender.Claim(Of T).Equals(System.Object)
+  nameWithType: Claim<T>.Equals(Object)
+  nameWithType.vb: Claim(Of T).Equals(Object)
+- uid: Defender.Claim`1.Equals*
+  name: Equals
+  href: api/Defender.Claim-1.html#Defender_Claim_1_Equals_
+  commentId: Overload:Defender.Claim`1.Equals
+  isSpec: "True"
+  fullName: Defender.Claim<T>.Equals
+  fullName.vb: Defender.Claim(Of T).Equals
+  nameWithType: Claim<T>.Equals
+  nameWithType.vb: Claim(Of T).Equals
+- uid: Defender.Claim`1.Equals``1(``0)
+  name: Equals<Te>(Te)
+  href: api/Defender.Claim-1.html#Defender_Claim_1_Equals__1___0_
+  commentId: M:Defender.Claim`1.Equals``1(``0)
+  name.vb: Equals(Of Te)(Te)
+  fullName: Defender.Claim<T>.Equals<Te>(Te)
+  fullName.vb: Defender.Claim(Of T).Equals(Of Te)(Te)
+  nameWithType: Claim<T>.Equals<Te>(Te)
+  nameWithType.vb: Claim(Of T).Equals(Of Te)(Te)
+- uid: Defender.Claim`1.Value
+  name: Value
+  href: api/Defender.Claim-1.html#Defender_Claim_1_Value
+  commentId: P:Defender.Claim`1.Value
+  fullName: Defender.Claim<T>.Value
+  fullName.vb: Defender.Claim(Of T).Value
+  nameWithType: Claim<T>.Value
+  nameWithType.vb: Claim(Of T).Value
+- uid: Defender.Claim`1.Value*
+  name: Value
+  href: api/Defender.Claim-1.html#Defender_Claim_1_Value_
+  commentId: Overload:Defender.Claim`1.Value
+  isSpec: "True"
+  fullName: Defender.Claim<T>.Value
+  fullName.vb: Defender.Claim(Of T).Value
+  nameWithType: Claim<T>.Value
+  nameWithType.vb: Claim(Of T).Value
+- uid: Defender.Claim`2
+  name: Claim<E, T>
+  href: api/Defender.Claim-2.html
+  commentId: T:Defender.Claim`2
+  name.vb: Claim(Of E, T)
+  fullName: Defender.Claim<E, T>
+  fullName.vb: Defender.Claim(Of E, T)
+  nameWithType: Claim<E, T>
+  nameWithType.vb: Claim(Of E, T)
+- uid: Defender.Claim`2.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Defender.Claim-2.html#Defender_Claim_2_Equals_System_Object_
+  commentId: M:Defender.Claim`2.Equals(System.Object)
+  fullName: Defender.Claim<E, T>.Equals(System.Object)
+  fullName.vb: Defender.Claim(Of E, T).Equals(System.Object)
+  nameWithType: Claim<E, T>.Equals(Object)
+  nameWithType.vb: Claim(Of E, T).Equals(Object)
+- uid: Defender.Claim`2.Equals*
+  name: Equals
+  href: api/Defender.Claim-2.html#Defender_Claim_2_Equals_
+  commentId: Overload:Defender.Claim`2.Equals
+  isSpec: "True"
+  fullName: Defender.Claim<E, T>.Equals
+  fullName.vb: Defender.Claim(Of E, T).Equals
+  nameWithType: Claim<E, T>.Equals
+  nameWithType.vb: Claim(Of E, T).Equals
+- uid: Defender.Claim`2.Equals``1(``0)
+  name: Equals<Ee>(Ee)
+  href: api/Defender.Claim-2.html#Defender_Claim_2_Equals__1___0_
+  commentId: M:Defender.Claim`2.Equals``1(``0)
+  name.vb: Equals(Of Ee)(Ee)
+  fullName: Defender.Claim<E, T>.Equals<Ee>(Ee)
+  fullName.vb: Defender.Claim(Of E, T).Equals(Of Ee)(Ee)
+  nameWithType: Claim<E, T>.Equals<Ee>(Ee)
+  nameWithType.vb: Claim(Of E, T).Equals(Of Ee)(Ee)
+- uid: Defender.Claim`2.Value
+  name: Value
+  href: api/Defender.Claim-2.html#Defender_Claim_2_Value
+  commentId: P:Defender.Claim`2.Value
+  fullName: Defender.Claim<E, T>.Value
+  fullName.vb: Defender.Claim(Of E, T).Value
+  nameWithType: Claim<E, T>.Value
+  nameWithType.vb: Claim(Of E, T).Value
+- uid: Defender.Claim`2.Value*
+  name: Value
+  href: api/Defender.Claim-2.html#Defender_Claim_2_Value_
+  commentId: Overload:Defender.Claim`2.Value
+  isSpec: "True"
+  fullName: Defender.Claim<E, T>.Value
+  fullName.vb: Defender.Claim(Of E, T).Value
+  nameWithType: Claim<E, T>.Value
+  nameWithType.vb: Claim(Of E, T).Value
+- uid: Defender.ClaimExtensions
+  name: ClaimExtensions
+  href: api/Defender.ClaimExtensions.html
+  commentId: T:Defender.ClaimExtensions
+  fullName: Defender.ClaimExtensions
+  nameWithType: ClaimExtensions
 - uid: Defender.Guard
   name: Guard
   href: api/Defender.Guard.html
@@ -704,3 +814,135 @@ references:
   fullName.vb: Defender.Guard.Within(Of T)(T, System.String, T, T, System.Boolean)
   nameWithType: Guard.Within<T>(T, String, T, T, Boolean)
   nameWithType.vb: Guard.Within(Of T)(T, String, T, T, Boolean)
+- uid: Defender.IActionClaim
+  name: IActionClaim
+  href: api/Defender.IActionClaim.html
+  commentId: T:Defender.IActionClaim
+  fullName: Defender.IActionClaim
+  nameWithType: IActionClaim
+- uid: Defender.IActionClaim.Throws*
+  name: Throws
+  href: api/Defender.IActionClaim.html#Defender_IActionClaim_Throws_
+  commentId: Overload:Defender.IActionClaim.Throws
+  isSpec: "True"
+  fullName: Defender.IActionClaim.Throws
+  nameWithType: IActionClaim.Throws
+- uid: Defender.IActionClaim.Throws``1
+  name: Throws<E>()
+  href: api/Defender.IActionClaim.html#Defender_IActionClaim_Throws__1
+  commentId: M:Defender.IActionClaim.Throws``1
+  name.vb: Throws(Of E)()
+  fullName: Defender.IActionClaim.Throws<E>()
+  fullName.vb: Defender.IActionClaim.Throws(Of E)()
+  nameWithType: IActionClaim.Throws<E>()
+  nameWithType.vb: IActionClaim.Throws(Of E)()
+- uid: Defender.Trial
+  name: Trial
+  href: api/Defender.Trial.html
+  commentId: T:Defender.Trial
+  fullName: Defender.Trial
+  nameWithType: Trial
+- uid: Defender.Trial.#ctor
+  name: Trial()
+  href: api/Defender.Trial.html#Defender_Trial__ctor
+  commentId: M:Defender.Trial.#ctor
+  fullName: Defender.Trial.Trial()
+  nameWithType: Trial.Trial()
+- uid: Defender.Trial.#ctor*
+  name: Trial
+  href: api/Defender.Trial.html#Defender_Trial__ctor_
+  commentId: Overload:Defender.Trial.#ctor
+  isSpec: "True"
+  fullName: Defender.Trial.Trial
+  nameWithType: Trial.Trial
+- uid: Defender.Trial.Claim(System.Action)
+  name: Claim(Action)
+  href: api/Defender.Trial.html#Defender_Trial_Claim_System_Action_
+  commentId: M:Defender.Trial.Claim(System.Action)
+  fullName: Defender.Trial.Claim(System.Action)
+  nameWithType: Trial.Claim(Action)
+- uid: Defender.Trial.Claim*
+  name: Claim
+  href: api/Defender.Trial.html#Defender_Trial_Claim_
+  commentId: Overload:Defender.Trial.Claim
+  isSpec: "True"
+  fullName: Defender.Trial.Claim
+  nameWithType: Trial.Claim
+- uid: Defender.Trial.Claim``1(``0)
+  name: Claim<T>(T)
+  href: api/Defender.Trial.html#Defender_Trial_Claim__1___0_
+  commentId: M:Defender.Trial.Claim``1(``0)
+  name.vb: Claim(Of T)(T)
+  fullName: Defender.Trial.Claim<T>(T)
+  fullName.vb: Defender.Trial.Claim(Of T)(T)
+  nameWithType: Trial.Claim<T>(T)
+  nameWithType.vb: Trial.Claim(Of T)(T)
+- uid: Defender.Trial.Claim``1(``0[])
+  name: Claim<T>(T[])
+  href: api/Defender.Trial.html#Defender_Trial_Claim__1___0___
+  commentId: M:Defender.Trial.Claim``1(``0[])
+  name.vb: Claim(Of T)(T())
+  fullName: Defender.Trial.Claim<T>(T[])
+  fullName.vb: Defender.Trial.Claim(Of T)(T())
+  nameWithType: Trial.Claim<T>(T[])
+  nameWithType.vb: Trial.Claim(Of T)(T())
+- uid: Defender.Trial.Claim``1(System.Action{``0},``0)
+  name: Claim<P1>(Action<P1>, P1)
+  href: api/Defender.Trial.html#Defender_Trial_Claim__1_System_Action___0____0_
+  commentId: M:Defender.Trial.Claim``1(System.Action{``0},``0)
+  name.vb: Claim(Of P1)(Action(Of P1), P1)
+  fullName: Defender.Trial.Claim<P1>(System.Action<P1>, P1)
+  fullName.vb: Defender.Trial.Claim(Of P1)(System.Action(Of P1), P1)
+  nameWithType: Trial.Claim<P1>(Action<P1>, P1)
+  nameWithType.vb: Trial.Claim(Of P1)(Action(Of P1), P1)
+- uid: Defender.Trial.Claim``2(``0)
+  name: Claim<E, T>(E)
+  href: api/Defender.Trial.html#Defender_Trial_Claim__2___0_
+  commentId: M:Defender.Trial.Claim``2(``0)
+  name.vb: Claim(Of E, T)(E)
+  fullName: Defender.Trial.Claim<E, T>(E)
+  fullName.vb: Defender.Trial.Claim(Of E, T)(E)
+  nameWithType: Trial.Claim<E, T>(E)
+  nameWithType.vb: Trial.Claim(Of E, T)(E)
+- uid: Defender.Trial.Claim``2(System.Action{``0,``1},``0,``1)
+  name: Claim<P1, P2>(Action<P1, P2>, P1, P2)
+  href: api/Defender.Trial.html#Defender_Trial_Claim__2_System_Action___0___1____0___1_
+  commentId: M:Defender.Trial.Claim``2(System.Action{``0,``1},``0,``1)
+  name.vb: Claim(Of P1, P2)(Action(Of P1, P2), P1, P2)
+  fullName: Defender.Trial.Claim<P1, P2>(System.Action<P1, P2>, P1, P2)
+  fullName.vb: Defender.Trial.Claim(Of P1, P2)(System.Action(Of P1, P2), P1, P2)
+  nameWithType: Trial.Claim<P1, P2>(Action<P1, P2>, P1, P2)
+  nameWithType.vb: Trial.Claim(Of P1, P2)(Action(Of P1, P2), P1, P2)
+- uid: Defender.Trial.Claim``3(System.Action{``0,``1,``2},``0,``1,``2)
+  name: Claim<P1, P2, P3>(Action<P1, P2, P3>, P1, P2, P3)
+  href: api/Defender.Trial.html#Defender_Trial_Claim__3_System_Action___0___1___2____0___1___2_
+  commentId: M:Defender.Trial.Claim``3(System.Action{``0,``1,``2},``0,``1,``2)
+  name.vb: Claim(Of P1, P2, P3)(Action(Of P1, P2, P3), P1, P2, P3)
+  fullName: Defender.Trial.Claim<P1, P2, P3>(System.Action<P1, P2, P3>, P1, P2, P3)
+  fullName.vb: Defender.Trial.Claim(Of P1, P2, P3)(System.Action(Of P1, P2, P3), P1, P2, P3)
+  nameWithType: Trial.Claim<P1, P2, P3>(Action<P1, P2, P3>, P1, P2, P3)
+  nameWithType.vb: Trial.Claim(Of P1, P2, P3)(Action(Of P1, P2, P3), P1, P2, P3)
+- uid: Defender.Trial.Claim``4(System.Action{``0,``1,``2,``3},``0,``1,``2,``3)
+  name: Claim<P1, P2, P3, P4>(Action<P1, P2, P3, P4>, P1, P2, P3, P4)
+  href: api/Defender.Trial.html#Defender_Trial_Claim__4_System_Action___0___1___2___3____0___1___2___3_
+  commentId: M:Defender.Trial.Claim``4(System.Action{``0,``1,``2,``3},``0,``1,``2,``3)
+  name.vb: Claim(Of P1, P2, P3, P4)(Action(Of P1, P2, P3, P4), P1, P2, P3, P4)
+  fullName: Defender.Trial.Claim<P1, P2, P3, P4>(System.Action<P1, P2, P3, P4>, P1, P2, P3, P4)
+  fullName.vb: Defender.Trial.Claim(Of P1, P2, P3, P4)(System.Action(Of P1, P2, P3, P4), P1, P2, P3, P4)
+  nameWithType: Trial.Claim<P1, P2, P3, P4>(Action<P1, P2, P3, P4>, P1, P2, P3, P4)
+  nameWithType.vb: Trial.Claim(Of P1, P2, P3, P4)(Action(Of P1, P2, P3, P4), P1, P2, P3, P4)
+- uid: Defender.Trial.Claim``5(System.Action{``0,``1,``2,``3,``4},``0,``1,``2,``3,``4)
+  name: Claim<P1, P2, P3, P4, P5>(Action<P1, P2, P3, P4, P5>, P1, P2, P3, P4, P5)
+  href: api/Defender.Trial.html#Defender_Trial_Claim__5_System_Action___0___1___2___3___4____0___1___2___3___4_
+  commentId: M:Defender.Trial.Claim``5(System.Action{``0,``1,``2,``3,``4},``0,``1,``2,``3,``4)
+  name.vb: Claim(Of P1, P2, P3, P4, P5)(Action(Of P1, P2, P3, P4, P5), P1, P2, P3, P4, P5)
+  fullName: Defender.Trial.Claim<P1, P2, P3, P4, P5>(System.Action<P1, P2, P3, P4, P5>, P1, P2, P3, P4, P5)
+  fullName.vb: Defender.Trial.Claim(Of P1, P2, P3, P4, P5)(System.Action(Of P1, P2, P3, P4, P5), P1, P2, P3, P4, P5)
+  nameWithType: Trial.Claim<P1, P2, P3, P4, P5>(Action<P1, P2, P3, P4, P5>, P1, P2, P3, P4, P5)
+  nameWithType.vb: Trial.Claim(Of P1, P2, P3, P4, P5)(Action(Of P1, P2, P3, P4, P5), P1, P2, P3, P4, P5)
+- uid: Defender.ValidatedNotNullAttributeAttribute
+  name: ValidatedNotNullAttributeAttribute
+  href: api/Defender.ValidatedNotNullAttributeAttribute.html
+  commentId: T:Defender.ValidatedNotNullAttributeAttribute
+  fullName: Defender.ValidatedNotNullAttributeAttribute
+  nameWithType: ValidatedNotNullAttributeAttribute
