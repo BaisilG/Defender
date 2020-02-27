@@ -42,19 +42,5 @@ namespace Defender {
 			}
 			return claim;
 		}
-
-		/// <summary>
-		/// Is the <see cref="ICollection{T}"/> empty?
-		/// </summary>
-		/// <typeparam name="C">The collection type.</typeparam>
-		/// <typeparam name="T">The type of elements in the collection.</typeparam>
-		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
-		/// <returns>The calling <paramref name="claim"/>.</returns>
-		public static Claim<C> Empty<C, T>(this Claim<C> claim) where C : ICollection<T> {
-			if (claim.Value.Count != 0) {
-				throw new EmptyException(claim.Value);
-			}
-			return claim;
-		}
 	}
 }

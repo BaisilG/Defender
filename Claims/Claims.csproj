@@ -20,12 +20,6 @@
 		<RootNamespace>Defender</RootNamespace>
 	</PropertyGroup>
 
-	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-		<PackageReference Include="System.Memory">
-			<Version>4.5.3</Version>
-		</PackageReference>
-	</ItemGroup>
-
 	<ItemGroup>
 	  <ProjectReference Include="..\Trials\Trials.csproj" />
 	</ItemGroup>
