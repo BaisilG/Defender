@@ -384,24 +384,15 @@ references:
   isSpec: "True"
   fullName: Defender.ClaimExtensions.SequenceEquals
   nameWithType: ClaimExtensions.SequenceEquals
-- uid: Defender.ClaimExtensions.SequenceEquals``1(Defender.Claim{``0[]},``0[])
-  name: SequenceEquals<T>(Claim<T[]>, T[])
-  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_SequenceEquals__1_Defender_Claim___0______0___
-  commentId: M:Defender.ClaimExtensions.SequenceEquals``1(Defender.Claim{``0[]},``0[])
-  name.vb: SequenceEquals(Of T)(Claim(Of T()), T())
-  fullName: Defender.ClaimExtensions.SequenceEquals<T>(Defender.Claim<T[]>, T[])
-  fullName.vb: Defender.ClaimExtensions.SequenceEquals(Of T)(Defender.Claim(Of T()), T())
-  nameWithType: ClaimExtensions.SequenceEquals<T>(Claim<T[]>, T[])
-  nameWithType.vb: ClaimExtensions.SequenceEquals(Of T)(Claim(Of T()), T())
-- uid: Defender.ClaimExtensions.SequenceEquals``1(Defender.Claim{``0},``0)
-  name: SequenceEquals<T>(Claim<T>, T)
-  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_SequenceEquals__1_Defender_Claim___0____0_
-  commentId: M:Defender.ClaimExtensions.SequenceEquals``1(Defender.Claim{``0},``0)
-  name.vb: SequenceEquals(Of T)(Claim(Of T), T)
-  fullName: Defender.ClaimExtensions.SequenceEquals<T>(Defender.Claim<T>, T)
-  fullName.vb: Defender.ClaimExtensions.SequenceEquals(Of T)(Defender.Claim(Of T), T)
-  nameWithType: ClaimExtensions.SequenceEquals<T>(Claim<T>, T)
-  nameWithType.vb: ClaimExtensions.SequenceEquals(Of T)(Claim(Of T), T)
+- uid: Defender.ClaimExtensions.SequenceEquals``2(Defender.Claim{``0},``1)
+  name: SequenceEquals<Ta, Te>(Claim<Ta>, Te)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_SequenceEquals__2_Defender_Claim___0____1_
+  commentId: M:Defender.ClaimExtensions.SequenceEquals``2(Defender.Claim{``0},``1)
+  name.vb: SequenceEquals(Of Ta, Te)(Claim(Of Ta), Te)
+  fullName: Defender.ClaimExtensions.SequenceEquals<Ta, Te>(Defender.Claim<Ta>, Te)
+  fullName.vb: Defender.ClaimExtensions.SequenceEquals(Of Ta, Te)(Defender.Claim(Of Ta), Te)
+  nameWithType: ClaimExtensions.SequenceEquals<Ta, Te>(Claim<Ta>, Te)
+  nameWithType.vb: ClaimExtensions.SequenceEquals(Of Ta, Te)(Claim(Of Ta), Te)
 - uid: Defender.ClaimExtensions.True(Defender.Claim{System.Boolean})
   name: True(Claim<Boolean>)
   href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_True_Defender_Claim_System_Boolean__
