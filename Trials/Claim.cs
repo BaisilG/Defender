@@ -7,7 +7,7 @@ namespace Defender {
 	/// <summary>
 	/// Claims to be made about a value.
 	/// </summary>
-	public sealed class Claim<T> {
+	public class Claim<T> {
 		internal Claim(T value) => Value = value;
 
 		/// <summary>

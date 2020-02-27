@@ -26,6 +26,11 @@ namespace Tests {
 		public void Claim_False() => Claim(false).False();
 
 		[Theory]
+		[InlineData("", "a")]
+		[InlineData("a", "")]
+		public void Claim_NotEquals(String actual, String expected) => Claim(actual).NotEquals(expected);
+
+		[Theory]
 		[InlineData("")]
 		public void Claim_NotNull<T>(T actual) where T : class => Claim(actual).NotNull();
 

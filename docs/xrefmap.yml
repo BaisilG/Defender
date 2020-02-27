@@ -311,6 +311,31 @@ references:
   isSpec: "True"
   fullName: Defender.ClaimExtensions.False
   nameWithType: ClaimExtensions.False
+- uid: Defender.ClaimExtensions.NotEquals(Defender.Claim{System.String},System.String)
+  name: NotEquals(Claim<String>, String)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_NotEquals_Defender_Claim_System_String__System_String_
+  commentId: M:Defender.ClaimExtensions.NotEquals(Defender.Claim{System.String},System.String)
+  name.vb: NotEquals(Claim(Of String), String)
+  fullName: Defender.ClaimExtensions.NotEquals(Defender.Claim<System.String>, System.String)
+  fullName.vb: Defender.ClaimExtensions.NotEquals(Defender.Claim(Of System.String), System.String)
+  nameWithType: ClaimExtensions.NotEquals(Claim<String>, String)
+  nameWithType.vb: ClaimExtensions.NotEquals(Claim(Of String), String)
+- uid: Defender.ClaimExtensions.NotEquals(Defender.Claim{System.String},System.String,System.StringComparison)
+  name: NotEquals(Claim<String>, String, StringComparison)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_NotEquals_Defender_Claim_System_String__System_String_System_StringComparison_
+  commentId: M:Defender.ClaimExtensions.NotEquals(Defender.Claim{System.String},System.String,System.StringComparison)
+  name.vb: NotEquals(Claim(Of String), String, StringComparison)
+  fullName: Defender.ClaimExtensions.NotEquals(Defender.Claim<System.String>, System.String, System.StringComparison)
+  fullName.vb: Defender.ClaimExtensions.NotEquals(Defender.Claim(Of System.String), System.String, System.StringComparison)
+  nameWithType: ClaimExtensions.NotEquals(Claim<String>, String, StringComparison)
+  nameWithType.vb: ClaimExtensions.NotEquals(Claim(Of String), String, StringComparison)
+- uid: Defender.ClaimExtensions.NotEquals*
+  name: NotEquals
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_NotEquals_
+  commentId: Overload:Defender.ClaimExtensions.NotEquals
+  isSpec: "True"
+  fullName: Defender.ClaimExtensions.NotEquals
+  nameWithType: ClaimExtensions.NotEquals
 - uid: Defender.ClaimExtensions.NotNull*
   name: NotNull
   href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_NotNull_
@@ -916,6 +941,31 @@ references:
   fullName.vb: Defender.IActionClaim.Throws(Of E)()
   nameWithType: IActionClaim.Throws<E>()
   nameWithType.vb: IActionClaim.Throws(Of E)()
+- uid: Defender.StringClaim
+  name: StringClaim
+  href: api/Defender.StringClaim.html
+  commentId: T:Defender.StringClaim
+  fullName: Defender.StringClaim
+  nameWithType: StringClaim
+- uid: Defender.StringClaim.Equals(System.String)
+  name: Equals(String)
+  href: api/Defender.StringClaim.html#Defender_StringClaim_Equals_System_String_
+  commentId: M:Defender.StringClaim.Equals(System.String)
+  fullName: Defender.StringClaim.Equals(System.String)
+  nameWithType: StringClaim.Equals(String)
+- uid: Defender.StringClaim.Equals(System.String,System.StringComparison)
+  name: Equals(String, StringComparison)
+  href: api/Defender.StringClaim.html#Defender_StringClaim_Equals_System_String_System_StringComparison_
+  commentId: M:Defender.StringClaim.Equals(System.String,System.StringComparison)
+  fullName: Defender.StringClaim.Equals(System.String, System.StringComparison)
+  nameWithType: StringClaim.Equals(String, StringComparison)
+- uid: Defender.StringClaim.Equals*
+  name: Equals
+  href: api/Defender.StringClaim.html#Defender_StringClaim_Equals_
+  commentId: Overload:Defender.StringClaim.Equals
+  isSpec: "True"
+  fullName: Defender.StringClaim.Equals
+  nameWithType: StringClaim.Equals
 - uid: Defender.Trial
   name: Trial
   href: api/Defender.Trial.html
@@ -941,6 +991,12 @@ references:
   commentId: M:Defender.Trial.Claim(System.Action)
   fullName: Defender.Trial.Claim(System.Action)
   nameWithType: Trial.Claim(Action)
+- uid: Defender.Trial.Claim(System.String)
+  name: Claim(String)
+  href: api/Defender.Trial.html#Defender_Trial_Claim_System_String_
+  commentId: M:Defender.Trial.Claim(System.String)
+  fullName: Defender.Trial.Claim(System.String)
+  nameWithType: Trial.Claim(String)
 - uid: Defender.Trial.Claim*
   name: Claim
   href: api/Defender.Trial.html#Defender_Trial_Claim_

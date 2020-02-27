@@ -10,6 +10,11 @@ namespace Defender {
 		protected Trial() { }
 
 		/// <summary>
+		/// Claims to be made about a <see cref="String"/>.
+		/// </summary>
+		public static Claim<String> Claim(String @string) => new Claim<String>(@string);
+
+		/// <summary>
 		/// Claims to be made about a value.
 		/// </summary>
 		public static Claim<T> Claim<T>(T value) => new Claim<T>(value);
