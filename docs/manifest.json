@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Claim-1.html",
-          "hash": "jDf50CfL2z/i5Lrg0rTXwQ=="
+          "hash": "sAerc6tP2N7aTzr5kAGPqA=="
         }
       },
       "is_incremental": true,
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ClaimExtensions.html",
-          "hash": "ng+pAY0Q9a4PdS0eoNeNEg=="
+          "hash": "qudqdILXh7YBa151/ou0ug=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.IActionClaim.html",
-          "hash": "9M9LbtJ6t4NIfIRhlvnBGw=="
+          "hash": "r43uYc1HtM/aK1fZ6tSxAg=="
         }
       },
       "is_incremental": true,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Trial.html",
-          "hash": "RCjFDpZuMCQV9MmZNN3CuA=="
+          "hash": "o2OdQqyQy+31ZuhWVkvuhQ=="
         }
       },
       "is_incremental": true,
@@ -132,7 +132,7 @@
           "hash": "Iv8N5FDtXhqjbDx98H/mSA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -224,17 +224,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 11,
-          "skipped_file_count": 10
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
           "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 11,
+          "skipped_file_count": 11
         }
       }
     },

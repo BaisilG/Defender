@@ -15,11 +15,6 @@ namespace Defender {
 		public static Claim<T> Claim<T>(T value) => new Claim<T>(value);
 
 		/// <summary>
-		/// Claims to be made about a sequence.
-		/// </summary>
-		public static Claim<T[]> Claim<T>(T[] array) => new Claim<T[]>(array);
-
-		/// <summary>
 		/// Claims to be made about an <see cref="Action"/>.
 		/// </summary>
 		public static IActionClaim Claim(Action action) => new ActionClaim(action);

@@ -377,22 +377,6 @@ references:
   fullName.vb: Defender.ClaimExtensions.ReferenceEquals(Of T)(Defender.Claim(Of T), T)
   nameWithType: ClaimExtensions.ReferenceEquals<T>(Claim<T>, T)
   nameWithType.vb: ClaimExtensions.ReferenceEquals(Of T)(Claim(Of T), T)
-- uid: Defender.ClaimExtensions.SequenceEquals*
-  name: SequenceEquals
-  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_SequenceEquals_
-  commentId: Overload:Defender.ClaimExtensions.SequenceEquals
-  isSpec: "True"
-  fullName: Defender.ClaimExtensions.SequenceEquals
-  nameWithType: ClaimExtensions.SequenceEquals
-- uid: Defender.ClaimExtensions.SequenceEquals``2(Defender.Claim{``0},``1)
-  name: SequenceEquals<Ta, Te>(Claim<Ta>, Te)
-  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_SequenceEquals__2_Defender_Claim___0____1_
-  commentId: M:Defender.ClaimExtensions.SequenceEquals``2(Defender.Claim{``0},``1)
-  name.vb: SequenceEquals(Of Ta, Te)(Claim(Of Ta), Te)
-  fullName: Defender.ClaimExtensions.SequenceEquals<Ta, Te>(Defender.Claim<Ta>, Te)
-  fullName.vb: Defender.ClaimExtensions.SequenceEquals(Of Ta, Te)(Defender.Claim(Of Ta), Te)
-  nameWithType: ClaimExtensions.SequenceEquals<Ta, Te>(Claim<Ta>, Te)
-  nameWithType.vb: ClaimExtensions.SequenceEquals(Of Ta, Te)(Claim(Of Ta), Te)
 - uid: Defender.ClaimExtensions.True(Defender.Claim{System.Boolean})
   name: True(Claim<Boolean>)
   href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_True_Defender_Claim_System_Boolean__
@@ -973,15 +957,6 @@ references:
   fullName.vb: Defender.Trial.Claim(Of T)(T)
   nameWithType: Trial.Claim<T>(T)
   nameWithType.vb: Trial.Claim(Of T)(T)
-- uid: Defender.Trial.Claim``1(``0[])
-  name: Claim<T>(T[])
-  href: api/Defender.Trial.html#Defender_Trial_Claim__1___0___
-  commentId: M:Defender.Trial.Claim``1(``0[])
-  name.vb: Claim(Of T)(T())
-  fullName: Defender.Trial.Claim<T>(T[])
-  fullName.vb: Defender.Trial.Claim(Of T)(T())
-  nameWithType: Trial.Claim<T>(T[])
-  nameWithType.vb: Trial.Claim(Of T)(T())
 - uid: Defender.Trial.Claim``1(System.Action{``0},``0)
   name: Claim<P1>(Action<P1>, P1)
   href: api/Defender.Trial.html#Defender_Trial_Claim__1_System_Action___0____0_
