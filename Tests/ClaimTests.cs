@@ -34,6 +34,7 @@ namespace Tests {
 		[InlineData("")]
 		public void Claim_NotNull<T>(T actual) where T : class => Claim(actual).NotNull();
 
+		// This seemingly obtuse work around is required because Claim(null) resolves to Claim(Action action). In normal use, a null object will resolve to the expected type.
 		[Theory]
 		[InlineData(null)]
 		public void Claim_Null(Object actual) => Claim(actual).Null();
