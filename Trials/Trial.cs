@@ -20,23 +20,6 @@ namespace Defender {
 		public static Claim<T> Claim<T>(T value) => new Claim<T>(value);
 
 		/// <summary>
-		/// Claims to be made about a sequence.
-		/// </summary>
-		/// <param name="sequence"></param>
-		/// <returns></returns>
-		public static Claim<IEnumerable> Claim(IEnumerable sequence) => new Claim<IEnumerable>(sequence);
-
-		/// <summary>
-		/// Claims to be made about a sequence.
-		/// </summary>
-		public static Claim<IEnumerable<T>> Claim<T>(IEnumerable<T> sequence) => new Claim<IEnumerable<T>>(sequence);
-
-		/// <summary>
-		/// Claims to be made about an array.
-		/// </summary>
-		public static Claim<IEnumerable<T>> Claim<T>(T[] array) => new Claim<IEnumerable<T>>(array);
-
-		/// <summary>
 		/// Claims to be made about an <see cref="Action"/>.
 		/// </summary>
 		public static IActionClaim Claim(Action action) => new ActionClaim(action);
