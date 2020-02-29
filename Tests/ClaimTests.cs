@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Text;
 using Defender;
 using Xunit;
 
@@ -25,6 +26,13 @@ namespace Tests {
 		[InlineData("", "")]
 		[InlineData("hello", "hello")]
 		public void Claim_Equals<T>(T actual, T expected) => Claim(actual).Equals(expected);
+
+		[Theory]
+		[InlineData("aa", "AA", StringComparison.OrdinalIgnoreCase)]
+		[InlineData("encyclopedia", "encyclopedia", StringComparison.InvariantCulture)]
+		[InlineData("encyclopædia", "encyclopaedia", StringComparison.InvariantCulture)]
+		[InlineData("encyclopaedia", "encyclopædia", StringComparison.InvariantCulture)]
+		public void Claim_Equals_String(String actual, String expected, StringComparison comparisonType) => Claim(actual).Equals(expected, comparisonType);
 
 		[Fact]
 		public void Claim_False() => Claim(false).False();
