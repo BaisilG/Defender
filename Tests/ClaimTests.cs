@@ -11,6 +11,10 @@ namespace Tests {
 	[SuppressMessage("Blocker Code Smell", "S2699:Tests should include assertions", Justification = "Sonar doesn't understand something? Who ever would have guessed.")]
 	public class ClaimTests : Trial {
 		[Theory]
+		[InlineData(new Int32[] { })]
+		public void Claim_Empty<T>(T actual) where T : IEnumerable => Claim(actual).Empty();
+
+		[Theory]
 		[InlineData(0, 0)]
 		[InlineData(5, 5)]
 		[InlineData(-5, -5)]

@@ -31,13 +31,14 @@ namespace Defender {
 		}
 
 		/// <summary>
-		/// Is the <see cref="ICollection"/> empty?
+		/// Is the <see cref="IEnumerable"/> empty?
 		/// </summary>
-		/// <typeparam name="C">The collection type.</typeparam>
+		/// <typeparam name="E">The sequence type.</typeparam>
 		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
 		/// <returns>The calling <paramref name="claim"/>.</returns>
-		public static Claim<C> Empty<C>(this Claim<C> claim) where C : ICollection {
-			if (claim.Value.Count != 0) {
+		public static Claim<E> Empty<E>(this Claim<E> claim) where E : IEnumerable {
+			IEnumerator enumerator = claim.Value.GetEnumerator();
+			if (enumerator.MoveNext()) {
 				throw new EmptyException(claim.Value);
 			}
 			return claim;
