@@ -8,14 +8,14 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Authors>Patrick Kelly</Authors>
-		<Version>0.7.0</Version>
+		<Version>0.8.0</Version>
 		<Description>Provides the standard set of claims for Trials.</Description>
 		<Copyright>2020</Copyright>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/Entomy/Defender</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Entomy/Defender</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageTags>defensive, defensive programming, guard, guards, guard clause, guard-clause</PackageTags>
+		<PackageTags>test, tests, testing, unit test, unit tests, unit testing, test framework, testing framework, xunit</PackageTags>
 		<AssemblyName>Defender.Claims</AssemblyName>
 		<RootNamespace>Defender</RootNamespace>
 	</PropertyGroup>
