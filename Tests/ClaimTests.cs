@@ -32,8 +32,9 @@ namespace Tests {
 		[InlineData("encyclopaedia", "encyclopædia", StringComparison.InvariantCulture)]
 		public void Claim_Equals_String(String actual, String expected, StringComparison comparisonType) => Claim(actual).Equals(expected, comparisonType);
 
-		[Fact]
-		public void Claim_False() => Claim(false).False();
+		[Theory]
+		[InlineData(false)]
+		public void Claim_False(Boolean actual) => Claim(actual).False();
 
 		[Theory]
 		[InlineData("", "a")]
@@ -54,7 +55,8 @@ namespace Tests {
 		[InlineData(new[] { 1, 2, 3 }, new[] { 1, 2, 3 })]
 		public void Claim_SequenceEquals(Int32[] actual, Int32[] expected) => Claim(actual).SequenceEquals(expected);
 
-		[Fact]
-		public void Claim_True() => Claim(true).True();
+		[Theory]
+		[InlineData(true)]
+		public void Claim_True(Boolean actual) => Claim(actual).True();
 	}
 }

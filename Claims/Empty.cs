@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using Xunit.Sdk;
 
 namespace Defender {
@@ -8,9 +7,9 @@ namespace Defender {
 		/// <summary>
 		/// Is the <see cref="String"/> empty?
 		/// </summary>
-		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
+		/// <param name="claim">The <see cref="StringClaim"/>.</param>
 		/// <returns>The calling <paramref name="claim"/>.</returns>
-		public static Claim<String> Empty(this Claim<String> claim) {
+		public static StringClaim Empty(this StringClaim claim) {
 			if (claim.Value.Length != 0) {
 				throw new EmptyException(claim.Value);
 			}
