@@ -12,7 +12,7 @@
           "hash": "IEqwtBwreJRI4SDq2ZNdtA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "Cx2dTRlQh0i9YgDviM4RKQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "frI5Ou+W0vRv0yiM5REnZQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "gjJGGuLcGMj9/j3lRf/CcA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ClaimExtensions.html",
-          "hash": "N2q2+wZ0iCpDE5VavQRV+g=="
+          "hash": "CFVehoFC4loWEeiJxQiCKg=="
         }
       },
       "is_incremental": false,
@@ -84,7 +84,7 @@
           "hash": "4QO3/o3pjy5Xvp5aNVBtiw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "r43uYc1HtM/aK1fZ6tSxAg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.StringClaim.html",
-          "hash": "BbwrzVZFt0Bnww+FNgHBDQ=="
+          "hash": "fzwOZDiObs5bwCXn3M8G9Q=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Trial.html",
-          "hash": "7tGoGVwkaEU2uZCyreG8Nw=="
+          "hash": "PrFA6Ez0qJNaj098aghF4Q=="
         }
       },
       "is_incremental": false,
@@ -132,7 +132,7 @@
           "hash": "DRemeAuUhJPU1r/vYh5V1Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -156,7 +156,7 @@
           "hash": "Vks8i1pBA2mHp3P4Bc8O1Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -180,7 +180,7 @@
           "hash": "bJsJHbMxn8ghK+1+BZaD3w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "VQHmeZZ836ILlgoaAeZo6A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -223,12 +223,10 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "TocDocumentProcessor": {
@@ -239,23 +237,23 @@
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 12,
-          "skipped_file_count": 0
+          "skipped_file_count": 10
         }
       }
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

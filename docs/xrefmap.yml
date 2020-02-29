@@ -287,14 +287,14 @@ references:
   nameWithType: ClaimExtensions.Empty<T>(Claim<T[]>)
   nameWithType.vb: ClaimExtensions.Empty(Of T)(Claim(Of T()))
 - uid: Defender.ClaimExtensions.Empty``1(Defender.Claim{``0})
-  name: Empty<C>(Claim<C>)
+  name: Empty<E>(Claim<E>)
   href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_Empty__1_Defender_Claim___0__
   commentId: M:Defender.ClaimExtensions.Empty``1(Defender.Claim{``0})
-  name.vb: Empty(Of C)(Claim(Of C))
-  fullName: Defender.ClaimExtensions.Empty<C>(Defender.Claim<C>)
-  fullName.vb: Defender.ClaimExtensions.Empty(Of C)(Defender.Claim(Of C))
-  nameWithType: ClaimExtensions.Empty<C>(Claim<C>)
-  nameWithType.vb: ClaimExtensions.Empty(Of C)(Claim(Of C))
+  name.vb: Empty(Of E)(Claim(Of E))
+  fullName: Defender.ClaimExtensions.Empty<E>(Defender.Claim<E>)
+  fullName.vb: Defender.ClaimExtensions.Empty(Of E)(Defender.Claim(Of E))
+  nameWithType: ClaimExtensions.Empty<E>(Claim<E>)
+  nameWithType.vb: ClaimExtensions.Empty(Of E)(Claim(Of E))
 - uid: Defender.ClaimExtensions.False(Defender.Claim{System.Boolean})
   name: False(Claim<Boolean>)
   href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_False_Defender_Claim_System_Boolean__
@@ -311,24 +311,18 @@ references:
   isSpec: "True"
   fullName: Defender.ClaimExtensions.False
   nameWithType: ClaimExtensions.False
-- uid: Defender.ClaimExtensions.NotEquals(Defender.Claim{System.String},System.String)
-  name: NotEquals(Claim<String>, String)
-  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_NotEquals_Defender_Claim_System_String__System_String_
-  commentId: M:Defender.ClaimExtensions.NotEquals(Defender.Claim{System.String},System.String)
-  name.vb: NotEquals(Claim(Of String), String)
-  fullName: Defender.ClaimExtensions.NotEquals(Defender.Claim<System.String>, System.String)
-  fullName.vb: Defender.ClaimExtensions.NotEquals(Defender.Claim(Of System.String), System.String)
-  nameWithType: ClaimExtensions.NotEquals(Claim<String>, String)
-  nameWithType.vb: ClaimExtensions.NotEquals(Claim(Of String), String)
-- uid: Defender.ClaimExtensions.NotEquals(Defender.Claim{System.String},System.String,System.StringComparison)
-  name: NotEquals(Claim<String>, String, StringComparison)
-  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_NotEquals_Defender_Claim_System_String__System_String_System_StringComparison_
-  commentId: M:Defender.ClaimExtensions.NotEquals(Defender.Claim{System.String},System.String,System.StringComparison)
-  name.vb: NotEquals(Claim(Of String), String, StringComparison)
-  fullName: Defender.ClaimExtensions.NotEquals(Defender.Claim<System.String>, System.String, System.StringComparison)
-  fullName.vb: Defender.ClaimExtensions.NotEquals(Defender.Claim(Of System.String), System.String, System.StringComparison)
-  nameWithType: ClaimExtensions.NotEquals(Claim<String>, String, StringComparison)
-  nameWithType.vb: ClaimExtensions.NotEquals(Claim(Of String), String, StringComparison)
+- uid: Defender.ClaimExtensions.NotEquals(Defender.StringClaim,System.String)
+  name: NotEquals(StringClaim, String)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_NotEquals_Defender_StringClaim_System_String_
+  commentId: M:Defender.ClaimExtensions.NotEquals(Defender.StringClaim,System.String)
+  fullName: Defender.ClaimExtensions.NotEquals(Defender.StringClaim, System.String)
+  nameWithType: ClaimExtensions.NotEquals(StringClaim, String)
+- uid: Defender.ClaimExtensions.NotEquals(Defender.StringClaim,System.String,System.StringComparison)
+  name: NotEquals(StringClaim, String, StringComparison)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_NotEquals_Defender_StringClaim_System_String_System_StringComparison_
+  commentId: M:Defender.ClaimExtensions.NotEquals(Defender.StringClaim,System.String,System.StringComparison)
+  fullName: Defender.ClaimExtensions.NotEquals(Defender.StringClaim, System.String, System.StringComparison)
+  nameWithType: ClaimExtensions.NotEquals(StringClaim, String, StringComparison)
 - uid: Defender.ClaimExtensions.NotEquals*
   name: NotEquals
   href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_NotEquals_
@@ -402,6 +396,15 @@ references:
   fullName.vb: Defender.ClaimExtensions.ReferenceEquals(Of T)(Defender.Claim(Of T), T)
   nameWithType: ClaimExtensions.ReferenceEquals<T>(Claim<T>, T)
   nameWithType.vb: ClaimExtensions.ReferenceEquals(Of T)(Claim(Of T), T)
+- uid: Defender.ClaimExtensions.SequenceEquals(Defender.Claim{System.Collections.IEnumerable},System.Collections.IEnumerable)
+  name: SequenceEquals(Claim<IEnumerable>, IEnumerable)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_SequenceEquals_Defender_Claim_System_Collections_IEnumerable__System_Collections_IEnumerable_
+  commentId: M:Defender.ClaimExtensions.SequenceEquals(Defender.Claim{System.Collections.IEnumerable},System.Collections.IEnumerable)
+  name.vb: SequenceEquals(Claim(Of IEnumerable), IEnumerable)
+  fullName: Defender.ClaimExtensions.SequenceEquals(Defender.Claim<System.Collections.IEnumerable>, System.Collections.IEnumerable)
+  fullName.vb: Defender.ClaimExtensions.SequenceEquals(Defender.Claim(Of System.Collections.IEnumerable), System.Collections.IEnumerable)
+  nameWithType: ClaimExtensions.SequenceEquals(Claim<IEnumerable>, IEnumerable)
+  nameWithType.vb: ClaimExtensions.SequenceEquals(Claim(Of IEnumerable), IEnumerable)
 - uid: Defender.ClaimExtensions.SequenceEquals*
   name: SequenceEquals
   href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_SequenceEquals_
@@ -1007,6 +1010,12 @@ references:
   commentId: M:Defender.Trial.Claim(System.Action)
   fullName: Defender.Trial.Claim(System.Action)
   nameWithType: Trial.Claim(Action)
+- uid: Defender.Trial.Claim(System.Collections.IEnumerable)
+  name: Claim(IEnumerable)
+  href: api/Defender.Trial.html#Defender_Trial_Claim_System_Collections_IEnumerable_
+  commentId: M:Defender.Trial.Claim(System.Collections.IEnumerable)
+  fullName: Defender.Trial.Claim(System.Collections.IEnumerable)
+  nameWithType: Trial.Claim(IEnumerable)
 - uid: Defender.Trial.Claim(System.String)
   name: Claim(String)
   href: api/Defender.Trial.html#Defender_Trial_Claim_System_String_
