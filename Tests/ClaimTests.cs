@@ -39,6 +39,11 @@ namespace Tests {
 		[InlineData(null)]
 		public void Claim_Null(Object actual) => Claim(actual).Null();
 
+		[Theory]
+		[InlineData(new Int32[] { }, new Int32[] { })]
+		[InlineData(new[] { 1, 2, 3 }, new[] { 1, 2, 3 })]
+		public void Claim_SequenceEquals(Int32[] actual, Int32[] expected) => Claim(actual).SequenceEquals(expected);
+
 		[Fact]
 		public void Claim_True() => Claim(true).True();
 	}

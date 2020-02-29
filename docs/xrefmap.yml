@@ -402,6 +402,22 @@ references:
   fullName.vb: Defender.ClaimExtensions.ReferenceEquals(Of T)(Defender.Claim(Of T), T)
   nameWithType: ClaimExtensions.ReferenceEquals<T>(Claim<T>, T)
   nameWithType.vb: ClaimExtensions.ReferenceEquals(Of T)(Claim(Of T), T)
+- uid: Defender.ClaimExtensions.SequenceEquals*
+  name: SequenceEquals
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_SequenceEquals_
+  commentId: Overload:Defender.ClaimExtensions.SequenceEquals
+  isSpec: "True"
+  fullName: Defender.ClaimExtensions.SequenceEquals
+  nameWithType: ClaimExtensions.SequenceEquals
+- uid: Defender.ClaimExtensions.SequenceEquals``2(Defender.Claim{System.Collections.Generic.IEnumerable{``0}},System.Collections.Generic.IEnumerable{``1})
+  name: SequenceEquals<Ta, Te>(Claim<IEnumerable<Ta>>, IEnumerable<Te>)
+  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_SequenceEquals__2_Defender_Claim_System_Collections_Generic_IEnumerable___0___System_Collections_Generic_IEnumerable___1__
+  commentId: M:Defender.ClaimExtensions.SequenceEquals``2(Defender.Claim{System.Collections.Generic.IEnumerable{``0}},System.Collections.Generic.IEnumerable{``1})
+  name.vb: SequenceEquals(Of Ta, Te)(Claim(Of IEnumerable(Of Ta)), IEnumerable(Of Te))
+  fullName: Defender.ClaimExtensions.SequenceEquals<Ta, Te>(Defender.Claim<System.Collections.Generic.IEnumerable<Ta>>, System.Collections.Generic.IEnumerable<Te>)
+  fullName.vb: Defender.ClaimExtensions.SequenceEquals(Of Ta, Te)(Defender.Claim(Of System.Collections.Generic.IEnumerable(Of Ta)), System.Collections.Generic.IEnumerable(Of Te))
+  nameWithType: ClaimExtensions.SequenceEquals<Ta, Te>(Claim<IEnumerable<Ta>>, IEnumerable<Te>)
+  nameWithType.vb: ClaimExtensions.SequenceEquals(Of Ta, Te)(Claim(Of IEnumerable(Of Ta)), IEnumerable(Of Te))
 - uid: Defender.ClaimExtensions.True(Defender.Claim{System.Boolean})
   name: True(Claim<Boolean>)
   href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_True_Defender_Claim_System_Boolean__
@@ -1013,6 +1029,15 @@ references:
   fullName.vb: Defender.Trial.Claim(Of T)(T)
   nameWithType: Trial.Claim<T>(T)
   nameWithType.vb: Trial.Claim(Of T)(T)
+- uid: Defender.Trial.Claim``1(``0[])
+  name: Claim<T>(T[])
+  href: api/Defender.Trial.html#Defender_Trial_Claim__1___0___
+  commentId: M:Defender.Trial.Claim``1(``0[])
+  name.vb: Claim(Of T)(T())
+  fullName: Defender.Trial.Claim<T>(T[])
+  fullName.vb: Defender.Trial.Claim(Of T)(T())
+  nameWithType: Trial.Claim<T>(T[])
+  nameWithType.vb: Trial.Claim(Of T)(T())
 - uid: Defender.Trial.Claim``1(System.Action{``0},``0)
   name: Claim<P1>(Action<P1>, P1)
   href: api/Defender.Trial.html#Defender_Trial_Claim__1_System_Action___0____0_
@@ -1022,6 +1047,15 @@ references:
   fullName.vb: Defender.Trial.Claim(Of P1)(System.Action(Of P1), P1)
   nameWithType: Trial.Claim<P1>(Action<P1>, P1)
   nameWithType.vb: Trial.Claim(Of P1)(Action(Of P1), P1)
+- uid: Defender.Trial.Claim``1(System.Collections.Generic.IEnumerable{``0})
+  name: Claim<T>(IEnumerable<T>)
+  href: api/Defender.Trial.html#Defender_Trial_Claim__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Defender.Trial.Claim``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Claim(Of T)(IEnumerable(Of T))
+  fullName: Defender.Trial.Claim<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Defender.Trial.Claim(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Trial.Claim<T>(IEnumerable<T>)
+  nameWithType.vb: Trial.Claim(Of T)(IEnumerable(Of T))
 - uid: Defender.Trial.Claim``2(System.Action{``0,``1},``0,``1)
   name: Claim<P1, P2>(Action<P1, P2>, P1, P2)
   href: api/Defender.Trial.html#Defender_Trial_Claim__2_System_Action___0___1____0___1_
