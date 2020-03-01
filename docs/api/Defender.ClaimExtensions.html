@@ -73,8 +73,7 @@
   
   <h1 id="Defender_ClaimExtensions" data-uid="Defender.ClaimExtensions" class="text-break">Class ClaimExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extensions to <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a> for further testing.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -106,7 +105,7 @@
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Defender.html">Defender</a></h6>
-  <h6><strong>Assembly</strong>: Defender.Claims.dll</h6>
+  <h6><strong>Assembly</strong>: Defender.Trials.dll</h6>
   <h5 id="Defender_ClaimExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ClaimExtensions</code></pre>
@@ -115,19 +114,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_Empty_Defender_Claim_System_String__.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.Empty(Defender.Claim%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_That_Defender_Claim_System_Action_.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.That(Defender.Claim%2CSystem.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/Empty.cs/#L13">View Source</a>
+    <a href="https://github.com/Entomy/Defender/blob/master/Trials/ClaimExtensions.cs/#L15">View Source</a>
   </span>
-  <a id="Defender_ClaimExtensions_Empty_" data-uid="Defender.ClaimExtensions.Empty*"></a>
-  <h4 id="Defender_ClaimExtensions_Empty_Defender_Claim_System_String__" data-uid="Defender.ClaimExtensions.Empty(Defender.Claim{System.String})">Empty(Claim&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"><p>Is the <span class="xref">System.String</span> empty?</p>
+  <a id="Defender_ClaimExtensions_That_" data-uid="Defender.ClaimExtensions.That*"></a>
+  <h4 id="Defender_ClaimExtensions_That_Defender_Claim_System_Action_" data-uid="Defender.ClaimExtensions.That(Defender.Claim,System.Action)">That(Claim, Action)</h4>
+  <div class="markdown level1 summary"><p>Claims to be made about an <span class="xref">System.Action</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;string&gt; Empty(this Claim&lt;string&gt; claim)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IActionClaim That(this Claim _, Action action)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,10 +139,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
+        <td><a class="xref" href="Defender.Claim.html">Claim</a></td>
+        <td><span class="parametername">_</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -157,27 +160,26 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
+        <td><a class="xref" href="Defender.IActionClaim.html">IActionClaim</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_Empty__1_Defender_Claim___0____.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.Empty%60%601(Defender.Claim%7B%60%600%5B%5D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_That__1_Defender_Claim___0_.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.That%60%601(Defender.Claim%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/Empty.cs/#L26">View Source</a>
+    <a href="https://github.com/Entomy/Defender/blob/master/Trials/ClaimExtensions.cs/#L10">View Source</a>
   </span>
-  <a id="Defender_ClaimExtensions_Empty_" data-uid="Defender.ClaimExtensions.Empty*"></a>
-  <h4 id="Defender_ClaimExtensions_Empty__1_Defender_Claim___0____" data-uid="Defender.ClaimExtensions.Empty``1(Defender.Claim{``0[]})">Empty&lt;T&gt;(Claim&lt;T[]&gt;)</h4>
-  <div class="markdown level1 summary"><p>Is the <span class="xref">System.Array</span> empty?</p>
+  <a id="Defender_ClaimExtensions_That_" data-uid="Defender.ClaimExtensions.That*"></a>
+  <h4 id="Defender_ClaimExtensions_That__1_Defender_Claim___0_" data-uid="Defender.ClaimExtensions.That``1(Defender.Claim,``0)">That&lt;T&gt;(Claim, T)</h4>
+  <div class="markdown level1 summary"><p>Claims to be made about a value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;T[]&gt; Empty&lt;T&gt;(this Claim&lt;T[]&gt; claim)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Claim&lt;T&gt; That&lt;T&gt;(this Claim _, T value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -190,586 +192,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;T[]&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;T[]&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The type of elements in the <span class="xref">System.Array</span>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_Empty__1_Defender_Claim___0__.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.Empty%60%601(Defender.Claim%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/Empty.cs/#L39">View Source</a>
-  </span>
-  <a id="Defender_ClaimExtensions_Empty_" data-uid="Defender.ClaimExtensions.Empty*"></a>
-  <h4 id="Defender_ClaimExtensions_Empty__1_Defender_Claim___0__" data-uid="Defender.ClaimExtensions.Empty``1(Defender.Claim{``0})">Empty&lt;E&gt;(Claim&lt;E&gt;)</h4>
-  <div class="markdown level1 summary"><p>Is the <span class="xref">System.Collections.IEnumerable</span> empty?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;E&gt; Empty&lt;E&gt;(this Claim&lt;E&gt; claim)
-    where E : IEnumerable</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;E&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;E&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">E</span></td>
-        <td><p>The sequence type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_False_Defender_Claim_System_Boolean__.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.False(Defender.Claim%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/False.cs/#L11">View Source</a>
-  </span>
-  <a id="Defender_ClaimExtensions_False_" data-uid="Defender.ClaimExtensions.False*"></a>
-  <h4 id="Defender_ClaimExtensions_False_Defender_Claim_System_Boolean__" data-uid="Defender.ClaimExtensions.False(Defender.Claim{System.Boolean})">False(Claim&lt;Boolean&gt;)</h4>
-  <div class="markdown level1 summary"><p>Is the <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>'d value false?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;bool&gt; False(this Claim&lt;bool&gt; claim)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_NotEquals_Defender_StringClaim_System_String_.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.NotEquals(Defender.StringClaim%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/NotEquals.cs/#L12">View Source</a>
-  </span>
-  <a id="Defender_ClaimExtensions_NotEquals_" data-uid="Defender.ClaimExtensions.NotEquals*"></a>
-  <h4 id="Defender_ClaimExtensions_NotEquals_Defender_StringClaim_System_String_" data-uid="Defender.ClaimExtensions.NotEquals(Defender.StringClaim,System.String)">NotEquals(StringClaim, String)</h4>
-  <div class="markdown level1 summary"><p>Does the <a class="xref" href="Defender.StringClaim.html">StringClaim</a>'d <span class="xref">System.String</span> not equal the <code data-dev-comment-type="paramref" class="paramref">expected</code>?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static StringClaim NotEquals(this StringClaim claim, string expected)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.StringClaim.html">StringClaim</a></td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.StringClaim.html">StringClaim</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">expected</span></td>
-        <td><p>The expected <span class="xref">System.String</span>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.StringClaim.html">StringClaim</a></td>
-        <td><p>The calling <a class="xref" href="Defender.StringClaim.html">StringClaim</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_NotEquals_Defender_StringClaim_System_String_System_StringComparison_.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.NotEquals(Defender.StringClaim%2CSystem.String%2CSystem.StringComparison)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/NotEquals.cs/#L26">View Source</a>
-  </span>
-  <a id="Defender_ClaimExtensions_NotEquals_" data-uid="Defender.ClaimExtensions.NotEquals*"></a>
-  <h4 id="Defender_ClaimExtensions_NotEquals_Defender_StringClaim_System_String_System_StringComparison_" data-uid="Defender.ClaimExtensions.NotEquals(Defender.StringClaim,System.String,System.StringComparison)">NotEquals(StringClaim, String, StringComparison)</h4>
-  <div class="markdown level1 summary"><p>Does the <a class="xref" href="Defender.StringClaim.html">StringClaim</a>'d <span class="xref">System.String</span> not equal the <code data-dev-comment-type="paramref" class="paramref">expected</code>?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static StringClaim NotEquals(this StringClaim claim, string expected, StringComparison comparisonType)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.StringClaim.html">StringClaim</a></td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.StringClaim.html">StringClaim</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">expected</span></td>
-        <td><p>The expected <span class="xref">System.String</span>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.StringComparison</span></td>
-        <td><span class="parametername">comparisonType</span></td>
-        <td><p>The <span class="xref">System.StringComparison</span> to use for the comparison.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.StringClaim.html">StringClaim</a></td>
-        <td><p>The calling <a class="xref" href="Defender.StringClaim.html">StringClaim</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_NotNull__1_Defender_Claim___0__.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.NotNull%60%601(Defender.Claim%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/NotNull.cs/#L12">View Source</a>
-  </span>
-  <a id="Defender_ClaimExtensions_NotNull_" data-uid="Defender.ClaimExtensions.NotNull*"></a>
-  <h4 id="Defender_ClaimExtensions_NotNull__1_Defender_Claim___0__" data-uid="Defender.ClaimExtensions.NotNull``1(Defender.Claim{``0})">NotNull&lt;T&gt;(Claim&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Is the <span class="xref">langword_csharp_class</span> not null?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;T&gt; NotNull&lt;T&gt;(this Claim&lt;T&gt; claim)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;T&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;T&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The <span class="xref">langword_csharp_class</span> type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_NotNull__1_Defender_Claim_System_Nullable___0___.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.NotNull%60%601(Defender.Claim%7BSystem.Nullable%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/NotNull.cs/#L25">View Source</a>
-  </span>
-  <a id="Defender_ClaimExtensions_NotNull_" data-uid="Defender.ClaimExtensions.NotNull*"></a>
-  <h4 id="Defender_ClaimExtensions_NotNull__1_Defender_Claim_System_Nullable___0___" data-uid="Defender.ClaimExtensions.NotNull``1(Defender.Claim{System.Nullable{``0}})">NotNull&lt;T&gt;(Claim&lt;Nullable&lt;T&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Is the <span class="xref">System.Nullable&lt;T&gt;</span> <span class="xref">langword_csharp_struct</span> not null?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;T?&gt; NotNull&lt;T&gt;(this Claim&lt;T?&gt; claim)
-    where T : struct</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Nullable</span>&lt;T&gt;&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Nullable</span>&lt;T&gt;&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The <span class="xref">System.Nullable&lt;T&gt;</span> <span class="xref">langword_csharp_struct</span> type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_Null__1_Defender_Claim___0__.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.Null%60%601(Defender.Claim%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/Null.cs/#L12">View Source</a>
-  </span>
-  <a id="Defender_ClaimExtensions_Null_" data-uid="Defender.ClaimExtensions.Null*"></a>
-  <h4 id="Defender_ClaimExtensions_Null__1_Defender_Claim___0__" data-uid="Defender.ClaimExtensions.Null``1(Defender.Claim{``0})">Null&lt;T&gt;(Claim&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Is the <span class="xref">langword_csharp_class</span> null?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;T&gt; Null&lt;T&gt;(this Claim&lt;T&gt; claim)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;T&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;T&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The <span class="xref">langword_csharp_class</span> type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_Null__1_Defender_Claim_System_Nullable___0___.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.Null%60%601(Defender.Claim%7BSystem.Nullable%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/Null.cs/#L25">View Source</a>
-  </span>
-  <a id="Defender_ClaimExtensions_Null_" data-uid="Defender.ClaimExtensions.Null*"></a>
-  <h4 id="Defender_ClaimExtensions_Null__1_Defender_Claim_System_Nullable___0___" data-uid="Defender.ClaimExtensions.Null``1(Defender.Claim{System.Nullable{``0}})">Null&lt;T&gt;(Claim&lt;Nullable&lt;T&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Is the <span class="xref">System.Nullable&lt;T&gt;</span> <span class="xref">langword_csharp_struct</span> null?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;T?&gt; Null&lt;T&gt;(this Claim&lt;T?&gt; claim)
-    where T : struct</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Nullable</span>&lt;T&gt;&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Nullable</span>&lt;T&gt;&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The <span class="xref">System.Nullable&lt;T&gt;</span> <span class="xref">langword_csharp_struct</span> type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_ReferenceEquals__1_Defender_Claim___0____0_.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.ReferenceEquals%60%601(Defender.Claim%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/ReferenceEquals.cs/#L13">View Source</a>
-  </span>
-  <a id="Defender_ClaimExtensions_ReferenceEquals_" data-uid="Defender.ClaimExtensions.ReferenceEquals*"></a>
-  <h4 id="Defender_ClaimExtensions_ReferenceEquals__1_Defender_Claim___0____0_" data-uid="Defender.ClaimExtensions.ReferenceEquals``1(Defender.Claim{``0},``0)">ReferenceEquals&lt;T&gt;(Claim&lt;T&gt;, T)</h4>
-  <div class="markdown level1 summary"><p>Does the <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>'d object reference the <code data-dev-comment-type="paramref" class="paramref">expected</code>?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;T&gt; ReferenceEquals&lt;T&gt;(this Claim&lt;T&gt; claim, T expected)
-    where T : class</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;T&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
+        <td><a class="xref" href="Defender.Claim.html">Claim</a></td>
+        <td><span class="parametername">_</span></td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><span class="parametername">expected</span></td>
-        <td><p>The expected object.</p>
-</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -784,8 +214,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;T&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -800,26 +229,25 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>The <span class="xref">langword_csharp_class</span> type.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_SequenceEquals_Defender_Claim_System_Collections_IEnumerable__System_Collections_IEnumerable_.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.SequenceEquals(Defender.Claim%7BSystem.Collections.IEnumerable%7D%2CSystem.Collections.IEnumerable)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_That__1_Defender_Claim_System_Action___0____0_.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.That%60%601(Defender.Claim%2CSystem.Action%7B%60%600%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/SequenceEquals.cs/#L14">View Source</a>
+    <a href="https://github.com/Entomy/Defender/blob/master/Trials/ClaimExtensions.cs/#L20">View Source</a>
   </span>
-  <a id="Defender_ClaimExtensions_SequenceEquals_" data-uid="Defender.ClaimExtensions.SequenceEquals*"></a>
-  <h4 id="Defender_ClaimExtensions_SequenceEquals_Defender_Claim_System_Collections_IEnumerable__System_Collections_IEnumerable_" data-uid="Defender.ClaimExtensions.SequenceEquals(Defender.Claim{System.Collections.IEnumerable},System.Collections.IEnumerable)">SequenceEquals(Claim&lt;IEnumerable&gt;, IEnumerable)</h4>
-  <div class="markdown level1 summary"><p>Does the <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>'d sequence equal the <code data-dev-comment-type="paramref" class="paramref">expected</code>?</p>
+  <a id="Defender_ClaimExtensions_That_" data-uid="Defender.ClaimExtensions.That*"></a>
+  <h4 id="Defender_ClaimExtensions_That__1_Defender_Claim_System_Action___0____0_" data-uid="Defender.ClaimExtensions.That``1(Defender.Claim,System.Action{``0},``0)">That&lt;P1&gt;(Claim, Action&lt;P1&gt;, P1)</h4>
+  <div class="markdown level1 summary"><p>Claims to be made about an <span class="xref">System.Action</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;IEnumerable&gt; SequenceEquals(this Claim&lt;IEnumerable&gt; claim, IEnumerable expected)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IActionClaim That&lt;P1&gt;(this Claim _, Action&lt;P1&gt; action, P1 param1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -832,16 +260,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Collections.IEnumerable</span>&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
+        <td><a class="xref" href="Defender.Claim.html">Claim</a></td>
+        <td><span class="parametername">_</span></td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.IEnumerable</span></td>
-        <td><span class="parametername">expected</span></td>
-        <td><p>The expected sequence.</p>
-</td>
+        <td><span class="xref">System.Action</span>&lt;P1&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P1</span></td>
+        <td><span class="parametername">param1</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -855,66 +286,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Collections.IEnumerable</span>&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_SequenceEquals__2_Defender_Claim_System_Collections_Generic_IEnumerable___0___System_Collections_Generic_IEnumerable___1__.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.SequenceEquals%60%602(Defender.Claim%7BSystem.Collections.Generic.IEnumerable%7B%60%600%7D%7D%2CSystem.Collections.Generic.IEnumerable%7B%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/SequenceEquals.cs/#L38">View Source</a>
-  </span>
-  <a id="Defender_ClaimExtensions_SequenceEquals_" data-uid="Defender.ClaimExtensions.SequenceEquals*"></a>
-  <h4 id="Defender_ClaimExtensions_SequenceEquals__2_Defender_Claim_System_Collections_Generic_IEnumerable___0___System_Collections_Generic_IEnumerable___1__" data-uid="Defender.ClaimExtensions.SequenceEquals``2(Defender.Claim{System.Collections.Generic.IEnumerable{``0}},System.Collections.Generic.IEnumerable{``1})">SequenceEquals&lt;Ta, Te&gt;(Claim&lt;IEnumerable&lt;Ta&gt;&gt;, IEnumerable&lt;Te&gt;)</h4>
-  <div class="markdown level1 summary"><p>Does the <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>'d sequence equal the <code data-dev-comment-type="paramref" class="paramref">expected</code>?</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;IEnumerable&lt;Ta&gt;&gt; SequenceEquals&lt;Ta, Te&gt;(this Claim&lt;IEnumerable&lt;Ta&gt;&gt; claim, IEnumerable&lt;Te&gt; expected)
-    where Te : IEquatable&lt;Ta&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;Ta&gt;&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;Te&gt;</td>
-        <td><span class="parametername">expected</span></td>
-        <td><p>The expected sequence.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;Ta&gt;&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
+        <td><a class="xref" href="Defender.IActionClaim.html">IActionClaim</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -928,32 +301,26 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">Ta</span></td>
-        <td><p>The type of the actual sequence.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">Te</span></td>
-        <td><p>The type of the expected sequence.</p>
-</td>
+        <td><span class="parametername">P1</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_True_Defender_Claim_System_Boolean__.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.True(Defender.Claim%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_That__2_Defender_Claim_System_Action___0___1____0___1_.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.That%60%602(Defender.Claim%2CSystem.Action%7B%60%600%2C%60%601%7D%2C%60%600%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Entomy/Defender/blob/master/Claims/True.cs/#L11">View Source</a>
+    <a href="https://github.com/Entomy/Defender/blob/master/Trials/ClaimExtensions.cs/#L25">View Source</a>
   </span>
-  <a id="Defender_ClaimExtensions_True_" data-uid="Defender.ClaimExtensions.True*"></a>
-  <h4 id="Defender_ClaimExtensions_True_Defender_Claim_System_Boolean__" data-uid="Defender.ClaimExtensions.True(Defender.Claim{System.Boolean})">True(Claim&lt;Boolean&gt;)</h4>
-  <div class="markdown level1 summary"><p>Is the <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>'d value true?</p>
+  <a id="Defender_ClaimExtensions_That_" data-uid="Defender.ClaimExtensions.That*"></a>
+  <h4 id="Defender_ClaimExtensions_That__2_Defender_Claim_System_Action___0___1____0___1_" data-uid="Defender.ClaimExtensions.That``2(Defender.Claim,System.Action{``0,``1},``0,``1)">That&lt;P1, P2&gt;(Claim, Action&lt;P1, P2&gt;, P1, P2)</h4>
+  <div class="markdown level1 summary"><p>Claims to be made about an <span class="xref">System.Action</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Claim&lt;bool&gt; True(this Claim&lt;bool&gt; claim)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IActionClaim That&lt;P1, P2&gt;(this Claim _, Action&lt;P1, P2&gt; action, P1 param1, P2 param2)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -966,10 +333,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><span class="parametername">claim</span></td>
-        <td><p>The <a class="xref" href="Defender.Claim-1.html">Claim&lt;T&gt;</a>.</p>
-</td>
+        <td><a class="xref" href="Defender.Claim.html">Claim</a></td>
+        <td><span class="parametername">_</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;P1, P2&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P1</span></td>
+        <td><span class="parametername">param1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P2</span></td>
+        <td><span class="parametername">param2</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -983,9 +364,327 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Defender.Claim-1.html">Claim</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><p>The calling <code data-dev-comment-type="paramref" class="paramref">claim</code>.</p>
-</td>
+        <td><a class="xref" href="Defender.IActionClaim.html">IActionClaim</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">P1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">P2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_That__3_Defender_Claim_System_Action___0___1___2____0___1___2_.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.That%60%603(Defender.Claim%2CSystem.Action%7B%60%600%2C%60%601%2C%60%602%7D%2C%60%600%2C%60%601%2C%60%602)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Trials/ClaimExtensions.cs/#L30">View Source</a>
+  </span>
+  <a id="Defender_ClaimExtensions_That_" data-uid="Defender.ClaimExtensions.That*"></a>
+  <h4 id="Defender_ClaimExtensions_That__3_Defender_Claim_System_Action___0___1___2____0___1___2_" data-uid="Defender.ClaimExtensions.That``3(Defender.Claim,System.Action{``0,``1,``2},``0,``1,``2)">That&lt;P1, P2, P3&gt;(Claim, Action&lt;P1, P2, P3&gt;, P1, P2, P3)</h4>
+  <div class="markdown level1 summary"><p>Claims to be made about an <span class="xref">System.Action</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IActionClaim That&lt;P1, P2, P3&gt;(this Claim _, Action&lt;P1, P2, P3&gt; action, P1 param1, P2 param2, P3 param3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Defender.Claim.html">Claim</a></td>
+        <td><span class="parametername">_</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;P1, P2, P3&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P1</span></td>
+        <td><span class="parametername">param1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P2</span></td>
+        <td><span class="parametername">param2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P3</span></td>
+        <td><span class="parametername">param3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Defender.IActionClaim.html">IActionClaim</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">P1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">P2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">P3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_That__4_Defender_Claim_System_Action___0___1___2___3____0___1___2___3_.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.That%60%604(Defender.Claim%2CSystem.Action%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Trials/ClaimExtensions.cs/#L35">View Source</a>
+  </span>
+  <a id="Defender_ClaimExtensions_That_" data-uid="Defender.ClaimExtensions.That*"></a>
+  <h4 id="Defender_ClaimExtensions_That__4_Defender_Claim_System_Action___0___1___2___3____0___1___2___3_" data-uid="Defender.ClaimExtensions.That``4(Defender.Claim,System.Action{``0,``1,``2,``3},``0,``1,``2,``3)">That&lt;P1, P2, P3, P4&gt;(Claim, Action&lt;P1, P2, P3, P4&gt;, P1, P2, P3, P4)</h4>
+  <div class="markdown level1 summary"><p>Claims to be made about an <span class="xref">System.Action</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IActionClaim That&lt;P1, P2, P3, P4&gt;(this Claim _, Action&lt;P1, P2, P3, P4&gt; action, P1 param1, P2 param2, P3 param3, P4 param4)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Defender.Claim.html">Claim</a></td>
+        <td><span class="parametername">_</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;P1, P2, P3, P4&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P1</span></td>
+        <td><span class="parametername">param1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P2</span></td>
+        <td><span class="parametername">param2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P3</span></td>
+        <td><span class="parametername">param3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P4</span></td>
+        <td><span class="parametername">param4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Defender.IActionClaim.html">IActionClaim</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">P1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">P2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">P3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">P4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions_That__5_Defender_Claim_System_Action___0___1___2___3___4____0___1___2___3___4_.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions.That%60%605(Defender.Claim%2CSystem.Action%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Entomy/Defender/blob/master/Trials/ClaimExtensions.cs/#L40">View Source</a>
+  </span>
+  <a id="Defender_ClaimExtensions_That_" data-uid="Defender.ClaimExtensions.That*"></a>
+  <h4 id="Defender_ClaimExtensions_That__5_Defender_Claim_System_Action___0___1___2___3___4____0___1___2___3___4_" data-uid="Defender.ClaimExtensions.That``5(Defender.Claim,System.Action{``0,``1,``2,``3,``4},``0,``1,``2,``3,``4)">That&lt;P1, P2, P3, P4, P5&gt;(Claim, Action&lt;P1, P2, P3, P4, P5&gt;, P1, P2, P3, P4, P5)</h4>
+  <div class="markdown level1 summary"><p>Claims to be made about an <span class="xref">System.Action</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IActionClaim That&lt;P1, P2, P3, P4, P5&gt;(this Claim _, Action&lt;P1, P2, P3, P4, P5&gt; action, P1 param1, P2 param2, P3 param3, P4 param4, P5 param5)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Defender.Claim.html">Claim</a></td>
+        <td><span class="parametername">_</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;P1, P2, P3, P4, P5&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P1</span></td>
+        <td><span class="parametername">param1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P2</span></td>
+        <td><span class="parametername">param2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P3</span></td>
+        <td><span class="parametername">param3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P4</span></td>
+        <td><span class="parametername">param4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">P5</span></td>
+        <td><span class="parametername">param5</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Defender.IActionClaim.html">IActionClaim</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">P1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">P2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">P3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">P4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">P5</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1000,7 +699,7 @@
                     <a href="https://github.com/Entomy/Defender/new/master/apiSpec/new?filename=Defender_ClaimExtensions.md&amp;value=---%0Auid%3A%20Defender.ClaimExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/Entomy/Defender/blob/master/Claims/True.cs/#L5" class="contribution-link">View Source</a>
+                    <a href="https://github.com/Entomy/Defender/blob/master/Trials/ClaimExtensions.cs/#L6" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
