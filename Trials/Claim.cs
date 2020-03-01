@@ -42,6 +42,36 @@ namespace Defender {
 		/// Claims to be made about an <see cref="Action"/>.
 		/// </summary>
 		public IActionClaim That<P1, P2, P3, P4, P5>(Action<P1, P2, P3, P4, P5> action, P1 param1, P2 param2, P3 param3, P4 param4, P5 param5) => new ActionClaim<P1, P2, P3, P4, P5>(action, param1, param2, param3, param4, param5);
+
+		/// <summary>
+		/// Claims to be made about an <see cref="Func{TResult}"/>.
+		/// </summary>
+		public IFuncClaim That<R>(Func<R> func) => new FuncClaim<R>(func);
+
+		/// <summary>
+		/// Claims to be made about an <see cref="Func{TResult}"/>.
+		/// </summary>
+		public IFuncClaim That<P1, R>(Func<P1, R> func, P1 param1) => new FuncClaim<P1, R>(func, param1);
+
+		/// <summary>
+		/// Claims to be made about an <see cref="Func{TResult}"/>.
+		/// </summary>
+		public IFuncClaim That<P1, P2, R>(Func<P1, P2, R> func, P1 param1, P2 param2) => new FuncClaim<P1, P2, R>(func, param1, param2);
+
+		/// <summary>
+		/// Claims to be made about an <see cref="Func{TResult}"/>.
+		/// </summary>
+		public IFuncClaim That<P1, P2, P3, R>(Func<P1, P2, P3, R> func, P1 param1, P2 param2, P3 param3) => new FuncClaim<P1, P2, P3, R>(func, param1, param2, param3);
+
+		/// <summary>
+		/// Claims to be made about an <see cref="Func{TResult}"/>.
+		/// </summary>
+		public IFuncClaim That<P1, P2, P3, P4, R>(Func<P1, P2, P3, P4, R> func, P1 param1, P2 param2, P3 param3, P4 param4) => new FuncClaim<P1, P2, P3, P4, R>(func, param1, param2, param3, param4);
+
+		/// <summary>
+		/// Claims to be made about an <see cref="Func{TResult}"/>.
+		/// </summary>
+		public IFuncClaim That<P1, P2, P3, P4, P5, R>(Func<P1, P2, P3, P4, P5, R> func, P1 param1, P2 param2, P3 param3, P4 param4, P5 param5) => new FuncClaim<P1, P2, P3, P4, P5, R>(func, param1, param2, param3, param4, param5);
 	}
 
 	/// <summary>
