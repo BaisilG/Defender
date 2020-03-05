@@ -8,7 +8,7 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Authors>Patrick Kelly</Authors>
-		<Version>0.9.0</Version>
+		<Version>0.10.0</Version>
 		<Description>Meta package for the Defender project</Description>
 		<Copyright>2020</Copyright>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
