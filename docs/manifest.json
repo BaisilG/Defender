@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Claim-1.html",
-          "hash": "HMR/Ccfzm4DF8O0kzAUrig=="
+          "hash": "5tQnFVZnh9jSI5eQj4Edgw=="
         }
       },
       "is_incremental": true,
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Claim.html",
-          "hash": "wpda6H/jDC88cizg6ng2xQ=="
+          "hash": "LLXEbK8FHtvRXOG1J1vtPg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ClaimExtensions.html",
-          "hash": "1fDq3oOScfffLOH5gkdxOQ=="
+          "hash": "KmhN+k8Rfb7Q6BVyjiFr6A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -113,11 +113,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Defender.IFuncClaim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Defender.IFuncClaim.html",
+          "hash": "acmkmDz/hBQ1dh5+jF2LTg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Defender.SequenceClaim-1.yml",
       "output": {
         ".html": {
           "relative_path": "api/Defender.SequenceClaim-1.html",
-          "hash": "VWMgDlGXYDbnMWo3xmf/Nw=="
+          "hash": "nP2/NMJWbxVYueVOGLQcrQ=="
         }
       },
       "is_incremental": true,
@@ -129,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.SequenceClaim.html",
-          "hash": "UDIh2iXigr2RE/OBJBMXMw=="
+          "hash": "iR6ROfZiGW0/iOPZxgwNeA=="
         }
       },
       "is_incremental": true,
@@ -156,7 +168,7 @@
           "hash": "+RwZTmHowvRBHFYRGVhUmA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.html",
-          "hash": "3GYrrlk8NyjifCa/eHIOAw=="
+          "hash": "n0lDfJfULsMAu80ZBJbl1g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "5iFLNf4avg2Re5hnEV5Rbw=="
+          "hash": "2EVNoRG45/JZxgkhFrg9Tw=="
         }
       },
       "is_incremental": false,
@@ -272,17 +284,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 15,
-          "skipped_file_count": 14
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
           "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 16,
+          "skipped_file_count": 16
         }
       }
     },

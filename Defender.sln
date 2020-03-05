@@ -24,6 +24,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Defender", "Defender\Defend
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guards", "Guards\Guards.csproj", "{CFB0C2AD-89D8-4D33-BCA3-44D8B92E34CE}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Claims.FSharp", "Claims.FSharp\Claims.FSharp.fsproj", "{55B185D9-54BF-48BE-BB5D-6C124144F334}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests.FSharp", "Tests.FSharp\Tests.FSharp.fsproj", "{80176840-18A5-44A2-AB5D-3182551679E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +62,14 @@ Global
 		{CFB0C2AD-89D8-4D33-BCA3-44D8B92E34CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFB0C2AD-89D8-4D33-BCA3-44D8B92E34CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFB0C2AD-89D8-4D33-BCA3-44D8B92E34CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B185D9-54BF-48BE-BB5D-6C124144F334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B185D9-54BF-48BE-BB5D-6C124144F334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B185D9-54BF-48BE-BB5D-6C124144F334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B185D9-54BF-48BE-BB5D-6C124144F334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80176840-18A5-44A2-AB5D-3182551679E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80176840-18A5-44A2-AB5D-3182551679E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80176840-18A5-44A2-AB5D-3182551679E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80176840-18A5-44A2-AB5D-3182551679E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
