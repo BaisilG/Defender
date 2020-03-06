@@ -62,38 +62,3 @@ module Claims =
         if not(act) then
             raise(TrueException("", Nullable(act)))
         act
-
-    let inline throws<'e when 'e :> Exception>(fn:unit -> obj):(unit -> obj) =
-        try
-            fn |> ignore
-        with
-        | ex -> raise(ThrowsException(typeof<'e>, ex))
-        fn
-
-    let inline throws1<'e when 'e :> Exception>(fn:obj -> obj)(p1):(obj -> obj) =
-        try
-            fn p1 |> ignore
-        with
-        | ex -> raise(ThrowsException(typeof<'e>, ex))
-        fn
-
-    let inline throws2<'e when 'e :> Exception>(fn:obj -> obj -> obj)(p1)(p2):(obj -> obj -> obj) =
-        try
-            fn p1 p2 |> ignore
-        with
-        | ex -> raise(ThrowsException(typeof<'e>, ex))
-        fn
-
-    let inline throws3<'e when 'e :> Exception>(fn:obj -> obj -> obj -> obj)(p1)(p2)(p3):(obj -> obj -> obj -> obj) =
-        try
-            fn p1 p2 p3 |> ignore
-        with
-        | ex -> raise(ThrowsException(typeof<'e>, ex))
-        fn
-
-    let inline throws4<'e when 'e :> Exception>(fn:obj -> obj -> obj -> obj -> obj)(p1)(p2)(p3)(p4):(obj -> obj -> obj -> obj -> obj) =
-        try
-            fn p1 p2 p3 p4 |> ignore
-        with
-        | ex -> raise(ThrowsException(typeof<'e>, ex))
-        fn
