@@ -12,7 +12,7 @@
           "hash": "IEqwtBwreJRI4SDq2ZNdtA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "Cx2dTRlQh0i9YgDviM4RKQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "frI5Ou+W0vRv0yiM5REnZQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "gjJGGuLcGMj9/j3lRf/CcA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Claim-1.html",
-          "hash": "5tQnFVZnh9jSI5eQj4Edgw=="
+          "hash": "nLxdT4+WZ5PkBIemDOGt0w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -72,7 +72,7 @@
           "hash": "LLXEbK8FHtvRXOG1J1vtPg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "KmhN+k8Rfb7Q6BVyjiFr6A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "4QO3/o3pjy5Xvp5aNVBtiw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.IActionClaim.html",
-          "hash": "r43uYc1HtM/aK1fZ6tSxAg=="
+          "hash": "9M9LbtJ6t4NIfIRhlvnBGw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.IFuncClaim.html",
-          "hash": "acmkmDz/hBQ1dh5+jF2LTg=="
+          "hash": "Lz3CyfK23h9rDVDy9NWWmQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.SequenceClaim-1.html",
-          "hash": "nP2/NMJWbxVYueVOGLQcrQ=="
+          "hash": "ucyDlhnkbIpL92coulm3lw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "iR6ROfZiGW0/iOPZxgwNeA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -156,7 +156,7 @@
           "hash": "Lluw5wyj9MEshxO/c99/Gw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -168,19 +168,19 @@
           "hash": "+RwZTmHowvRBHFYRGVhUmA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Defender.ValidatedNotNullAttributeAttribute.yml",
+      "source_relative_path": "api/Defender.ValidatedNotNullAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Defender.ValidatedNotNullAttributeAttribute.html",
-          "hash": "DRemeAuUhJPU1r/vYh5V1Q=="
+          "relative_path": "api/Defender.ValidatedNotNullAttribute.html",
+          "hash": "RgI1w78hKvnNmearXZqYkg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.html",
-          "hash": "n0lDfJfULsMAu80ZBJbl1g=="
+          "hash": "IKhPzax0tZp9Z6+AEVd1lA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "Vks8i1pBA2mHp3P4Bc8O1Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "2EVNoRG45/JZxgkhFrg9Tw=="
+          "hash": "YrRh1IRxkguaJWxLWkB8ug=="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 16,
-          "skipped_file_count": 16
+          "skipped_file_count": 8
         }
       }
     },

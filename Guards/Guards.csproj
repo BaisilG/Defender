@@ -8,7 +8,7 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Authors>Patrick Kelly</Authors>
-		<Version>0.10.0</Version>
+		<Version>0.10.1</Version>
 		<Description>No (added) overhead library for defensive programming practices. Just as efficient as hand written guard clauses.</Description>
 		<Copyright>2020</Copyright>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>

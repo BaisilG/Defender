@@ -1064,9 +1064,9 @@ references:
   isSpec: "True"
   fullName: Defender.Trial.Claim
   nameWithType: Trial.Claim
-- uid: Defender.ValidatedNotNullAttributeAttribute
-  name: ValidatedNotNullAttributeAttribute
-  href: api/Defender.ValidatedNotNullAttributeAttribute.html
-  commentId: T:Defender.ValidatedNotNullAttributeAttribute
-  fullName: Defender.ValidatedNotNullAttributeAttribute
-  nameWithType: ValidatedNotNullAttributeAttribute
+- uid: Defender.ValidatedNotNullAttribute
+  name: ValidatedNotNullAttribute
+  href: api/Defender.ValidatedNotNullAttribute.html
+  commentId: T:Defender.ValidatedNotNullAttribute
+  fullName: Defender.ValidatedNotNullAttribute
+  nameWithType: ValidatedNotNullAttribute
