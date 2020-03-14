@@ -84,7 +84,7 @@
           "hash": "KmhN+k8Rfb7Q6BVyjiFr6A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Guard.html",
-          "hash": "4QO3/o3pjy5Xvp5aNVBtiw=="
+          "hash": "zEmAedX9icO1dWd6wbnZ2g=="
         }
       },
       "is_incremental": false,
@@ -168,7 +168,7 @@
           "hash": "+RwZTmHowvRBHFYRGVhUmA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "Vks8i1pBA2mHp3P4Bc8O1Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -294,7 +294,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 16,
-          "skipped_file_count": 8
+          "skipped_file_count": 4
         }
       }
     },

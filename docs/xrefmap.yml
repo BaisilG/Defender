@@ -819,6 +819,38 @@ references:
   fullName.vb: Defender.Guard.OfType(Of T)(System.Object, System.String)
   nameWithType: Guard.OfType<T>(Object, String)
   nameWithType.vb: Guard.OfType(Of T)(Object, String)
+- uid: Defender.Guard.Readable*
+  name: Readable
+  href: api/Defender.Guard.html#Defender_Guard_Readable_
+  commentId: Overload:Defender.Guard.Readable
+  isSpec: "True"
+  fullName: Defender.Guard.Readable
+  nameWithType: Guard.Readable
+- uid: Defender.Guard.Readable``1(``0,System.String)
+  name: Readable<S>(S, String)
+  href: api/Defender.Guard.html#Defender_Guard_Readable__1___0_System_String_
+  commentId: M:Defender.Guard.Readable``1(``0,System.String)
+  name.vb: Readable(Of S)(S, String)
+  fullName: Defender.Guard.Readable<S>(S, System.String)
+  fullName.vb: Defender.Guard.Readable(Of S)(S, System.String)
+  nameWithType: Guard.Readable<S>(S, String)
+  nameWithType.vb: Guard.Readable(Of S)(S, String)
+- uid: Defender.Guard.Seekable*
+  name: Seekable
+  href: api/Defender.Guard.html#Defender_Guard_Seekable_
+  commentId: Overload:Defender.Guard.Seekable
+  isSpec: "True"
+  fullName: Defender.Guard.Seekable
+  nameWithType: Guard.Seekable
+- uid: Defender.Guard.Seekable``1(``0,System.String)
+  name: Seekable<S>(S, String)
+  href: api/Defender.Guard.html#Defender_Guard_Seekable__1___0_System_String_
+  commentId: M:Defender.Guard.Seekable``1(``0,System.String)
+  name.vb: Seekable(Of S)(S, String)
+  fullName: Defender.Guard.Seekable<S>(S, System.String)
+  fullName.vb: Defender.Guard.Seekable(Of S)(S, System.String)
+  nameWithType: Guard.Seekable<S>(S, String)
+  nameWithType.vb: Guard.Seekable(Of S)(S, String)
 - uid: Defender.Guard.Valid*
   name: Valid
   href: api/Defender.Guard.html#Defender_Guard_Valid_
@@ -917,6 +949,22 @@ references:
   fullName.vb: Defender.Guard.Within(Of T)(T, System.String, T, T, System.Boolean)
   nameWithType: Guard.Within<T>(T, String, T, T, Boolean)
   nameWithType.vb: Guard.Within(Of T)(T, String, T, T, Boolean)
+- uid: Defender.Guard.Writable*
+  name: Writable
+  href: api/Defender.Guard.html#Defender_Guard_Writable_
+  commentId: Overload:Defender.Guard.Writable
+  isSpec: "True"
+  fullName: Defender.Guard.Writable
+  nameWithType: Guard.Writable
+- uid: Defender.Guard.Writable``1(``0,System.String)
+  name: Writable<S>(S, String)
+  href: api/Defender.Guard.html#Defender_Guard_Writable__1___0_System_String_
+  commentId: M:Defender.Guard.Writable``1(``0,System.String)
+  name.vb: Writable(Of S)(S, String)
+  fullName: Defender.Guard.Writable<S>(S, System.String)
+  fullName.vb: Defender.Guard.Writable(Of S)(S, System.String)
+  nameWithType: Guard.Writable<S>(S, String)
+  nameWithType.vb: Guard.Writable(Of S)(S, String)
 - uid: Defender.IActionClaim
   name: IActionClaim
   href: api/Defender.IActionClaim.html
