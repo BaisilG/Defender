@@ -8,7 +8,7 @@ namespace Defender {
 	public sealed class Claim {
 		internal Claim() { }
 
-		public StringClaim That(String @string) => new StringClaim(@string);
+		public Claim<String> That(String @string) => new Claim<String>(@string);
 
 		public Claim<Action> That(Action action) => new Claim<Action>(action);
 

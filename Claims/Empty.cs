@@ -7,9 +7,9 @@ namespace Defender {
 		/// <summary>
 		/// Is the <see cref="String"/> empty?
 		/// </summary>
-		/// <param name="claim">The <see cref="StringClaim"/>.</param>
+		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
 		/// <returns>The calling <paramref name="claim"/>.</returns>
-		public static StringClaim Empty(this StringClaim claim) {
+		public static Claim<String> Empty(this Claim<String> claim) {
 			if (claim.Value.Length != 0) {
 				throw new EmptyException(claim.Value);
 			}
