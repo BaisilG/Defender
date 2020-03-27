@@ -38,8 +38,34 @@ namespace Defender {
 		/// <param name="span">The span.</param>
 		/// <param name="name">The name of the argument.</param>
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Empty<T>(Span<T> span, String name) {
+			if (span.Length != 0) {
+				throw new ArgumentSizeException(name, $"Span must be empty.");
+			}
+		}
+
+		/// <summary>
+		/// Guard against the span having elements.
+		/// </summary>
+		/// <typeparam name="T">The type of the elements in the span.</typeparam>
+		/// <param name="span">The span.</param>
+		/// <param name="name">The name of the argument.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static void Empty<T>(ReadOnlySpan<T> span, String name) {
 			if (span.Length != 0) {
+				throw new ArgumentSizeException(name, $"Span must be empty.");
+			}
+		}
+
+		/// <summary>
+		/// Guard against the memory having elements.
+		/// </summary>
+		/// <typeparam name="T">The type of the elements in the memory.</typeparam>
+		/// <param name="memory">The memory.</param>
+		/// <param name="name">The name of the argument.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Empty<T>(Memory<T> memory, String name) {
+			if (memory.Length != 0) {
 				throw new ArgumentSizeException(name, $"Span must be empty.");
 			}
 		}

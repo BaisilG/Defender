@@ -42,8 +42,36 @@ namespace Defender {
 		/// <param name="name">The name of the argument.</param>
 		/// <param name="upper">The upper bound.</param>
 		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void LesserThanOrEqualTo<T>(Span<T> span, String name, Int32 upper) {
+			if (span.Length > upper) {
+				throw new ArgumentSizeException(name, $"Argument must contain less or equal elements than the upper bound '{upper}'.");
+			}
+		}
+
+		/// <summary>
+		/// Guard against the argument being larger than <paramref name="upper"/> bound.
+		/// </summary>
+		/// <typeparam name="T">The type of the elements of the span.</typeparam>
+		/// <param name="span">The span.</param>
+		/// <param name="name">The name of the argument.</param>
+		/// <param name="upper">The upper bound.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
 		public static void LesserThanOrEqualTo<T>(ReadOnlySpan<T> span, String name, Int32 upper) {
 			if (span.Length > upper) {
+				throw new ArgumentSizeException(name, $"Argument must contain less or equal elements than the upper bound '{upper}'.");
+			}
+		}
+
+		/// <summary>
+		/// Guard against the argument being larger than <paramref name="upper"/> bound.
+		/// </summary>
+		/// <typeparam name="T">The type of the elements of the memory.</typeparam>
+		/// <param name="memory">The memory.</param>
+		/// <param name="name">The name of the argument.</param>
+		/// <param name="upper">The upper bound.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void LesserThanOrEqualTo<T>(Memory<T> memory, String name, Int32 upper) {
+			if (memory.Length > upper) {
 				throw new ArgumentSizeException(name, $"Argument must contain less or equal elements than the upper bound '{upper}'.");
 			}
 		}
