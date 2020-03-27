@@ -10,6 +10,8 @@ namespace Defender {
 
 		public StringClaim That(String @string) => new StringClaim(@string);
 
+		public Claim<Action> That(Action action) => new Claim<Action>(action);
+
 		public Claim<IEnumerable> That(IEnumerable sequence) => new Claim<IEnumerable>(sequence);
 
 		public Claim<IEnumerable<T>> That<T>(IEnumerable<T> sequence) => new Claim<IEnumerable<T>>(sequence);

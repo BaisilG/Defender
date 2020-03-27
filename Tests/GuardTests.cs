@@ -14,19 +14,19 @@ namespace Tests {
 		public void Empty_Succeeding() => Empty(new ArrayList(), "list");
 
 		[Fact]
-		public void Empty_Failing() => Claim.That(Empty, new ArrayList() { 1, 2 }, "list").Throws<ArgumentException>();
+		public void Empty_Failing() => Claim.That(() => Empty(new ArrayList() { 1, 2 }, "list")).Throws<ArgumentException>();
 
 		[Fact]
 		public void Empty_Generic_Succeeding() => Empty(new List<Int32>(), "list");
 
 		[Fact]
-		public void Empty_Generic_Failing() => Claim.That(Empty, new List<Int32>() { 1, 2 }, "list").Throws<ArgumentException>();
+		public void Empty_Generic_Failing() => Claim.That(() => Empty(new List<Int32>() { 1, 2 }, "list")).Throws<ArgumentException>();
 
 		[Fact]
 		public void Empty_String_Succeeding() => Empty("", "list");
 
 		[Fact]
-		public void Empty_String_Failing() => Claim.That(Empty, "hello", "list").Throws<ArgumentException>();
+		public void Empty_String_Failing() => Claim.That(() => Empty("hello", "list")).Throws<ArgumentException>();
 
 		[Theory]
 		[InlineData(5, 5)]
@@ -34,7 +34,7 @@ namespace Tests {
 
 		[Theory]
 		[InlineData(5, 6)]
-		public void Equal_Struct_Failing(Int32 param, Int32 other) => Claim.That(Equal, param, nameof(param), other).Throws<ArgumentInequalException>();
+		public void Equal_Struct_Failing(Int32 param, Int32 other) => Claim.That(() => Equal(param, nameof(param), other)).Throws<ArgumentInequalException>();
 
 		[Theory]
 		[InlineData(5, 5)]
@@ -44,7 +44,7 @@ namespace Tests {
 		[Theory]
 		[InlineData(5, 6)]
 		[InlineData(5, null)]
-		public void Equal_NullableStruct_Failing(Int32? param, Int32? other) => Claim.That(Equal, param, nameof(param), other).Throws<ArgumentInequalException>();
+		public void Equal_NullableStruct_Failing(Int32? param, Int32? other) => Claim.That(() => Equal(param, nameof(param), other)).Throws<ArgumentInequalException>();
 
 		[Theory]
 		[InlineData("", "")]
@@ -54,7 +54,7 @@ namespace Tests {
 		[Theory]
 		[InlineData("", "oh no")]
 		[InlineData("", null)]
-		public void Equal_Class_Failing(String param, String other) => Claim.That(Equal, param, nameof(param), other).Throws<ArgumentInequalException>();
+		public void Equal_Class_Failing(String param, String other) => Claim.That(() => Equal(param, nameof(param), other)).Throws<ArgumentInequalException>();
 
 		[Theory]
 		[InlineData(10, 1)]
@@ -64,7 +64,7 @@ namespace Tests {
 		[Theory]
 		[InlineData(10, 10)]
 		[InlineData(1, 10)]
-		public void GreaterThan_Failing(Int32 param, Int32 lower) => Claim.That(GreaterThan, param, nameof(param), lower).Throws<ArgumentOutOfRangeException>();
+		public void GreaterThan_Failing(Int32 param, Int32 lower) => Claim.That(() => GreaterThan(param, nameof(param), lower)).Throws<ArgumentOutOfRangeException>();
 
 		[Fact]
 		public void GreaterThan_Collection_Succeeding() {
@@ -75,7 +75,7 @@ namespace Tests {
 		[Fact]
 		public void GreaterThan_GenericCollection_Failing() {
 			ICollection<Int32> collection = new List<Int32>(new[] { 1, 2, 3, 4, 5 });
-			_ = Claim.That(GreaterThan<ICollection<Int32>, Int32>, collection, nameof(collection), 8).Throws<ArgumentSizeException>();
+			_ = Claim.That(() => GreaterThan<ICollection<Int32>, Int32>(collection, nameof(collection), 8)).Throws<ArgumentSizeException>();
 		}
 
 		[Fact]
@@ -87,7 +87,7 @@ namespace Tests {
 		[Fact]
 		public void GreaterThan_Collection_Failing() {
 			ICollection collection = new ArrayList(new[] { 1, 2, 3, 4, 5 });
-			_ = Claim.That(GreaterThan, collection, nameof(collection), 8).Throws<ArgumentSizeException>();
+			_ = Claim.That(() => GreaterThan(collection, nameof(collection), 8)).Throws<ArgumentSizeException>();
 		}
 
 		[Theory]
@@ -96,7 +96,7 @@ namespace Tests {
 
 		[Theory]
 		[InlineData(null)]
-		public void NotNull_Struct_Failing(Int32? param) => Claim.That(NotNull, param, nameof(param)).Throws<ArgumentNullException>();
+		public void NotNull_Struct_Failing(Int32? param) => Claim.That(() => NotNull(param, nameof(param))).Throws<ArgumentNullException>();
 
 		[Theory]
 		[InlineData("Hello")]
@@ -104,7 +104,7 @@ namespace Tests {
 
 		[Theory]
 		[InlineData(null)]
-		public void NotNull_Class_Failing(String param) => Claim.That(NotNull, param, nameof(param)).Throws<ArgumentNullException>();
+		public void NotNull_Class_Failing(String param) => Claim.That(() => NotNull(param, nameof(param))).Throws<ArgumentNullException>();
 
 		[Theory]
 		[InlineData(42)]
@@ -113,7 +113,7 @@ namespace Tests {
 		[Theory]
 		[InlineData("Hello")]
 		[InlineData(null)]
-		public void Of_Int32_Failing(Object param) => Claim.That(OfType<Int32>, param, nameof(param)).Throws<ArgumentTypeException>();
+		public void Of_Int32_Failing(Object param) => Claim.That(() => OfType<Int32>(param, nameof(param))).Throws<ArgumentTypeException>();
 
 		[Theory]
 		[InlineData("Hello")]
@@ -122,7 +122,7 @@ namespace Tests {
 		[Theory]
 		[InlineData(42)]
 		[InlineData(null)]
-		public void Of_String_Failing(Object param) => Claim.That(OfType<String>, param, nameof(param)).Throws<ArgumentTypeException>();
+		public void Of_String_Failing(Object param) => Claim.That(() => OfType<String>(param, nameof(param))).Throws<ArgumentTypeException>();
 
 		[Theory]
 		[InlineData(ConsoleColor.Red)]
@@ -131,7 +131,7 @@ namespace Tests {
 
 		[Theory]
 		[InlineData((ConsoleColor)20)]
-		public void Valid_Enum_Failing(ConsoleColor param) => Claim.That(Valid, param, nameof(param)).Throws<ArgumentOutOfRangeException>();
+		public void Valid_Enum_Failing(ConsoleColor param) => Claim.That(() => Valid(param, nameof(param))).Throws<ArgumentOutOfRangeException>();
 
 		[Theory]
 		[InlineData(5, 1, 10, true)]
@@ -141,7 +141,7 @@ namespace Tests {
 		[Theory]
 		[InlineData(15, 1, 10, true)]
 		[InlineData(10, 1, 10, false)]
-		public void Within_Int32_Failing(Int32 param, Int32 lower, Int32 upper, Boolean inclusive) => Claim.That(Within, param, nameof(param), lower, upper, inclusive).Throws<ArgumentOutOfRangeException>();
+		public void Within_Int32_Failing(Int32 param, Int32 lower, Int32 upper, Boolean inclusive) => Claim.That(() => Within(param, nameof(param), lower, upper, inclusive)).Throws<ArgumentOutOfRangeException>();
 
 		[Theory]
 		[InlineData(5, 1, 10, true)]
@@ -151,7 +151,7 @@ namespace Tests {
 		[Theory]
 		[InlineData(15, 1, 10, true)]
 		[InlineData(10, 1, 10, false)]
-		public void Within_UInt32_Failing(UInt32 param, UInt32 lower, UInt32 upper, Boolean inclusive) => Claim.That(Within, param, nameof(param), lower, upper, inclusive).Throws<ArgumentOutOfRangeException>();
+		public void Within_UInt32_Failing(UInt32 param, UInt32 lower, UInt32 upper, Boolean inclusive) => Claim.That(() => Within(param, nameof(param), lower, upper, inclusive)).Throws<ArgumentOutOfRangeException>();
 
 		[Theory]
 		[InlineData("cake", "alpha", "omega", true)]
@@ -161,6 +161,6 @@ namespace Tests {
 		[Theory]
 		[InlineData("zeta", "alpha", "omega", true)]
 		[InlineData("omega", "alpha", "omega", false)]
-		public void Within_IComparable_Failing(String param, String lower, String upper, Boolean inclusive) => Claim.That(Within, param, nameof(param), lower, upper, inclusive).Throws<ArgumentOutOfRangeException>();
+		public void Within_IComparable_Failing(String param, String lower, String upper, Boolean inclusive) => Claim.That(() => Within(param, nameof(param), lower, upper, inclusive)).Throws<ArgumentOutOfRangeException>();
 	}
 }
