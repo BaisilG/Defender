@@ -4,13 +4,26 @@ using Xunit.Sdk;
 namespace Defender {
 	public static partial class ClaimExtensions {
 		/// <summary>
-		/// Does the <see cref="Claim{T}"/>'d <see cref="String"/> not equal the <paramref name="expected"/>?
+		/// Does the <see cref="Claim{T}"/>'d value not equal the <paramref name="expected"/>?
 		/// </summary>
 		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
-		/// <param name="expected">The expected <see cref="String"/>.</param>
+		/// <param name="expected">The expected value.</param>
 		/// <returns>The calling <see cref="Claim{T}"/>.</returns>
-		public static Claim<T> NotEquals<T>(this Claim<T> claim, T expected) {
-			if (Equals(claim.Value, expected)) {
+		public static Claim<Ta> NotEquals<Ta, Te>(this Claim<Ta> claim, Te expected) where Te : IEquatable<Ta> {
+			if (expected.Equals(claim.Value)) {
+				throw new NotEqualException(ArgumentFormatter.Format(expected), ArgumentFormatter.Format(claim.Value));
+			}
+			return claim;
+		}
+
+		/// <summary>
+		/// Does the <see cref="Claim{T}"/>'d value not equal the <paramref name="expected"/>?
+		/// </summary>
+		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
+		/// <param name="expected">The expected value.</param>
+		/// <returns>The calling <see cref="Claim{T}"/>.</returns>
+		public static Claim<Object> NotEquals(this Claim<Object> claim, Object expected) {
+			if (expected.Equals(claim.Value)) {
 				throw new NotEqualException(ArgumentFormatter.Format(expected), ArgumentFormatter.Format(claim.Value));
 			}
 			return claim;

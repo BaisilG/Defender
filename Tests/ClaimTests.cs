@@ -40,7 +40,8 @@ namespace Tests {
 		[Theory]
 		[InlineData("", "a")]
 		[InlineData("a", "")]
-		public void Claim_NotEquals(String actual, String expected) => Claim.That(actual).NotEquals(expected);
+		[InlineData(4, 5)]
+		public void Claim_NotEquals(Object actual, Object expected) => Claim.That(actual).NotEquals(expected);
 
 		[Theory]
 		[InlineData("")]
@@ -50,6 +51,18 @@ namespace Tests {
 		[Theory]
 		[InlineData(null)]
 		public void Claim_Null(Object actual) => Claim.That(actual).Null();
+
+		[Theory]
+		[InlineData(5, 4, true)]
+		[InlineData(4, 5, false)]
+		public void Claim_LesserThan(Int32 actual, Int32 upperBound, Boolean success) {
+			if (success) {
+				_ = Claim.That(actual).LesserThan(upperBound);
+			} else {
+				_ = Claim.That(() => Claim.That(actual).LesserThan(upperBound))
+			.Throws<LesserThanException>();
+			}
+		}
 
 		[Theory]
 		[InlineData(new Int32[] { }, new Int32[] { })]
