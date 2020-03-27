@@ -4,11 +4,9 @@ using System.Collections.Generic;
 using Xunit.Sdk;
 
 namespace Defender {
-	public sealed class SequenceClaim : Claim<IEnumerable> {
-		internal SequenceClaim(IEnumerable sequence) : base(sequence) { }
-
-		public SequenceClaim SequenceEquals(IEnumerable expected) {
-			IEnumerator act = Value.GetEnumerator();
+	public static partial class ClaimExtensions {
+		public static Claim<IEnumerable> SequenceEquals(this Claim<IEnumerable> claim, IEnumerable expected) {
+			IEnumerator act = claim.Value.GetEnumerator();
 			IEnumerator exp = expected.GetEnumerator();
 			while (act.MoveNext() && exp.MoveNext()) {
 				if (!exp.Current.Equals(act.Current)) {
@@ -18,18 +16,13 @@ namespace Defender {
 			if (act.MoveNext() || exp.MoveNext()) {
 				goto NotEqual; // Not the same length
 			}
-			return this;
+			return claim;
 		NotEqual:
-			throw new EqualException(expected, Value);
+			throw new EqualException(expected, claim.Value);
 		}
 
-	}
-
-	public sealed class SequenceClaim<T> : Claim<IEnumerable<T>> {
-		internal SequenceClaim(IEnumerable<T> sequence) : base(sequence) { }
-
-		public SequenceClaim<T> SequenceEquals<Te>(IEnumerable<Te> expected) where Te : IEquatable<T> {
-			IEnumerator<T> act = Value.GetEnumerator();
+		public static Claim<IEnumerable<Ta>> SequenceEquals<Ta, Te>(this Claim<IEnumerable<Ta>> claim, IEnumerable<Te> expected) where Te : IEquatable<Ta> {
+			IEnumerator<Ta> act = claim.Value.GetEnumerator();
 			IEnumerator<Te> exp = expected.GetEnumerator();
 			while (act.MoveNext() && exp.MoveNext()) {
 				if (!exp.Current.Equals(act.Current)) {
@@ -39,10 +32,9 @@ namespace Defender {
 			if (act.MoveNext() || exp.MoveNext()) {
 				goto NotEqual; // Not the same length
 			}
-			return this;
+			return claim;
 		NotEqual:
-			throw new EqualException(expected, Value);
+			throw new EqualException(expected, claim.Value);
 		}
-
 	}
 }

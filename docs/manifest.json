@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Claim-1.html",
-          "hash": "5tQnFVZnh9jSI5eQj4Edgw=="
+          "hash": "HMR/Ccfzm4DF8O0kzAUrig=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Claim.html",
-          "hash": "LLXEbK8FHtvRXOG1J1vtPg=="
+          "hash": "HLXJu/u4JMbLVxMeJ1bITw=="
         }
       },
       "is_incremental": false,
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.ClaimExtensions.html",
-          "hash": "KmhN+k8Rfb7Q6BVyjiFr6A=="
+          "hash": "CFXsCh+154qUlyArkesvVQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Guard.html",
-          "hash": "I5VXf0ZcWqT8FtxiwRsBYQ=="
+          "hash": "xf0AveJ5VDIZrStFa0cqkg=="
         }
       },
       "is_incremental": false,
@@ -108,7 +108,7 @@
           "hash": "r43uYc1HtM/aK1fZ6tSxAg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -120,7 +120,7 @@
           "hash": "acmkmDz/hBQ1dh5+jF2LTg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -132,7 +132,7 @@
           "hash": "nP2/NMJWbxVYueVOGLQcrQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "iR6ROfZiGW0/iOPZxgwNeA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -156,7 +156,7 @@
           "hash": "Lluw5wyj9MEshxO/c99/Gw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -168,7 +168,7 @@
           "hash": "+RwZTmHowvRBHFYRGVhUmA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -277,6 +277,13 @@
         "skipped_file_count": 0
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
@@ -287,14 +294,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 16,
-          "skipped_file_count": 4
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "skipped_file_count": 7
         }
       }
     },
