@@ -376,6 +376,25 @@ references:
   isSpec: "True"
   fullName: Defender.CompareException.CompareException
   nameWithType: CompareException.CompareException
+- uid: Defender.GreaterThanException
+  name: GreaterThanException
+  href: api/Defender.GreaterThanException.html
+  commentId: T:Defender.GreaterThanException
+  fullName: Defender.GreaterThanException
+  nameWithType: GreaterThanException
+- uid: Defender.GreaterThanException.#ctor(System.Object,System.Object)
+  name: GreaterThanException(Object, Object)
+  href: api/Defender.GreaterThanException.html#Defender_GreaterThanException__ctor_System_Object_System_Object_
+  commentId: M:Defender.GreaterThanException.#ctor(System.Object,System.Object)
+  fullName: Defender.GreaterThanException.GreaterThanException(System.Object, System.Object)
+  nameWithType: GreaterThanException.GreaterThanException(Object, Object)
+- uid: Defender.GreaterThanException.#ctor*
+  name: GreaterThanException
+  href: api/Defender.GreaterThanException.html#Defender_GreaterThanException__ctor_
+  commentId: Overload:Defender.GreaterThanException.#ctor
+  isSpec: "True"
+  fullName: Defender.GreaterThanException.GreaterThanException
+  nameWithType: GreaterThanException.GreaterThanException
 - uid: Defender.Guard
   name: Guard
   href: api/Defender.Guard.html
