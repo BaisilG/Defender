@@ -9,6 +9,19 @@ namespace Defender {
 		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
 		/// <param name="expected">The expected <see cref="String"/>.</param>
 		/// <returns>The calling <see cref="Claim{T}"/>.</returns>
+		public static Claim<T> NotEquals<T>(this Claim<T> claim, T expected) {
+			if (Equals(claim.Value, expected)) {
+				throw new NotEqualException(ArgumentFormatter.Format(expected), ArgumentFormatter.Format(claim.Value));
+			}
+			return claim;
+		}
+
+		/// <summary>
+		/// Does the <see cref="Claim{T}"/>'d <see cref="String"/> not equal the <paramref name="expected"/>?
+		/// </summary>
+		/// <param name="claim">The <see cref="Claim{T}"/>.</param>
+		/// <param name="expected">The expected <see cref="String"/>.</param>
+		/// <returns>The calling <see cref="Claim{T}"/>.</returns>
 		public static Claim<String> NotEquals(this Claim<String> claim, String expected) {
 			if (String.Equals(claim.Value, expected)) {
 				throw new NotEqualException(expected, claim.Value);
