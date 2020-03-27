@@ -74,6 +74,7 @@ namespace Defender {
 			if (memory.Length <= lower) {
 				throw new ArgumentSizeException(name, $"Argument must contain more elements than the lower bound '{lower}'.");
 			}
+		}
 
 		/// <summary>
 		/// Guard against the argument being smaller than or equal to <paramref name="lower"/> bound.

@@ -8,7 +8,7 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Authors>Patrick Kelly</Authors>
-		<Version>0.10.1</Version>
+		<Version>1.0.0</Version>
 		<Description>No (added) overhead library for defensive programming practices. Just as efficient as hand written guard clauses.</Description>
 		<Copyright>2020</Copyright>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
@@ -22,7 +22,7 @@
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
 		<PackageReference Include="System.Memory">
-			<Version>4.5.3</Version>
+			<Version>4.5.*</Version>
 		</PackageReference>
 	</ItemGroup>
 
