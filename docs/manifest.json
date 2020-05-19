@@ -5,11 +5,11 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Defender.ArgumentEqualException.yml",
+      "source_relative_path": "api/Defender.Exceptions.ArgumentEqualException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Defender.ArgumentEqualException.html",
-          "hash": "IEqwtBwreJRI4SDq2ZNdtA=="
+          "relative_path": "api/Defender.Exceptions.ArgumentEqualException.html",
+          "hash": "E+kZIDipaWlaLdho9n+dEQ=="
         }
       },
       "is_incremental": false,
@@ -17,11 +17,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Defender.ArgumentFormatter.yml",
+      "source_relative_path": "api/Defender.Exceptions.ArgumentSizeException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Defender.ArgumentFormatter.html",
-          "hash": "21s79gA1eBwaazc0xfyDyA=="
+          "relative_path": "api/Defender.Exceptions.ArgumentSizeException.html",
+          "hash": "SMkYuf3zZbEVbgmM4FR1Xw=="
         }
       },
       "is_incremental": false,
@@ -29,11 +29,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Defender.ArgumentInequalException.yml",
+      "source_relative_path": "api/Defender.Exceptions.ArgumentTypeException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Defender.ArgumentInequalException.html",
-          "hash": "Cx2dTRlQh0i9YgDviM4RKQ=="
+          "relative_path": "api/Defender.Exceptions.ArgumentTypeException.html",
+          "hash": "zmCXd9JCGX8euCvqtI3NYA=="
         }
       },
       "is_incremental": false,
@@ -41,11 +41,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Defender.ArgumentSizeException.yml",
+      "source_relative_path": "api/Defender.Exceptions.ArgumentUnequalException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Defender.ArgumentSizeException.html",
-          "hash": "frI5Ou+W0vRv0yiM5REnZQ=="
+          "relative_path": "api/Defender.Exceptions.ArgumentUnequalException.html",
+          "hash": "GDx7QpO8IRkhBVzu4zmYWQ=="
         }
       },
       "is_incremental": false,
@@ -53,71 +53,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Defender.ArgumentTypeException.yml",
+      "source_relative_path": "api/Defender.Exceptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Defender.ArgumentTypeException.html",
-          "hash": "gjJGGuLcGMj9/j3lRf/CcA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Defender.Claim-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Defender.Claim-1.html",
-          "hash": "KbUrDN7c+HiK1CEUEHHEvA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Defender.Claim.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Defender.Claim.html",
-          "hash": "tpLt3I6NdBdQ1/E0ANwcBg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Defender.ClaimExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Defender.ClaimExtensions.html",
-          "hash": "BqrGF+QqY6e0x+GPqczhnw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Defender.CompareException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Defender.CompareException.html",
-          "hash": "NMzgZd+QoZMH40COlEKtZg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Defender.GreaterThanException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Defender.GreaterThanException.html",
-          "hash": "K/Uz50OFNxw1Jm4kd3XW7Q=="
+          "relative_path": "api/Defender.Exceptions.html",
+          "hash": "OUgRduJS66Vc36mwOGK73Q=="
         }
       },
       "is_incremental": false,
@@ -129,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.Guard.html",
-          "hash": "xf0AveJ5VDIZrStFa0cqkg=="
+          "hash": "L2KBrMfcX/A3Iq+bAlE6sw=="
         }
       },
       "is_incremental": false,
@@ -137,11 +77,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Defender.LesserThanException.yml",
+      "source_relative_path": "api/Defender.Guards.Guard.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Defender.LesserThanException.html",
-          "hash": "uhtOdVA7o7uGpkNy3bV5tw=="
+          "relative_path": "api/Defender.Guards.Guard.html",
+          "hash": "JwkIiew8UlMhsPZo+e19xA=="
         }
       },
       "is_incremental": false,
@@ -149,35 +89,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Defender.Trial.yml",
+      "source_relative_path": "api/Defender.Guards.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Defender.Trial.html",
-          "hash": "+RwZTmHowvRBHFYRGVhUmA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Defender.TrialException.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Defender.TrialException.html",
-          "hash": "QcGHZLzeAKmaLuIYqJVyqw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Defender.ValidatedNotNullAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Defender.ValidatedNotNullAttribute.html",
-          "hash": "RgI1w78hKvnNmearXZqYkg=="
+          "relative_path": "api/Defender.Guards.html",
+          "hash": "7Pcq0QAA1CcHqfcJpRJDog=="
         }
       },
       "is_incremental": false,
@@ -189,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Defender.html",
-          "hash": "NzivW9+aQT+zkNk7tNo71Q=="
+          "hash": "f5y9CXX9wJ8FJ6qk8/9vEw=="
         }
       },
       "is_incremental": false,
@@ -213,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "S/boZdr26yLPfZ/6O2P+Fg=="
+          "hash": "ryJ/81kUm7F+GL9w6w7SSA=="
         }
       },
       "is_incremental": false,
@@ -228,7 +144,7 @@
           "hash": "bJsJHbMxn8ghK+1+BZaD3w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -252,7 +168,7 @@
           "hash": "VQHmeZZ836ILlgoaAeZo6A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -271,37 +187,39 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 16,
-          "skipped_file_count": 10
         }
       }
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

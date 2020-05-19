@@ -7,400 +7,139 @@ references:
   commentId: N:Defender
   fullName: Defender
   nameWithType: Defender
-- uid: Defender.ArgumentEqualException
+- uid: Defender.Exceptions
+  name: Defender.Exceptions
+  href: api/Defender.Exceptions.html
+  commentId: N:Defender.Exceptions
+  fullName: Defender.Exceptions
+  nameWithType: Defender.Exceptions
+- uid: Defender.Exceptions.ArgumentEqualException
   name: ArgumentEqualException
-  href: api/Defender.ArgumentEqualException.html
-  commentId: T:Defender.ArgumentEqualException
-  fullName: Defender.ArgumentEqualException
+  href: api/Defender.Exceptions.ArgumentEqualException.html
+  commentId: T:Defender.Exceptions.ArgumentEqualException
+  fullName: Defender.Exceptions.ArgumentEqualException
   nameWithType: ArgumentEqualException
-- uid: Defender.ArgumentEqualException.#ctor
-  name: ArgumentEqualException()
-  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor
-  commentId: M:Defender.ArgumentEqualException.#ctor
-  fullName: Defender.ArgumentEqualException.ArgumentEqualException()
-  nameWithType: ArgumentEqualException.ArgumentEqualException()
-- uid: Defender.ArgumentEqualException.#ctor(System.String)
-  name: ArgumentEqualException(String)
-  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor_System_String_
-  commentId: M:Defender.ArgumentEqualException.#ctor(System.String)
-  fullName: Defender.ArgumentEqualException.ArgumentEqualException(System.String)
-  nameWithType: ArgumentEqualException.ArgumentEqualException(String)
-- uid: Defender.ArgumentEqualException.#ctor(System.String,System.Exception)
-  name: ArgumentEqualException(String, Exception)
-  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor_System_String_System_Exception_
-  commentId: M:Defender.ArgumentEqualException.#ctor(System.String,System.Exception)
-  fullName: Defender.ArgumentEqualException.ArgumentEqualException(System.String, System.Exception)
-  nameWithType: ArgumentEqualException.ArgumentEqualException(String, Exception)
-- uid: Defender.ArgumentEqualException.#ctor(System.String,System.String)
+- uid: Defender.Exceptions.ArgumentEqualException.#ctor(System.String,System.String)
   name: ArgumentEqualException(String, String)
-  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor_System_String_System_String_
-  commentId: M:Defender.ArgumentEqualException.#ctor(System.String,System.String)
-  fullName: Defender.ArgumentEqualException.ArgumentEqualException(System.String, System.String)
+  href: api/Defender.Exceptions.ArgumentEqualException.html#Defender_Exceptions_ArgumentEqualException__ctor_System_String_System_String_
+  commentId: M:Defender.Exceptions.ArgumentEqualException.#ctor(System.String,System.String)
+  fullName: Defender.Exceptions.ArgumentEqualException.ArgumentEqualException(System.String, System.String)
   nameWithType: ArgumentEqualException.ArgumentEqualException(String, String)
-- uid: Defender.ArgumentEqualException.#ctor(System.String,System.String,System.Exception)
-  name: ArgumentEqualException(String, String, Exception)
-  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor_System_String_System_String_System_Exception_
-  commentId: M:Defender.ArgumentEqualException.#ctor(System.String,System.String,System.Exception)
-  fullName: Defender.ArgumentEqualException.ArgumentEqualException(System.String, System.String, System.Exception)
-  nameWithType: ArgumentEqualException.ArgumentEqualException(String, String, Exception)
-- uid: Defender.ArgumentEqualException.#ctor*
+- uid: Defender.Exceptions.ArgumentEqualException.#ctor*
   name: ArgumentEqualException
-  href: api/Defender.ArgumentEqualException.html#Defender_ArgumentEqualException__ctor_
-  commentId: Overload:Defender.ArgumentEqualException.#ctor
+  href: api/Defender.Exceptions.ArgumentEqualException.html#Defender_Exceptions_ArgumentEqualException__ctor_
+  commentId: Overload:Defender.Exceptions.ArgumentEqualException.#ctor
   isSpec: "True"
-  fullName: Defender.ArgumentEqualException.ArgumentEqualException
+  fullName: Defender.Exceptions.ArgumentEqualException.ArgumentEqualException
   nameWithType: ArgumentEqualException.ArgumentEqualException
-- uid: Defender.ArgumentFormatter
-  name: ArgumentFormatter
-  href: api/Defender.ArgumentFormatter.html
-  commentId: T:Defender.ArgumentFormatter
-  fullName: Defender.ArgumentFormatter
-  nameWithType: ArgumentFormatter
-- uid: Defender.ArgumentFormatter.Format(System.String)
-  name: Format(String)
-  href: api/Defender.ArgumentFormatter.html#Defender_ArgumentFormatter_Format_System_String_
-  commentId: M:Defender.ArgumentFormatter.Format(System.String)
-  fullName: Defender.ArgumentFormatter.Format(System.String)
-  nameWithType: ArgumentFormatter.Format(String)
-- uid: Defender.ArgumentFormatter.Format*
-  name: Format
-  href: api/Defender.ArgumentFormatter.html#Defender_ArgumentFormatter_Format_
-  commentId: Overload:Defender.ArgumentFormatter.Format
-  isSpec: "True"
-  fullName: Defender.ArgumentFormatter.Format
-  nameWithType: ArgumentFormatter.Format
-- uid: Defender.ArgumentFormatter.Format``1(``0)
-  name: Format<T>(T)
-  href: api/Defender.ArgumentFormatter.html#Defender_ArgumentFormatter_Format__1___0_
-  commentId: M:Defender.ArgumentFormatter.Format``1(``0)
-  name.vb: Format(Of T)(T)
-  fullName: Defender.ArgumentFormatter.Format<T>(T)
-  fullName.vb: Defender.ArgumentFormatter.Format(Of T)(T)
-  nameWithType: ArgumentFormatter.Format<T>(T)
-  nameWithType.vb: ArgumentFormatter.Format(Of T)(T)
-- uid: Defender.ArgumentInequalException
-  name: ArgumentInequalException
-  href: api/Defender.ArgumentInequalException.html
-  commentId: T:Defender.ArgumentInequalException
-  fullName: Defender.ArgumentInequalException
-  nameWithType: ArgumentInequalException
-- uid: Defender.ArgumentInequalException.#ctor
-  name: ArgumentInequalException()
-  href: api/Defender.ArgumentInequalException.html#Defender_ArgumentInequalException__ctor
-  commentId: M:Defender.ArgumentInequalException.#ctor
-  fullName: Defender.ArgumentInequalException.ArgumentInequalException()
-  nameWithType: ArgumentInequalException.ArgumentInequalException()
-- uid: Defender.ArgumentInequalException.#ctor(System.String)
-  name: ArgumentInequalException(String)
-  href: api/Defender.ArgumentInequalException.html#Defender_ArgumentInequalException__ctor_System_String_
-  commentId: M:Defender.ArgumentInequalException.#ctor(System.String)
-  fullName: Defender.ArgumentInequalException.ArgumentInequalException(System.String)
-  nameWithType: ArgumentInequalException.ArgumentInequalException(String)
-- uid: Defender.ArgumentInequalException.#ctor(System.String,System.Exception)
-  name: ArgumentInequalException(String, Exception)
-  href: api/Defender.ArgumentInequalException.html#Defender_ArgumentInequalException__ctor_System_String_System_Exception_
-  commentId: M:Defender.ArgumentInequalException.#ctor(System.String,System.Exception)
-  fullName: Defender.ArgumentInequalException.ArgumentInequalException(System.String, System.Exception)
-  nameWithType: ArgumentInequalException.ArgumentInequalException(String, Exception)
-- uid: Defender.ArgumentInequalException.#ctor(System.String,System.String)
-  name: ArgumentInequalException(String, String)
-  href: api/Defender.ArgumentInequalException.html#Defender_ArgumentInequalException__ctor_System_String_System_String_
-  commentId: M:Defender.ArgumentInequalException.#ctor(System.String,System.String)
-  fullName: Defender.ArgumentInequalException.ArgumentInequalException(System.String, System.String)
-  nameWithType: ArgumentInequalException.ArgumentInequalException(String, String)
-- uid: Defender.ArgumentInequalException.#ctor(System.String,System.String,System.Exception)
-  name: ArgumentInequalException(String, String, Exception)
-  href: api/Defender.ArgumentInequalException.html#Defender_ArgumentInequalException__ctor_System_String_System_String_System_Exception_
-  commentId: M:Defender.ArgumentInequalException.#ctor(System.String,System.String,System.Exception)
-  fullName: Defender.ArgumentInequalException.ArgumentInequalException(System.String, System.String, System.Exception)
-  nameWithType: ArgumentInequalException.ArgumentInequalException(String, String, Exception)
-- uid: Defender.ArgumentInequalException.#ctor*
-  name: ArgumentInequalException
-  href: api/Defender.ArgumentInequalException.html#Defender_ArgumentInequalException__ctor_
-  commentId: Overload:Defender.ArgumentInequalException.#ctor
-  isSpec: "True"
-  fullName: Defender.ArgumentInequalException.ArgumentInequalException
-  nameWithType: ArgumentInequalException.ArgumentInequalException
-- uid: Defender.ArgumentSizeException
+- uid: Defender.Exceptions.ArgumentSizeException
   name: ArgumentSizeException
-  href: api/Defender.ArgumentSizeException.html
-  commentId: T:Defender.ArgumentSizeException
-  fullName: Defender.ArgumentSizeException
+  href: api/Defender.Exceptions.ArgumentSizeException.html
+  commentId: T:Defender.Exceptions.ArgumentSizeException
+  fullName: Defender.Exceptions.ArgumentSizeException
   nameWithType: ArgumentSizeException
-- uid: Defender.ArgumentSizeException.#ctor
-  name: ArgumentSizeException()
-  href: api/Defender.ArgumentSizeException.html#Defender_ArgumentSizeException__ctor
-  commentId: M:Defender.ArgumentSizeException.#ctor
-  fullName: Defender.ArgumentSizeException.ArgumentSizeException()
-  nameWithType: ArgumentSizeException.ArgumentSizeException()
-- uid: Defender.ArgumentSizeException.#ctor(System.String)
-  name: ArgumentSizeException(String)
-  href: api/Defender.ArgumentSizeException.html#Defender_ArgumentSizeException__ctor_System_String_
-  commentId: M:Defender.ArgumentSizeException.#ctor(System.String)
-  fullName: Defender.ArgumentSizeException.ArgumentSizeException(System.String)
-  nameWithType: ArgumentSizeException.ArgumentSizeException(String)
-- uid: Defender.ArgumentSizeException.#ctor(System.String,System.Exception)
-  name: ArgumentSizeException(String, Exception)
-  href: api/Defender.ArgumentSizeException.html#Defender_ArgumentSizeException__ctor_System_String_System_Exception_
-  commentId: M:Defender.ArgumentSizeException.#ctor(System.String,System.Exception)
-  fullName: Defender.ArgumentSizeException.ArgumentSizeException(System.String, System.Exception)
-  nameWithType: ArgumentSizeException.ArgumentSizeException(String, Exception)
-- uid: Defender.ArgumentSizeException.#ctor(System.String,System.String)
+- uid: Defender.Exceptions.ArgumentSizeException.#ctor(System.String,System.String)
   name: ArgumentSizeException(String, String)
-  href: api/Defender.ArgumentSizeException.html#Defender_ArgumentSizeException__ctor_System_String_System_String_
-  commentId: M:Defender.ArgumentSizeException.#ctor(System.String,System.String)
-  fullName: Defender.ArgumentSizeException.ArgumentSizeException(System.String, System.String)
+  href: api/Defender.Exceptions.ArgumentSizeException.html#Defender_Exceptions_ArgumentSizeException__ctor_System_String_System_String_
+  commentId: M:Defender.Exceptions.ArgumentSizeException.#ctor(System.String,System.String)
+  fullName: Defender.Exceptions.ArgumentSizeException.ArgumentSizeException(System.String, System.String)
   nameWithType: ArgumentSizeException.ArgumentSizeException(String, String)
-- uid: Defender.ArgumentSizeException.#ctor(System.String,System.String,System.Exception)
-  name: ArgumentSizeException(String, String, Exception)
-  href: api/Defender.ArgumentSizeException.html#Defender_ArgumentSizeException__ctor_System_String_System_String_System_Exception_
-  commentId: M:Defender.ArgumentSizeException.#ctor(System.String,System.String,System.Exception)
-  fullName: Defender.ArgumentSizeException.ArgumentSizeException(System.String, System.String, System.Exception)
-  nameWithType: ArgumentSizeException.ArgumentSizeException(String, String, Exception)
-- uid: Defender.ArgumentSizeException.#ctor*
+- uid: Defender.Exceptions.ArgumentSizeException.#ctor*
   name: ArgumentSizeException
-  href: api/Defender.ArgumentSizeException.html#Defender_ArgumentSizeException__ctor_
-  commentId: Overload:Defender.ArgumentSizeException.#ctor
+  href: api/Defender.Exceptions.ArgumentSizeException.html#Defender_Exceptions_ArgumentSizeException__ctor_
+  commentId: Overload:Defender.Exceptions.ArgumentSizeException.#ctor
   isSpec: "True"
-  fullName: Defender.ArgumentSizeException.ArgumentSizeException
+  fullName: Defender.Exceptions.ArgumentSizeException.ArgumentSizeException
   nameWithType: ArgumentSizeException.ArgumentSizeException
-- uid: Defender.ArgumentTypeException
+- uid: Defender.Exceptions.ArgumentTypeException
   name: ArgumentTypeException
-  href: api/Defender.ArgumentTypeException.html
-  commentId: T:Defender.ArgumentTypeException
-  fullName: Defender.ArgumentTypeException
+  href: api/Defender.Exceptions.ArgumentTypeException.html
+  commentId: T:Defender.Exceptions.ArgumentTypeException
+  fullName: Defender.Exceptions.ArgumentTypeException
   nameWithType: ArgumentTypeException
-- uid: Defender.ArgumentTypeException.#ctor
-  name: ArgumentTypeException()
-  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor
-  commentId: M:Defender.ArgumentTypeException.#ctor
-  fullName: Defender.ArgumentTypeException.ArgumentTypeException()
-  nameWithType: ArgumentTypeException.ArgumentTypeException()
-- uid: Defender.ArgumentTypeException.#ctor(System.String)
-  name: ArgumentTypeException(String)
-  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_
-  commentId: M:Defender.ArgumentTypeException.#ctor(System.String)
-  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String)
-  nameWithType: ArgumentTypeException.ArgumentTypeException(String)
-- uid: Defender.ArgumentTypeException.#ctor(System.String,System.Exception)
-  name: ArgumentTypeException(String, Exception)
-  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_Exception_
-  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.Exception)
-  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.Exception)
-  nameWithType: ArgumentTypeException.ArgumentTypeException(String, Exception)
-- uid: Defender.ArgumentTypeException.#ctor(System.String,System.String)
-  name: ArgumentTypeException(String, String)
-  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_String_
-  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.String)
-  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.String)
-  nameWithType: ArgumentTypeException.ArgumentTypeException(String, String)
-- uid: Defender.ArgumentTypeException.#ctor(System.String,System.String,System.Exception)
-  name: ArgumentTypeException(String, String, Exception)
-  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_String_System_Exception_
-  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.String,System.Exception)
-  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.String, System.Exception)
-  nameWithType: ArgumentTypeException.ArgumentTypeException(String, String, Exception)
-- uid: Defender.ArgumentTypeException.#ctor(System.String,System.Type)
+- uid: Defender.Exceptions.ArgumentTypeException.#ctor(System.String,System.Type)
   name: ArgumentTypeException(String, Type)
-  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_Type_
-  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.Type)
-  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.Type)
+  href: api/Defender.Exceptions.ArgumentTypeException.html#Defender_Exceptions_ArgumentTypeException__ctor_System_String_System_Type_
+  commentId: M:Defender.Exceptions.ArgumentTypeException.#ctor(System.String,System.Type)
+  fullName: Defender.Exceptions.ArgumentTypeException.ArgumentTypeException(System.String, System.Type)
   nameWithType: ArgumentTypeException.ArgumentTypeException(String, Type)
-- uid: Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.Exception)
-  name: ArgumentTypeException(String, Type, Exception)
-  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_Type_System_Exception_
-  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.Exception)
-  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.Type, System.Exception)
-  nameWithType: ArgumentTypeException.ArgumentTypeException(String, Type, Exception)
-- uid: Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.String)
+- uid: Defender.Exceptions.ArgumentTypeException.#ctor(System.String,System.Type,System.String)
   name: ArgumentTypeException(String, Type, String)
-  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_Type_System_String_
-  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.String)
-  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.Type, System.String)
+  href: api/Defender.Exceptions.ArgumentTypeException.html#Defender_Exceptions_ArgumentTypeException__ctor_System_String_System_Type_System_String_
+  commentId: M:Defender.Exceptions.ArgumentTypeException.#ctor(System.String,System.Type,System.String)
+  fullName: Defender.Exceptions.ArgumentTypeException.ArgumentTypeException(System.String, System.Type, System.String)
   nameWithType: ArgumentTypeException.ArgumentTypeException(String, Type, String)
-- uid: Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.String,System.Exception)
-  name: ArgumentTypeException(String, Type, String, Exception)
-  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_System_String_System_Type_System_String_System_Exception_
-  commentId: M:Defender.ArgumentTypeException.#ctor(System.String,System.Type,System.String,System.Exception)
-  fullName: Defender.ArgumentTypeException.ArgumentTypeException(System.String, System.Type, System.String, System.Exception)
-  nameWithType: ArgumentTypeException.ArgumentTypeException(String, Type, String, Exception)
-- uid: Defender.ArgumentTypeException.#ctor*
+- uid: Defender.Exceptions.ArgumentTypeException.#ctor*
   name: ArgumentTypeException
-  href: api/Defender.ArgumentTypeException.html#Defender_ArgumentTypeException__ctor_
-  commentId: Overload:Defender.ArgumentTypeException.#ctor
+  href: api/Defender.Exceptions.ArgumentTypeException.html#Defender_Exceptions_ArgumentTypeException__ctor_
+  commentId: Overload:Defender.Exceptions.ArgumentTypeException.#ctor
   isSpec: "True"
-  fullName: Defender.ArgumentTypeException.ArgumentTypeException
+  fullName: Defender.Exceptions.ArgumentTypeException.ArgumentTypeException
   nameWithType: ArgumentTypeException.ArgumentTypeException
-- uid: Defender.Claim
-  name: Claim
-  href: api/Defender.Claim.html
-  commentId: T:Defender.Claim
-  fullName: Defender.Claim
-  nameWithType: Claim
-- uid: Defender.Claim.That(System.Action)
-  name: That(Action)
-  href: api/Defender.Claim.html#Defender_Claim_That_System_Action_
-  commentId: M:Defender.Claim.That(System.Action)
-  fullName: Defender.Claim.That(System.Action)
-  nameWithType: Claim.That(Action)
-- uid: Defender.Claim.That(System.Collections.IEnumerable)
-  name: That(IEnumerable)
-  href: api/Defender.Claim.html#Defender_Claim_That_System_Collections_IEnumerable_
-  commentId: M:Defender.Claim.That(System.Collections.IEnumerable)
-  fullName: Defender.Claim.That(System.Collections.IEnumerable)
-  nameWithType: Claim.That(IEnumerable)
-- uid: Defender.Claim.That(System.String)
-  name: That(String)
-  href: api/Defender.Claim.html#Defender_Claim_That_System_String_
-  commentId: M:Defender.Claim.That(System.String)
-  fullName: Defender.Claim.That(System.String)
-  nameWithType: Claim.That(String)
-- uid: Defender.Claim.That*
-  name: That
-  href: api/Defender.Claim.html#Defender_Claim_That_
-  commentId: Overload:Defender.Claim.That
+- uid: Defender.Exceptions.ArgumentUnequalException
+  name: ArgumentUnequalException
+  href: api/Defender.Exceptions.ArgumentUnequalException.html
+  commentId: T:Defender.Exceptions.ArgumentUnequalException
+  fullName: Defender.Exceptions.ArgumentUnequalException
+  nameWithType: ArgumentUnequalException
+- uid: Defender.Exceptions.ArgumentUnequalException.#ctor(System.String,System.String)
+  name: ArgumentUnequalException(String, String)
+  href: api/Defender.Exceptions.ArgumentUnequalException.html#Defender_Exceptions_ArgumentUnequalException__ctor_System_String_System_String_
+  commentId: M:Defender.Exceptions.ArgumentUnequalException.#ctor(System.String,System.String)
+  fullName: Defender.Exceptions.ArgumentUnequalException.ArgumentUnequalException(System.String, System.String)
+  nameWithType: ArgumentUnequalException.ArgumentUnequalException(String, String)
+- uid: Defender.Exceptions.ArgumentUnequalException.#ctor*
+  name: ArgumentUnequalException
+  href: api/Defender.Exceptions.ArgumentUnequalException.html#Defender_Exceptions_ArgumentUnequalException__ctor_
+  commentId: Overload:Defender.Exceptions.ArgumentUnequalException.#ctor
   isSpec: "True"
-  fullName: Defender.Claim.That
-  nameWithType: Claim.That
-- uid: Defender.Claim.That``1(System.Collections.Generic.IEnumerable{``0})
-  name: That<T>(IEnumerable<T>)
-  href: api/Defender.Claim.html#Defender_Claim_That__1_System_Collections_Generic_IEnumerable___0__
-  commentId: M:Defender.Claim.That``1(System.Collections.Generic.IEnumerable{``0})
-  name.vb: That(Of T)(IEnumerable(Of T))
-  fullName: Defender.Claim.That<T>(System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: Defender.Claim.That(Of T)(System.Collections.Generic.IEnumerable(Of T))
-  nameWithType: Claim.That<T>(IEnumerable<T>)
-  nameWithType.vb: Claim.That(Of T)(IEnumerable(Of T))
-- uid: Defender.Claim`1
-  name: Claim<T>
-  href: api/Defender.Claim-1.html
-  commentId: T:Defender.Claim`1
-  name.vb: Claim(Of T)
-  fullName: Defender.Claim<T>
-  fullName.vb: Defender.Claim(Of T)
-  nameWithType: Claim<T>
-  nameWithType.vb: Claim(Of T)
-- uid: Defender.Claim`1.Equals(System.Object)
-  name: Equals(Object)
-  href: api/Defender.Claim-1.html#Defender_Claim_1_Equals_System_Object_
-  commentId: M:Defender.Claim`1.Equals(System.Object)
-  fullName: Defender.Claim<T>.Equals(System.Object)
-  fullName.vb: Defender.Claim(Of T).Equals(System.Object)
-  nameWithType: Claim<T>.Equals(Object)
-  nameWithType.vb: Claim(Of T).Equals(Object)
-- uid: Defender.Claim`1.Equals*
-  name: Equals
-  href: api/Defender.Claim-1.html#Defender_Claim_1_Equals_
-  commentId: Overload:Defender.Claim`1.Equals
-  isSpec: "True"
-  fullName: Defender.Claim<T>.Equals
-  fullName.vb: Defender.Claim(Of T).Equals
-  nameWithType: Claim<T>.Equals
-  nameWithType.vb: Claim(Of T).Equals
-- uid: Defender.Claim`1.Equals``1(``0)
-  name: Equals<Te>(Te)
-  href: api/Defender.Claim-1.html#Defender_Claim_1_Equals__1___0_
-  commentId: M:Defender.Claim`1.Equals``1(``0)
-  name.vb: Equals(Of Te)(Te)
-  fullName: Defender.Claim<T>.Equals<Te>(Te)
-  fullName.vb: Defender.Claim(Of T).Equals(Of Te)(Te)
-  nameWithType: Claim<T>.Equals<Te>(Te)
-  nameWithType.vb: Claim(Of T).Equals(Of Te)(Te)
-- uid: Defender.Claim`1.Value
-  name: Value
-  href: api/Defender.Claim-1.html#Defender_Claim_1_Value
-  commentId: P:Defender.Claim`1.Value
-  fullName: Defender.Claim<T>.Value
-  fullName.vb: Defender.Claim(Of T).Value
-  nameWithType: Claim<T>.Value
-  nameWithType.vb: Claim(Of T).Value
-- uid: Defender.Claim`1.Value*
-  name: Value
-  href: api/Defender.Claim-1.html#Defender_Claim_1_Value_
-  commentId: Overload:Defender.Claim`1.Value
-  isSpec: "True"
-  fullName: Defender.Claim<T>.Value
-  fullName.vb: Defender.Claim(Of T).Value
-  nameWithType: Claim<T>.Value
-  nameWithType.vb: Claim(Of T).Value
-- uid: Defender.ClaimExtensions
-  name: ClaimExtensions
-  href: api/Defender.ClaimExtensions.html
-  commentId: T:Defender.ClaimExtensions
-  fullName: Defender.ClaimExtensions
-  nameWithType: ClaimExtensions
-- uid: Defender.ClaimExtensions.That*
-  name: That
-  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_That_
-  commentId: Overload:Defender.ClaimExtensions.That
-  isSpec: "True"
-  fullName: Defender.ClaimExtensions.That
-  nameWithType: ClaimExtensions.That
-- uid: Defender.ClaimExtensions.That``1(Defender.Claim,``0)
-  name: That<T>(Claim, T)
-  href: api/Defender.ClaimExtensions.html#Defender_ClaimExtensions_That__1_Defender_Claim___0_
-  commentId: M:Defender.ClaimExtensions.That``1(Defender.Claim,``0)
-  name.vb: That(Of T)(Claim, T)
-  fullName: Defender.ClaimExtensions.That<T>(Defender.Claim, T)
-  fullName.vb: Defender.ClaimExtensions.That(Of T)(Defender.Claim, T)
-  nameWithType: ClaimExtensions.That<T>(Claim, T)
-  nameWithType.vb: ClaimExtensions.That(Of T)(Claim, T)
-- uid: Defender.CompareException
-  name: CompareException
-  href: api/Defender.CompareException.html
-  commentId: T:Defender.CompareException
-  fullName: Defender.CompareException
-  nameWithType: CompareException
-- uid: Defender.CompareException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: CompareException(SerializationInfo, StreamingContext)
-  href: api/Defender.CompareException.html#Defender_CompareException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Defender.CompareException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Defender.CompareException.CompareException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: CompareException.CompareException(SerializationInfo, StreamingContext)
-- uid: Defender.CompareException.#ctor(System.String)
-  name: CompareException(String)
-  href: api/Defender.CompareException.html#Defender_CompareException__ctor_System_String_
-  commentId: M:Defender.CompareException.#ctor(System.String)
-  fullName: Defender.CompareException.CompareException(System.String)
-  nameWithType: CompareException.CompareException(String)
-- uid: Defender.CompareException.#ctor(System.String,System.Exception)
-  name: CompareException(String, Exception)
-  href: api/Defender.CompareException.html#Defender_CompareException__ctor_System_String_System_Exception_
-  commentId: M:Defender.CompareException.#ctor(System.String,System.Exception)
-  fullName: Defender.CompareException.CompareException(System.String, System.Exception)
-  nameWithType: CompareException.CompareException(String, Exception)
-- uid: Defender.CompareException.#ctor*
-  name: CompareException
-  href: api/Defender.CompareException.html#Defender_CompareException__ctor_
-  commentId: Overload:Defender.CompareException.#ctor
-  isSpec: "True"
-  fullName: Defender.CompareException.CompareException
-  nameWithType: CompareException.CompareException
-- uid: Defender.GreaterThanException
-  name: GreaterThanException
-  href: api/Defender.GreaterThanException.html
-  commentId: T:Defender.GreaterThanException
-  fullName: Defender.GreaterThanException
-  nameWithType: GreaterThanException
-- uid: Defender.GreaterThanException.#ctor(System.Object,System.Object)
-  name: GreaterThanException(Object, Object)
-  href: api/Defender.GreaterThanException.html#Defender_GreaterThanException__ctor_System_Object_System_Object_
-  commentId: M:Defender.GreaterThanException.#ctor(System.Object,System.Object)
-  fullName: Defender.GreaterThanException.GreaterThanException(System.Object, System.Object)
-  nameWithType: GreaterThanException.GreaterThanException(Object, Object)
-- uid: Defender.GreaterThanException.#ctor*
-  name: GreaterThanException
-  href: api/Defender.GreaterThanException.html#Defender_GreaterThanException__ctor_
-  commentId: Overload:Defender.GreaterThanException.#ctor
-  isSpec: "True"
-  fullName: Defender.GreaterThanException.GreaterThanException
-  nameWithType: GreaterThanException.GreaterThanException
+  fullName: Defender.Exceptions.ArgumentUnequalException.ArgumentUnequalException
+  nameWithType: ArgumentUnequalException.ArgumentUnequalException
 - uid: Defender.Guard
   name: Guard
   href: api/Defender.Guard.html
   commentId: T:Defender.Guard
   fullName: Defender.Guard
   nameWithType: Guard
+- uid: Defender.Guard.CanRead(System.IO.Stream,System.String)
+  name: CanRead(Stream, String)
+  href: api/Defender.Guard.html#Defender_Guard_CanRead_System_IO_Stream_System_String_
+  commentId: M:Defender.Guard.CanRead(System.IO.Stream,System.String)
+  fullName: Defender.Guard.CanRead(System.IO.Stream, System.String)
+  nameWithType: Guard.CanRead(Stream, String)
+- uid: Defender.Guard.CanRead*
+  name: CanRead
+  href: api/Defender.Guard.html#Defender_Guard_CanRead_
+  commentId: Overload:Defender.Guard.CanRead
+  isSpec: "True"
+  fullName: Defender.Guard.CanRead
+  nameWithType: Guard.CanRead
+- uid: Defender.Guard.CanSeek(System.IO.Stream,System.String)
+  name: CanSeek(Stream, String)
+  href: api/Defender.Guard.html#Defender_Guard_CanSeek_System_IO_Stream_System_String_
+  commentId: M:Defender.Guard.CanSeek(System.IO.Stream,System.String)
+  fullName: Defender.Guard.CanSeek(System.IO.Stream, System.String)
+  nameWithType: Guard.CanSeek(Stream, String)
+- uid: Defender.Guard.CanSeek*
+  name: CanSeek
+  href: api/Defender.Guard.html#Defender_Guard_CanSeek_
+  commentId: Overload:Defender.Guard.CanSeek
+  isSpec: "True"
+  fullName: Defender.Guard.CanSeek
+  nameWithType: Guard.CanSeek
+- uid: Defender.Guard.CanWrite(System.IO.Stream,System.String)
+  name: CanWrite(Stream, String)
+  href: api/Defender.Guard.html#Defender_Guard_CanWrite_System_IO_Stream_System_String_
+  commentId: M:Defender.Guard.CanWrite(System.IO.Stream,System.String)
+  fullName: Defender.Guard.CanWrite(System.IO.Stream, System.String)
+  nameWithType: Guard.CanWrite(Stream, String)
+- uid: Defender.Guard.CanWrite*
+  name: CanWrite
+  href: api/Defender.Guard.html#Defender_Guard_CanWrite_
+  commentId: Overload:Defender.Guard.CanWrite
+  isSpec: "True"
+  fullName: Defender.Guard.CanWrite
+  nameWithType: Guard.CanWrite
 - uid: Defender.Guard.Empty(System.String,System.String)
   name: Empty(String, String)
   href: api/Defender.Guard.html#Defender_Guard_Empty_System_String_System_String_
@@ -441,6 +180,12 @@ references:
   fullName.vb: Defender.Guard.Empty(Of C, T)(C, System.String)
   nameWithType: Guard.Empty<C, T>(C, String)
   nameWithType.vb: Guard.Empty(Of C, T)(C, String)
+- uid: Defender.Guard.Equal(System.Object,System.String,System.Object)
+  name: Equal(Object, String, Object)
+  href: api/Defender.Guard.html#Defender_Guard_Equal_System_Object_System_String_System_Object_
+  commentId: M:Defender.Guard.Equal(System.Object,System.String,System.Object)
+  fullName: Defender.Guard.Equal(System.Object, System.String, System.Object)
+  nameWithType: Guard.Equal(Object, String, Object)
 - uid: Defender.Guard.Equal*
   name: Equal
   href: api/Defender.Guard.html#Defender_Guard_Equal_
@@ -448,51 +193,15 @@ references:
   isSpec: "True"
   fullName: Defender.Guard.Equal
   nameWithType: Guard.Equal
-- uid: Defender.Guard.Equal``1(``0,System.String,``0)
-  name: Equal<T>(T, String, T)
-  href: api/Defender.Guard.html#Defender_Guard_Equal__1___0_System_String___0_
-  commentId: M:Defender.Guard.Equal``1(``0,System.String,``0)
-  name.vb: Equal(Of T)(T, String, T)
-  fullName: Defender.Guard.Equal<T>(T, System.String, T)
-  fullName.vb: Defender.Guard.Equal(Of T)(T, System.String, T)
-  nameWithType: Guard.Equal<T>(T, String, T)
-  nameWithType.vb: Guard.Equal(Of T)(T, String, T)
-- uid: Defender.Guard.Equal``1(``0,System.String,``0,System.String)
-  name: Equal<T>(T, String, T, String)
-  href: api/Defender.Guard.html#Defender_Guard_Equal__1___0_System_String___0_System_String_
-  commentId: M:Defender.Guard.Equal``1(``0,System.String,``0,System.String)
-  name.vb: Equal(Of T)(T, String, T, String)
-  fullName: Defender.Guard.Equal<T>(T, System.String, T, System.String)
-  fullName.vb: Defender.Guard.Equal(Of T)(T, System.String, T, System.String)
-  nameWithType: Guard.Equal<T>(T, String, T, String)
-  nameWithType.vb: Guard.Equal(Of T)(T, String, T, String)
-- uid: Defender.Guard.Equal``1(``0,System.String,System.Int32)
-  name: Equal<C>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_Equal__1___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.Equal``1(``0,System.String,System.Int32)
-  name.vb: Equal(Of C)(C, String, Int32)
-  fullName: Defender.Guard.Equal<C>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.Equal(Of C)(C, System.String, System.Int32)
-  nameWithType: Guard.Equal<C>(C, String, Int32)
-  nameWithType.vb: Guard.Equal(Of C)(C, String, Int32)
-- uid: Defender.Guard.Equal``1(``0[],System.String,System.Int32)
-  name: Equal<T>(T[], String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_Equal__1___0___System_String_System_Int32_
-  commentId: M:Defender.Guard.Equal``1(``0[],System.String,System.Int32)
-  name.vb: Equal(Of T)(T(), String, Int32)
-  fullName: Defender.Guard.Equal<T>(T[], System.String, System.Int32)
-  fullName.vb: Defender.Guard.Equal(Of T)(T(), System.String, System.Int32)
-  nameWithType: Guard.Equal<T>(T[], String, Int32)
-  nameWithType.vb: Guard.Equal(Of T)(T(), String, Int32)
-- uid: Defender.Guard.Equal``2(``0,System.String,System.Int32)
-  name: Equal<C, T>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_Equal__2___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.Equal``2(``0,System.String,System.Int32)
-  name.vb: Equal(Of C, T)(C, String, Int32)
-  fullName: Defender.Guard.Equal<C, T>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.Equal(Of C, T)(C, System.String, System.Int32)
-  nameWithType: Guard.Equal<C, T>(C, String, Int32)
-  nameWithType.vb: Guard.Equal(Of C, T)(C, String, Int32)
+- uid: Defender.Guard.Equal``2(``0,System.String,``1)
+  name: Equal<TValue, TOther>(TValue, String, TOther)
+  href: api/Defender.Guard.html#Defender_Guard_Equal__2___0_System_String___1_
+  commentId: M:Defender.Guard.Equal``2(``0,System.String,``1)
+  name.vb: Equal(Of TValue, TOther)(TValue, String, TOther)
+  fullName: Defender.Guard.Equal<TValue, TOther>(TValue, System.String, TOther)
+  fullName.vb: Defender.Guard.Equal(Of TValue, TOther)(TValue, System.String, TOther)
+  nameWithType: Guard.Equal<TValue, TOther>(TValue, String, TOther)
+  nameWithType.vb: Guard.Equal(Of TValue, TOther)(TValue, String, TOther)
 - uid: Defender.Guard.GreaterThan*
   name: GreaterThan
   href: api/Defender.Guard.html#Defender_Guard_GreaterThan_
@@ -509,33 +218,6 @@ references:
   fullName.vb: Defender.Guard.GreaterThan(Of T)(T, System.String, T)
   nameWithType: Guard.GreaterThan<T>(T, String, T)
   nameWithType.vb: Guard.GreaterThan(Of T)(T, String, T)
-- uid: Defender.Guard.GreaterThan``1(``0,System.String,System.Int32)
-  name: GreaterThan<C>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_GreaterThan__1___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.GreaterThan``1(``0,System.String,System.Int32)
-  name.vb: GreaterThan(Of C)(C, String, Int32)
-  fullName: Defender.Guard.GreaterThan<C>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.GreaterThan(Of C)(C, System.String, System.Int32)
-  nameWithType: Guard.GreaterThan<C>(C, String, Int32)
-  nameWithType.vb: Guard.GreaterThan(Of C)(C, String, Int32)
-- uid: Defender.Guard.GreaterThan``1(``0[],System.String,System.Int32)
-  name: GreaterThan<T>(T[], String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_GreaterThan__1___0___System_String_System_Int32_
-  commentId: M:Defender.Guard.GreaterThan``1(``0[],System.String,System.Int32)
-  name.vb: GreaterThan(Of T)(T(), String, Int32)
-  fullName: Defender.Guard.GreaterThan<T>(T[], System.String, System.Int32)
-  fullName.vb: Defender.Guard.GreaterThan(Of T)(T(), System.String, System.Int32)
-  nameWithType: Guard.GreaterThan<T>(T[], String, Int32)
-  nameWithType.vb: Guard.GreaterThan(Of T)(T(), String, Int32)
-- uid: Defender.Guard.GreaterThan``2(``0,System.String,System.Int32)
-  name: GreaterThan<C, T>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_GreaterThan__2___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.GreaterThan``2(``0,System.String,System.Int32)
-  name.vb: GreaterThan(Of C, T)(C, String, Int32)
-  fullName: Defender.Guard.GreaterThan<C, T>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.GreaterThan(Of C, T)(C, System.String, System.Int32)
-  nameWithType: Guard.GreaterThan<C, T>(C, String, Int32)
-  nameWithType.vb: Guard.GreaterThan(Of C, T)(C, String, Int32)
 - uid: Defender.Guard.GreaterThanOrEqualTo*
   name: GreaterThanOrEqualTo
   href: api/Defender.Guard.html#Defender_Guard_GreaterThanOrEqualTo_
@@ -552,33 +234,74 @@ references:
   fullName.vb: Defender.Guard.GreaterThanOrEqualTo(Of T)(T, System.String, T)
   nameWithType: Guard.GreaterThanOrEqualTo<T>(T, String, T)
   nameWithType.vb: Guard.GreaterThanOrEqualTo(Of T)(T, String, T)
-- uid: Defender.Guard.GreaterThanOrEqualTo``1(``0,System.String,System.Int32)
-  name: GreaterThanOrEqualTo<C>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_GreaterThanOrEqualTo__1___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.GreaterThanOrEqualTo``1(``0,System.String,System.Int32)
-  name.vb: GreaterThanOrEqualTo(Of C)(C, String, Int32)
-  fullName: Defender.Guard.GreaterThanOrEqualTo<C>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.GreaterThanOrEqualTo(Of C)(C, System.String, System.Int32)
-  nameWithType: Guard.GreaterThanOrEqualTo<C>(C, String, Int32)
-  nameWithType.vb: Guard.GreaterThanOrEqualTo(Of C)(C, String, Int32)
-- uid: Defender.Guard.GreaterThanOrEqualTo``1(``0[],System.String,System.Int32)
-  name: GreaterThanOrEqualTo<T>(T[], String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_GreaterThanOrEqualTo__1___0___System_String_System_Int32_
-  commentId: M:Defender.Guard.GreaterThanOrEqualTo``1(``0[],System.String,System.Int32)
-  name.vb: GreaterThanOrEqualTo(Of T)(T(), String, Int32)
-  fullName: Defender.Guard.GreaterThanOrEqualTo<T>(T[], System.String, System.Int32)
-  fullName.vb: Defender.Guard.GreaterThanOrEqualTo(Of T)(T(), System.String, System.Int32)
-  nameWithType: Guard.GreaterThanOrEqualTo<T>(T[], String, Int32)
-  nameWithType.vb: Guard.GreaterThanOrEqualTo(Of T)(T(), String, Int32)
-- uid: Defender.Guard.GreaterThanOrEqualTo``2(``0,System.String,System.Int32)
-  name: GreaterThanOrEqualTo<C, T>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_GreaterThanOrEqualTo__2___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.GreaterThanOrEqualTo``2(``0,System.String,System.Int32)
-  name.vb: GreaterThanOrEqualTo(Of C, T)(C, String, Int32)
-  fullName: Defender.Guard.GreaterThanOrEqualTo<C, T>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.GreaterThanOrEqualTo(Of C, T)(C, System.String, System.Int32)
-  nameWithType: Guard.GreaterThanOrEqualTo<C, T>(C, String, Int32)
-  nameWithType.vb: Guard.GreaterThanOrEqualTo(Of C, T)(C, String, Int32)
+- uid: Defender.Guard.LargerThan*
+  name: LargerThan
+  href: api/Defender.Guard.html#Defender_Guard_LargerThan_
+  commentId: Overload:Defender.Guard.LargerThan
+  isSpec: "True"
+  fullName: Defender.Guard.LargerThan
+  nameWithType: Guard.LargerThan
+- uid: Defender.Guard.LargerThan``1(``0,System.String,System.Int32)
+  name: LargerThan<C>(C, String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_LargerThan__1___0_System_String_System_Int32_
+  commentId: M:Defender.Guard.LargerThan``1(``0,System.String,System.Int32)
+  name.vb: LargerThan(Of C)(C, String, Int32)
+  fullName: Defender.Guard.LargerThan<C>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guard.LargerThan(Of C)(C, System.String, System.Int32)
+  nameWithType: Guard.LargerThan<C>(C, String, Int32)
+  nameWithType.vb: Guard.LargerThan(Of C)(C, String, Int32)
+- uid: Defender.Guard.LargerThan``1(``0[],System.String,System.Int32)
+  name: LargerThan<T>(T[], String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_LargerThan__1___0___System_String_System_Int32_
+  commentId: M:Defender.Guard.LargerThan``1(``0[],System.String,System.Int32)
+  name.vb: LargerThan(Of T)(T(), String, Int32)
+  fullName: Defender.Guard.LargerThan<T>(T[], System.String, System.Int32)
+  fullName.vb: Defender.Guard.LargerThan(Of T)(T(), System.String, System.Int32)
+  nameWithType: Guard.LargerThan<T>(T[], String, Int32)
+  nameWithType.vb: Guard.LargerThan(Of T)(T(), String, Int32)
+- uid: Defender.Guard.LargerThan``2(``0,System.String,System.Int32)
+  name: LargerThan<C, T>(C, String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_LargerThan__2___0_System_String_System_Int32_
+  commentId: M:Defender.Guard.LargerThan``2(``0,System.String,System.Int32)
+  name.vb: LargerThan(Of C, T)(C, String, Int32)
+  fullName: Defender.Guard.LargerThan<C, T>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guard.LargerThan(Of C, T)(C, System.String, System.Int32)
+  nameWithType: Guard.LargerThan<C, T>(C, String, Int32)
+  nameWithType.vb: Guard.LargerThan(Of C, T)(C, String, Int32)
+- uid: Defender.Guard.LargerThanOrEqualTo*
+  name: LargerThanOrEqualTo
+  href: api/Defender.Guard.html#Defender_Guard_LargerThanOrEqualTo_
+  commentId: Overload:Defender.Guard.LargerThanOrEqualTo
+  isSpec: "True"
+  fullName: Defender.Guard.LargerThanOrEqualTo
+  nameWithType: Guard.LargerThanOrEqualTo
+- uid: Defender.Guard.LargerThanOrEqualTo``1(``0,System.String,System.Int32)
+  name: LargerThanOrEqualTo<C>(C, String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_LargerThanOrEqualTo__1___0_System_String_System_Int32_
+  commentId: M:Defender.Guard.LargerThanOrEqualTo``1(``0,System.String,System.Int32)
+  name.vb: LargerThanOrEqualTo(Of C)(C, String, Int32)
+  fullName: Defender.Guard.LargerThanOrEqualTo<C>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guard.LargerThanOrEqualTo(Of C)(C, System.String, System.Int32)
+  nameWithType: Guard.LargerThanOrEqualTo<C>(C, String, Int32)
+  nameWithType.vb: Guard.LargerThanOrEqualTo(Of C)(C, String, Int32)
+- uid: Defender.Guard.LargerThanOrEqualTo``1(``0[],System.String,System.Int32)
+  name: LargerThanOrEqualTo<T>(T[], String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_LargerThanOrEqualTo__1___0___System_String_System_Int32_
+  commentId: M:Defender.Guard.LargerThanOrEqualTo``1(``0[],System.String,System.Int32)
+  name.vb: LargerThanOrEqualTo(Of T)(T(), String, Int32)
+  fullName: Defender.Guard.LargerThanOrEqualTo<T>(T[], System.String, System.Int32)
+  fullName.vb: Defender.Guard.LargerThanOrEqualTo(Of T)(T(), System.String, System.Int32)
+  nameWithType: Guard.LargerThanOrEqualTo<T>(T[], String, Int32)
+  nameWithType.vb: Guard.LargerThanOrEqualTo(Of T)(T(), String, Int32)
+- uid: Defender.Guard.LargerThanOrEqualTo``2(``0,System.String,System.Int32)
+  name: LargerThanOrEqualTo<C, T>(C, String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_LargerThanOrEqualTo__2___0_System_String_System_Int32_
+  commentId: M:Defender.Guard.LargerThanOrEqualTo``2(``0,System.String,System.Int32)
+  name.vb: LargerThanOrEqualTo(Of C, T)(C, String, Int32)
+  fullName: Defender.Guard.LargerThanOrEqualTo<C, T>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guard.LargerThanOrEqualTo(Of C, T)(C, System.String, System.Int32)
+  nameWithType: Guard.LargerThanOrEqualTo<C, T>(C, String, Int32)
+  nameWithType.vb: Guard.LargerThanOrEqualTo(Of C, T)(C, String, Int32)
 - uid: Defender.Guard.LesserThan*
   name: LesserThan
   href: api/Defender.Guard.html#Defender_Guard_LesserThan_
@@ -595,33 +318,6 @@ references:
   fullName.vb: Defender.Guard.LesserThan(Of T)(T, System.String, T)
   nameWithType: Guard.LesserThan<T>(T, String, T)
   nameWithType.vb: Guard.LesserThan(Of T)(T, String, T)
-- uid: Defender.Guard.LesserThan``1(``0,System.String,System.Int32)
-  name: LesserThan<C>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_LesserThan__1___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.LesserThan``1(``0,System.String,System.Int32)
-  name.vb: LesserThan(Of C)(C, String, Int32)
-  fullName: Defender.Guard.LesserThan<C>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.LesserThan(Of C)(C, System.String, System.Int32)
-  nameWithType: Guard.LesserThan<C>(C, String, Int32)
-  nameWithType.vb: Guard.LesserThan(Of C)(C, String, Int32)
-- uid: Defender.Guard.LesserThan``1(``0[],System.String,System.Int32)
-  name: LesserThan<T>(T[], String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_LesserThan__1___0___System_String_System_Int32_
-  commentId: M:Defender.Guard.LesserThan``1(``0[],System.String,System.Int32)
-  name.vb: LesserThan(Of T)(T(), String, Int32)
-  fullName: Defender.Guard.LesserThan<T>(T[], System.String, System.Int32)
-  fullName.vb: Defender.Guard.LesserThan(Of T)(T(), System.String, System.Int32)
-  nameWithType: Guard.LesserThan<T>(T[], String, Int32)
-  nameWithType.vb: Guard.LesserThan(Of T)(T(), String, Int32)
-- uid: Defender.Guard.LesserThan``2(``0,System.String,System.Int32)
-  name: LesserThan<C, T>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_LesserThan__2___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.LesserThan``2(``0,System.String,System.Int32)
-  name.vb: LesserThan(Of C, T)(C, String, Int32)
-  fullName: Defender.Guard.LesserThan<C, T>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.LesserThan(Of C, T)(C, System.String, System.Int32)
-  nameWithType: Guard.LesserThan<C, T>(C, String, Int32)
-  nameWithType.vb: Guard.LesserThan(Of C, T)(C, String, Int32)
 - uid: Defender.Guard.LesserThanOrEqualTo*
   name: LesserThanOrEqualTo
   href: api/Defender.Guard.html#Defender_Guard_LesserThanOrEqualTo_
@@ -638,33 +334,6 @@ references:
   fullName.vb: Defender.Guard.LesserThanOrEqualTo(Of T)(T, System.String, T)
   nameWithType: Guard.LesserThanOrEqualTo<T>(T, String, T)
   nameWithType.vb: Guard.LesserThanOrEqualTo(Of T)(T, String, T)
-- uid: Defender.Guard.LesserThanOrEqualTo``1(``0,System.String,System.Int32)
-  name: LesserThanOrEqualTo<C>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_LesserThanOrEqualTo__1___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.LesserThanOrEqualTo``1(``0,System.String,System.Int32)
-  name.vb: LesserThanOrEqualTo(Of C)(C, String, Int32)
-  fullName: Defender.Guard.LesserThanOrEqualTo<C>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.LesserThanOrEqualTo(Of C)(C, System.String, System.Int32)
-  nameWithType: Guard.LesserThanOrEqualTo<C>(C, String, Int32)
-  nameWithType.vb: Guard.LesserThanOrEqualTo(Of C)(C, String, Int32)
-- uid: Defender.Guard.LesserThanOrEqualTo``1(``0[],System.String,System.Int32)
-  name: LesserThanOrEqualTo<T>(T[], String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_LesserThanOrEqualTo__1___0___System_String_System_Int32_
-  commentId: M:Defender.Guard.LesserThanOrEqualTo``1(``0[],System.String,System.Int32)
-  name.vb: LesserThanOrEqualTo(Of T)(T(), String, Int32)
-  fullName: Defender.Guard.LesserThanOrEqualTo<T>(T[], System.String, System.Int32)
-  fullName.vb: Defender.Guard.LesserThanOrEqualTo(Of T)(T(), System.String, System.Int32)
-  nameWithType: Guard.LesserThanOrEqualTo<T>(T[], String, Int32)
-  nameWithType.vb: Guard.LesserThanOrEqualTo(Of T)(T(), String, Int32)
-- uid: Defender.Guard.LesserThanOrEqualTo``2(``0,System.String,System.Int32)
-  name: LesserThanOrEqualTo<C, T>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_LesserThanOrEqualTo__2___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.LesserThanOrEqualTo``2(``0,System.String,System.Int32)
-  name.vb: LesserThanOrEqualTo(Of C, T)(C, String, Int32)
-  fullName: Defender.Guard.LesserThanOrEqualTo<C, T>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.LesserThanOrEqualTo(Of C, T)(C, System.String, System.Int32)
-  nameWithType: Guard.LesserThanOrEqualTo<C, T>(C, String, Int32)
-  nameWithType.vb: Guard.LesserThanOrEqualTo(Of C, T)(C, String, Int32)
 - uid: Defender.Guard.NotEmpty(System.String,System.String)
   name: NotEmpty(String, String)
   href: api/Defender.Guard.html#Defender_Guard_NotEmpty_System_String_System_String_
@@ -705,58 +374,6 @@ references:
   fullName.vb: Defender.Guard.NotEmpty(Of C, T)(C, System.String)
   nameWithType: Guard.NotEmpty<C, T>(C, String)
   nameWithType.vb: Guard.NotEmpty(Of C, T)(C, String)
-- uid: Defender.Guard.NotEqual*
-  name: NotEqual
-  href: api/Defender.Guard.html#Defender_Guard_NotEqual_
-  commentId: Overload:Defender.Guard.NotEqual
-  isSpec: "True"
-  fullName: Defender.Guard.NotEqual
-  nameWithType: Guard.NotEqual
-- uid: Defender.Guard.NotEqual``1(``0,System.String,``0)
-  name: NotEqual<T>(T, String, T)
-  href: api/Defender.Guard.html#Defender_Guard_NotEqual__1___0_System_String___0_
-  commentId: M:Defender.Guard.NotEqual``1(``0,System.String,``0)
-  name.vb: NotEqual(Of T)(T, String, T)
-  fullName: Defender.Guard.NotEqual<T>(T, System.String, T)
-  fullName.vb: Defender.Guard.NotEqual(Of T)(T, System.String, T)
-  nameWithType: Guard.NotEqual<T>(T, String, T)
-  nameWithType.vb: Guard.NotEqual(Of T)(T, String, T)
-- uid: Defender.Guard.NotEqual``1(``0,System.String,``0,System.String)
-  name: NotEqual<T>(T, String, T, String)
-  href: api/Defender.Guard.html#Defender_Guard_NotEqual__1___0_System_String___0_System_String_
-  commentId: M:Defender.Guard.NotEqual``1(``0,System.String,``0,System.String)
-  name.vb: NotEqual(Of T)(T, String, T, String)
-  fullName: Defender.Guard.NotEqual<T>(T, System.String, T, System.String)
-  fullName.vb: Defender.Guard.NotEqual(Of T)(T, System.String, T, System.String)
-  nameWithType: Guard.NotEqual<T>(T, String, T, String)
-  nameWithType.vb: Guard.NotEqual(Of T)(T, String, T, String)
-- uid: Defender.Guard.NotEqual``1(``0,System.String,System.Int32)
-  name: NotEqual<C>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_NotEqual__1___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.NotEqual``1(``0,System.String,System.Int32)
-  name.vb: NotEqual(Of C)(C, String, Int32)
-  fullName: Defender.Guard.NotEqual<C>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.NotEqual(Of C)(C, System.String, System.Int32)
-  nameWithType: Guard.NotEqual<C>(C, String, Int32)
-  nameWithType.vb: Guard.NotEqual(Of C)(C, String, Int32)
-- uid: Defender.Guard.NotEqual``1(``0[],System.String,System.Int32)
-  name: NotEqual<T>(T[], String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_NotEqual__1___0___System_String_System_Int32_
-  commentId: M:Defender.Guard.NotEqual``1(``0[],System.String,System.Int32)
-  name.vb: NotEqual(Of T)(T(), String, Int32)
-  fullName: Defender.Guard.NotEqual<T>(T[], System.String, System.Int32)
-  fullName.vb: Defender.Guard.NotEqual(Of T)(T(), System.String, System.Int32)
-  nameWithType: Guard.NotEqual<T>(T[], String, Int32)
-  nameWithType.vb: Guard.NotEqual(Of T)(T(), String, Int32)
-- uid: Defender.Guard.NotEqual``2(``0,System.String,System.Int32)
-  name: NotEqual<C, T>(C, String, Int32)
-  href: api/Defender.Guard.html#Defender_Guard_NotEqual__2___0_System_String_System_Int32_
-  commentId: M:Defender.Guard.NotEqual``2(``0,System.String,System.Int32)
-  name.vb: NotEqual(Of C, T)(C, String, Int32)
-  fullName: Defender.Guard.NotEqual<C, T>(C, System.String, System.Int32)
-  fullName.vb: Defender.Guard.NotEqual(Of C, T)(C, System.String, System.Int32)
-  nameWithType: Guard.NotEqual<C, T>(C, String, Int32)
-  nameWithType.vb: Guard.NotEqual(Of C, T)(C, String, Int32)
 - uid: Defender.Guard.NotNull*
   name: NotNull
   href: api/Defender.Guard.html#Defender_Guard_NotNull_
@@ -798,38 +415,74 @@ references:
   fullName.vb: Defender.Guard.OfType(Of T)(System.Object, System.String)
   nameWithType: Guard.OfType<T>(Object, String)
   nameWithType.vb: Guard.OfType(Of T)(Object, String)
-- uid: Defender.Guard.Readable*
-  name: Readable
-  href: api/Defender.Guard.html#Defender_Guard_Readable_
-  commentId: Overload:Defender.Guard.Readable
+- uid: Defender.Guard.SmallerThan*
+  name: SmallerThan
+  href: api/Defender.Guard.html#Defender_Guard_SmallerThan_
+  commentId: Overload:Defender.Guard.SmallerThan
   isSpec: "True"
-  fullName: Defender.Guard.Readable
-  nameWithType: Guard.Readable
-- uid: Defender.Guard.Readable``1(``0,System.String)
-  name: Readable<S>(S, String)
-  href: api/Defender.Guard.html#Defender_Guard_Readable__1___0_System_String_
-  commentId: M:Defender.Guard.Readable``1(``0,System.String)
-  name.vb: Readable(Of S)(S, String)
-  fullName: Defender.Guard.Readable<S>(S, System.String)
-  fullName.vb: Defender.Guard.Readable(Of S)(S, System.String)
-  nameWithType: Guard.Readable<S>(S, String)
-  nameWithType.vb: Guard.Readable(Of S)(S, String)
-- uid: Defender.Guard.Seekable*
-  name: Seekable
-  href: api/Defender.Guard.html#Defender_Guard_Seekable_
-  commentId: Overload:Defender.Guard.Seekable
+  fullName: Defender.Guard.SmallerThan
+  nameWithType: Guard.SmallerThan
+- uid: Defender.Guard.SmallerThan``1(``0,System.String,System.Int32)
+  name: SmallerThan<C>(C, String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_SmallerThan__1___0_System_String_System_Int32_
+  commentId: M:Defender.Guard.SmallerThan``1(``0,System.String,System.Int32)
+  name.vb: SmallerThan(Of C)(C, String, Int32)
+  fullName: Defender.Guard.SmallerThan<C>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guard.SmallerThan(Of C)(C, System.String, System.Int32)
+  nameWithType: Guard.SmallerThan<C>(C, String, Int32)
+  nameWithType.vb: Guard.SmallerThan(Of C)(C, String, Int32)
+- uid: Defender.Guard.SmallerThan``1(``0[],System.String,System.Int32)
+  name: SmallerThan<T>(T[], String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_SmallerThan__1___0___System_String_System_Int32_
+  commentId: M:Defender.Guard.SmallerThan``1(``0[],System.String,System.Int32)
+  name.vb: SmallerThan(Of T)(T(), String, Int32)
+  fullName: Defender.Guard.SmallerThan<T>(T[], System.String, System.Int32)
+  fullName.vb: Defender.Guard.SmallerThan(Of T)(T(), System.String, System.Int32)
+  nameWithType: Guard.SmallerThan<T>(T[], String, Int32)
+  nameWithType.vb: Guard.SmallerThan(Of T)(T(), String, Int32)
+- uid: Defender.Guard.SmallerThan``2(``0,System.String,System.Int32)
+  name: SmallerThan<C, T>(C, String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_SmallerThan__2___0_System_String_System_Int32_
+  commentId: M:Defender.Guard.SmallerThan``2(``0,System.String,System.Int32)
+  name.vb: SmallerThan(Of C, T)(C, String, Int32)
+  fullName: Defender.Guard.SmallerThan<C, T>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guard.SmallerThan(Of C, T)(C, System.String, System.Int32)
+  nameWithType: Guard.SmallerThan<C, T>(C, String, Int32)
+  nameWithType.vb: Guard.SmallerThan(Of C, T)(C, String, Int32)
+- uid: Defender.Guard.SmallerThanOrEqualTo*
+  name: SmallerThanOrEqualTo
+  href: api/Defender.Guard.html#Defender_Guard_SmallerThanOrEqualTo_
+  commentId: Overload:Defender.Guard.SmallerThanOrEqualTo
   isSpec: "True"
-  fullName: Defender.Guard.Seekable
-  nameWithType: Guard.Seekable
-- uid: Defender.Guard.Seekable``1(``0,System.String)
-  name: Seekable<S>(S, String)
-  href: api/Defender.Guard.html#Defender_Guard_Seekable__1___0_System_String_
-  commentId: M:Defender.Guard.Seekable``1(``0,System.String)
-  name.vb: Seekable(Of S)(S, String)
-  fullName: Defender.Guard.Seekable<S>(S, System.String)
-  fullName.vb: Defender.Guard.Seekable(Of S)(S, System.String)
-  nameWithType: Guard.Seekable<S>(S, String)
-  nameWithType.vb: Guard.Seekable(Of S)(S, String)
+  fullName: Defender.Guard.SmallerThanOrEqualTo
+  nameWithType: Guard.SmallerThanOrEqualTo
+- uid: Defender.Guard.SmallerThanOrEqualTo``1(``0,System.String,System.Int32)
+  name: SmallerThanOrEqualTo<C>(C, String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_SmallerThanOrEqualTo__1___0_System_String_System_Int32_
+  commentId: M:Defender.Guard.SmallerThanOrEqualTo``1(``0,System.String,System.Int32)
+  name.vb: SmallerThanOrEqualTo(Of C)(C, String, Int32)
+  fullName: Defender.Guard.SmallerThanOrEqualTo<C>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guard.SmallerThanOrEqualTo(Of C)(C, System.String, System.Int32)
+  nameWithType: Guard.SmallerThanOrEqualTo<C>(C, String, Int32)
+  nameWithType.vb: Guard.SmallerThanOrEqualTo(Of C)(C, String, Int32)
+- uid: Defender.Guard.SmallerThanOrEqualTo``1(``0[],System.String,System.Int32)
+  name: SmallerThanOrEqualTo<T>(T[], String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_SmallerThanOrEqualTo__1___0___System_String_System_Int32_
+  commentId: M:Defender.Guard.SmallerThanOrEqualTo``1(``0[],System.String,System.Int32)
+  name.vb: SmallerThanOrEqualTo(Of T)(T(), String, Int32)
+  fullName: Defender.Guard.SmallerThanOrEqualTo<T>(T[], System.String, System.Int32)
+  fullName.vb: Defender.Guard.SmallerThanOrEqualTo(Of T)(T(), System.String, System.Int32)
+  nameWithType: Guard.SmallerThanOrEqualTo<T>(T[], String, Int32)
+  nameWithType.vb: Guard.SmallerThanOrEqualTo(Of T)(T(), String, Int32)
+- uid: Defender.Guard.SmallerThanOrEqualTo``2(``0,System.String,System.Int32)
+  name: SmallerThanOrEqualTo<C, T>(C, String, Int32)
+  href: api/Defender.Guard.html#Defender_Guard_SmallerThanOrEqualTo__2___0_System_String_System_Int32_
+  commentId: M:Defender.Guard.SmallerThanOrEqualTo``2(``0,System.String,System.Int32)
+  name.vb: SmallerThanOrEqualTo(Of C, T)(C, String, Int32)
+  fullName: Defender.Guard.SmallerThanOrEqualTo<C, T>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guard.SmallerThanOrEqualTo(Of C, T)(C, System.String, System.Int32)
+  nameWithType: Guard.SmallerThanOrEqualTo<C, T>(C, String, Int32)
+  nameWithType.vb: Guard.SmallerThanOrEqualTo(Of C, T)(C, String, Int32)
 - uid: Defender.Guard.Valid*
   name: Valid
   href: api/Defender.Guard.html#Defender_Guard_Valid_
@@ -928,107 +581,40 @@ references:
   fullName.vb: Defender.Guard.Within(Of T)(T, System.String, T, T, System.Boolean)
   nameWithType: Guard.Within<T>(T, String, T, T, Boolean)
   nameWithType.vb: Guard.Within(Of T)(T, String, T, T, Boolean)
-- uid: Defender.Guard.Writable*
-  name: Writable
-  href: api/Defender.Guard.html#Defender_Guard_Writable_
-  commentId: Overload:Defender.Guard.Writable
+- uid: Defender.Guards
+  name: Defender.Guards
+  href: api/Defender.Guards.html
+  commentId: N:Defender.Guards
+  fullName: Defender.Guards
+  nameWithType: Defender.Guards
+- uid: Defender.Guards.Guard
+  name: Guard
+  href: api/Defender.Guards.Guard.html
+  commentId: T:Defender.Guards.Guard
+  fullName: Defender.Guards.Guard
+  nameWithType: Guard
+- uid: Defender.Guards.Guard.Size*
+  name: Size
+  href: api/Defender.Guards.Guard.html#Defender_Guards_Guard_Size_
+  commentId: Overload:Defender.Guards.Guard.Size
   isSpec: "True"
-  fullName: Defender.Guard.Writable
-  nameWithType: Guard.Writable
-- uid: Defender.Guard.Writable``1(``0,System.String)
-  name: Writable<S>(S, String)
-  href: api/Defender.Guard.html#Defender_Guard_Writable__1___0_System_String_
-  commentId: M:Defender.Guard.Writable``1(``0,System.String)
-  name.vb: Writable(Of S)(S, String)
-  fullName: Defender.Guard.Writable<S>(S, System.String)
-  fullName.vb: Defender.Guard.Writable(Of S)(S, System.String)
-  nameWithType: Guard.Writable<S>(S, String)
-  nameWithType.vb: Guard.Writable(Of S)(S, String)
-- uid: Defender.LesserThanException
-  name: LesserThanException
-  href: api/Defender.LesserThanException.html
-  commentId: T:Defender.LesserThanException
-  fullName: Defender.LesserThanException
-  nameWithType: LesserThanException
-- uid: Defender.LesserThanException.#ctor(System.Object,System.Object)
-  name: LesserThanException(Object, Object)
-  href: api/Defender.LesserThanException.html#Defender_LesserThanException__ctor_System_Object_System_Object_
-  commentId: M:Defender.LesserThanException.#ctor(System.Object,System.Object)
-  fullName: Defender.LesserThanException.LesserThanException(System.Object, System.Object)
-  nameWithType: LesserThanException.LesserThanException(Object, Object)
-- uid: Defender.LesserThanException.#ctor*
-  name: LesserThanException
-  href: api/Defender.LesserThanException.html#Defender_LesserThanException__ctor_
-  commentId: Overload:Defender.LesserThanException.#ctor
-  isSpec: "True"
-  fullName: Defender.LesserThanException.LesserThanException
-  nameWithType: LesserThanException.LesserThanException
-- uid: Defender.Trial
-  name: Trial
-  href: api/Defender.Trial.html
-  commentId: T:Defender.Trial
-  fullName: Defender.Trial
-  nameWithType: Trial
-- uid: Defender.Trial.#ctor
-  name: Trial()
-  href: api/Defender.Trial.html#Defender_Trial__ctor
-  commentId: M:Defender.Trial.#ctor
-  fullName: Defender.Trial.Trial()
-  nameWithType: Trial.Trial()
-- uid: Defender.Trial.#ctor*
-  name: Trial
-  href: api/Defender.Trial.html#Defender_Trial__ctor_
-  commentId: Overload:Defender.Trial.#ctor
-  isSpec: "True"
-  fullName: Defender.Trial.Trial
-  nameWithType: Trial.Trial
-- uid: Defender.Trial.Claim
-  name: Claim
-  href: api/Defender.Trial.html#Defender_Trial_Claim
-  commentId: P:Defender.Trial.Claim
-  fullName: Defender.Trial.Claim
-  nameWithType: Trial.Claim
-- uid: Defender.Trial.Claim*
-  name: Claim
-  href: api/Defender.Trial.html#Defender_Trial_Claim_
-  commentId: Overload:Defender.Trial.Claim
-  isSpec: "True"
-  fullName: Defender.Trial.Claim
-  nameWithType: Trial.Claim
-- uid: Defender.TrialException
-  name: TrialException
-  href: api/Defender.TrialException.html
-  commentId: T:Defender.TrialException
-  fullName: Defender.TrialException
-  nameWithType: TrialException
-- uid: Defender.TrialException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  name: TrialException(SerializationInfo, StreamingContext)
-  href: api/Defender.TrialException.html#Defender_TrialException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Defender.TrialException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Defender.TrialException.TrialException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
-  nameWithType: TrialException.TrialException(SerializationInfo, StreamingContext)
-- uid: Defender.TrialException.#ctor(System.String)
-  name: TrialException(String)
-  href: api/Defender.TrialException.html#Defender_TrialException__ctor_System_String_
-  commentId: M:Defender.TrialException.#ctor(System.String)
-  fullName: Defender.TrialException.TrialException(System.String)
-  nameWithType: TrialException.TrialException(String)
-- uid: Defender.TrialException.#ctor(System.String,System.Exception)
-  name: TrialException(String, Exception)
-  href: api/Defender.TrialException.html#Defender_TrialException__ctor_System_String_System_Exception_
-  commentId: M:Defender.TrialException.#ctor(System.String,System.Exception)
-  fullName: Defender.TrialException.TrialException(System.String, System.Exception)
-  nameWithType: TrialException.TrialException(String, Exception)
-- uid: Defender.TrialException.#ctor*
-  name: TrialException
-  href: api/Defender.TrialException.html#Defender_TrialException__ctor_
-  commentId: Overload:Defender.TrialException.#ctor
-  isSpec: "True"
-  fullName: Defender.TrialException.TrialException
-  nameWithType: TrialException.TrialException
-- uid: Defender.ValidatedNotNullAttribute
-  name: ValidatedNotNullAttribute
-  href: api/Defender.ValidatedNotNullAttribute.html
-  commentId: T:Defender.ValidatedNotNullAttribute
-  fullName: Defender.ValidatedNotNullAttribute
-  nameWithType: ValidatedNotNullAttribute
+  fullName: Defender.Guards.Guard.Size
+  nameWithType: Guard.Size
+- uid: Defender.Guards.Guard.Size``1(``0,System.String,System.Int32)
+  name: Size<C>(C, String, Int32)
+  href: api/Defender.Guards.Guard.html#Defender_Guards_Guard_Size__1___0_System_String_System_Int32_
+  commentId: M:Defender.Guards.Guard.Size``1(``0,System.String,System.Int32)
+  name.vb: Size(Of C)(C, String, Int32)
+  fullName: Defender.Guards.Guard.Size<C>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guards.Guard.Size(Of C)(C, System.String, System.Int32)
+  nameWithType: Guard.Size<C>(C, String, Int32)
+  nameWithType.vb: Guard.Size(Of C)(C, String, Int32)
+- uid: Defender.Guards.Guard.Size``2(``0,System.String,System.Int32)
+  name: Size<C, T>(C, String, Int32)
+  href: api/Defender.Guards.Guard.html#Defender_Guards_Guard_Size__2___0_System_String_System_Int32_
+  commentId: M:Defender.Guards.Guard.Size``2(``0,System.String,System.Int32)
+  name.vb: Size(Of C, T)(C, String, Int32)
+  fullName: Defender.Guards.Guard.Size<C, T>(C, System.String, System.Int32)
+  fullName.vb: Defender.Guards.Guard.Size(Of C, T)(C, System.String, System.Int32)
+  nameWithType: Guard.Size<C, T>(C, String, Int32)
+  nameWithType.vb: Guard.Size(Of C, T)(C, String, Int32)

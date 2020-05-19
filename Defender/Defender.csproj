@@ -8,8 +8,8 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Authors>Patrick Kelly</Authors>
-		<Version>0.11.0</Version>
-		<Description>Meta package for the Defender project</Description>
+		<Version>2.0.0</Version>
+		<Description>Defensive code should be easy, and it shouldn't weigh your code down.</Description>
 		<Copyright>2020</Copyright>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/Entomy/Defender</PackageProjectUrl>
@@ -20,13 +20,13 @@
 		<RootNamespace>Defender</RootNamespace>
 	</PropertyGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\Guards\Guards.csproj" />
-	</ItemGroup>
-
 	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-		<ProjectReference Include="..\Claims\Claims.csproj" />
-		<ProjectReference Include="..\Trials\Trials.csproj" />
+	  <PackageReference Include="FastEnum">
+	    <Version>1.5.3</Version>
+	  </PackageReference>
+	  <PackageReference Include="System.Memory">
+	    <Version>4.5.4</Version>
+	  </PackageReference>
 	</ItemGroup>
 
 </Project>
