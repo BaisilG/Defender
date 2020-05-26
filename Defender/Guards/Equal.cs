@@ -33,5 +33,21 @@ namespace Defender {
 				throw new ArgumentUnequalException(name, $"Argument must equal {other}");
 			}
 		}
+
+		/// <summary>
+		/// Guard against the <paramref name="first"/> argument being unequal to the <paramref name="second"/> argument.
+		/// </summary>
+		/// <typeparam name="TFirst">The type of the first argument.</typeparam>
+		/// <typeparam name="TSecond">The type of the second argument.</typeparam>
+		/// <param name="first">The first value.</param>
+		/// <param name="firstName">The name of the first argument.</param>
+		/// <param name="second">The second value.</param>
+		/// <param name="secondName">The name of the second argument.</param>
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static void Equal<TFirst, TSecond>(TFirst first, String firstName, TSecond second, String secondName) where TFirst : IEquatable<TSecond> {
+			if (!first.Equals(second)) {
+				throw new ArgumentUnequalException(firstName, $"Argument must equal {secondName}'s value of {second}.");
+			}
+		}
 	}
 }

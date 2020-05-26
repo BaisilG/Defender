@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Defender.Exceptions;
 
-namespace Defender.Guards {
+namespace Defender {
 	public static partial class Guard {
 #if !NETSTANDARD1_0
 		/// <summary>
